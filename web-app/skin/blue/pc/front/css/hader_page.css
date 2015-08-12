@@ -1,0 +1,57 @@
+.page {
+    /* width: 980px;*/
+    padding: 30px 0 20px 0;
+    line-height: 18px;
+    text-align: right;
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+
+.page .currentStep {
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    background: #3C9F41;
+    border: #3C9F41 1px solid;
+    margin-left: 8px;
+    display: inline-block;
+    color: #FFFFFF;
+}
+
+.page .num {
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    margin-left: 8px;
+    background: #FFFFFF;
+    border: #D2D2D2 1px solid;
+    display: inline-block;
+    color: #333333;
+}
+
+.page .num:hover {
+    border: #3C9F41 1px solid;
+}
+
+.prevLink, .page .nextLink, #turnPageBtn {
+    display: inline-block;
+    width: 65px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    border: #D2D2D2 1px solid;
+    margin-left: 8px;
+    color: #333333;
+    background: #FFFFFF;
+    cursor: pointer;
+}
+
+.page input {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #E0DFDF;
+}

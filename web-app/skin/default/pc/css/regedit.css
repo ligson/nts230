@@ -1,0 +1,112 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+/**评论列表**/
+.regedit {
+    overflow: auto;
+}
+
+.regedit dl span {
+    font-size: 12px;
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+.regedit dl {
+    border-bottom: 4px solid #CDCDCD;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+
+.regedit dd {
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.regedit dd span {
+    float: left;
+    margin-right: 20px;
+    display: block;
+    text-align: right;
+    margin-top: 4px;
+}
+
+.regedit dd span.ny {
+    float: left;
+    width: 780px;
+    display: block;
+    line-height: 26px;
+}
+
+.regedit dd span.ny h2 {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.regedit dd span.ny p {
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.plcorlor {
+    margin-right: 30px;
+    color: #1E5691;
+    font-weight: bold
+}
+
+.ban_x {
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 4px solid #ccc;
+    margin: 0px 0px 10px 0px;
+    padding-top: 10px;
+}
+
+.ban_x span {
+    font-size: 14px;
+    line-height: 32px;
+    margin-left: 10px;
+    color: #000;
+    font: 14px/1.5 "宋体";
+    font-weight: bold;
+}
+
+.ban_x span a {
+    color: #1000;
+    font: 14px/1.5 "宋体";
+    font-weight: bold;
+}
+
+/**注册*/
+.regedit .item {
+    padding-top: 5px;
+    border-bottom: 1px solid #CDCDCD;
+    padding-bottom: 10px;
+}
+
+.regedit .item a:link, .regedit .item a:visited {
+    text-decoration: underline;
+}
+
+.item input {
+    float: left;
+    margin-left: 8px;
+}
+
+.item label {
+    float: left;
+    line-height: 18px;
+}
+
+.item span {
+    line-height: 20px;
+}
+
+.reg_title {
+    clear: both;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+}

@@ -1,0 +1,255 @@
+@charset "utf-8";
+/* CSS Document */
+.userspace_left {
+    width: 240px;
+    min-height: 620px;
+    background: #FFFFFF;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), -1px 0 0 rgba(0, 0, 0, 0.03), 1px 0 0 rgba(0, 0, 0, 0.03), 0 1px 0 rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), -1px 0 0 rgba(0, 0, 0, 0.03), 1px 0 0 rgba(0, 0, 0, 0.03), 0 1px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), -1px 0 0 rgba(0, 0, 0, 0.03), 1px 0 0 rgba(0, 0, 0, 0.03), 0 1px 0 rgba(0, 0, 0, 0.12);
+}
+
+.userspace_right {
+    width: 760px;
+    min-height: 620px;
+    float: left;
+    background: #FFF;
+    margin: 20px 0 20px 10px;
+}
+
+.userspace_title {
+    height: 30px;
+    text-align: left;
+}
+
+.userspace_title a {
+    font-size: 14px;
+    line-height: 30px;
+    padding-left: 7px;
+    text-align: left;
+    color: #333333;
+}
+
+/* Styles for Example #1 */
+
+/*#wy_nav {*/
+/*margin: 0;*/
+/*padding: 0;*/
+/*width: 100%;*/
+/*list-style-type: none;*/
+/*line-height: 30px;*/
+/*}*/
+
+/*#wy_nav .closed {*/
+/*background-image: url(../images/ha-down.gif);*/
+
+/*}*/
+
+/*#wy_nav .closed, #wy_nav .opened {*/
+/*padding-right: 10px;*/
+/*background-position: 98% 50%;*/
+/*background-repeat: no-repeat;*/
+/*}*/
+
+/*#wy_nav .header {*/
+/*background-color: #373b46;*/
+/*}*/
+
+/*#wy_nav .opened {*/
+/*background-image: url(../images/ha-up.gif);*/
+/*}*/
+
+/*#wy_nav a {*/
+/*display: block;*/
+/*font-weight: bold;*/
+/*text-decoration: none;*/
+/*}*/
+
+/*#wy_nav a.hover {*/
+/*border-top: 1px solid #3f434d;*/
+/*border-bottom: 1px solid #3f434d;*/
+/*background-color: #373b46;*/
+/*color: #FFFFFF;*/
+/*}*/
+
+/*#wy_nav ul {*/
+
+/*margin: 0;*/
+/*padding: 0;*/
+/*overflow: hidden;*/
+/*}*/
+
+/*#wy_nav li {*/
+/*margin: 0;*/
+/*padding: 0;*/
+/*list-style-type: none;*/
+/*background-color: #373b46;*/
+/*color: #FFFFFF;*/
+/*}*/
+
+/*#wy_nav li a {*/
+/*padding: 2px 10px 2px 20px;*/
+/*border-bottom: 1px solid #3f434d;*/
+
+/*background-color: #3f434d;*/
+/*color: #FFFFFF;*/
+/*font-size: 14px;*/
+/*}*/
+
+/*#wy_nav li.active a, #wy_nav li li.active a {*/
+/*border: 1px solid #3f434d;*/
+/*background-color: #404040;*/
+/*color: #FFFFFF;*/
+/*}*/
+
+/*#wy_nav li.active li a, #wy_nav li li a {*/
+/*padding: 2px 4px 2px 50px;*/
+/*border-bottom: 1px solid #41444d;*/
+/*background-color: #373b46;*/
+/*font-size: 12px;*/
+/*color: #FFFFFF;*/
+/*}*/
+
+/*2014-3-18*/
+/*<h3>标题*/
+.userspace_left .onk_space_fisttitle {
+    clear: both;
+    font-size: 16px;
+    font: bolder 16px/16px '微软雅黑';
+    background-color: #3B3F4A;
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.userspace_left .onk_space_fisttitle a {
+    color: #FFFFFF;
+}
+
+.onk_space_title {
+    clear: both;
+    font-size: 14px;
+}
+
+#accordion {
+
+}
+
+#accordion h3 {
+    margin: 0;
+    padding: 8px;
+}
+
+/*box ul*/
+.onk_ul {
+    text-align: left;
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+    width: 100%;
+    font-size: 12px;
+}
+
+/*box ul li*/
+.onk_ul li {
+    list-style: none;
+    text-align: left;
+
+    margin-left: 0;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.onk_ul h3 {
+    font-size: 14px;
+}
+
+/*wrap与index_base_second.css当中的wrap冲突，再次重新定义*/
+.wrap5 {
+    clear: both;
+    width: 1024px;
+    margin: 0px auto;
+    display: block;
+}
+
+.boful_footer {
+    overflow: hidden;
+}
+
+/*添加课程*/
+.m-cloudIndex .box .u-findMore {
+    margin: 0px 24px 20px 0px;
+}
+
+.u-findMore {
+    float: left;
+    position: relative;
+    margin: 20px 0px 0px 24px;
+}
+
+.f-ib {
+    display: inline-block;
+}
+
+.fst {
+    position: relative;
+    display: block;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    color: #BBBEC7;
+    transition: all 300ms linear 0s;
+}
+
+.fst .btn {
+    margin-top: 30px;
+    width: 100%;
+    color: #BBBEC7;
+}
+
+.fst .btn .findTxt {
+
+    text-align: center;
+    color: #BBBEC7;
+    margin-top: 35px;
+    font: bold 16px '微软雅黑';
+
+}
+
+.fst .btn .findTxt, .fst .btn .icon {
+    transition: all 300ms linear 0s;
+}
+
+.fst .btn .icon {
+    text-align: center;
+    font: bolder 80px/80px '微软雅黑';
+    color: #BBBEC7;
+}
+
+/*空间左侧列表jQuery样式表*/
+
+.ui-accordion {
+    background: none;
+    border: none;
+}
+
+.ui-accordion-header {
+    background-image: none;
+    background-color: #4DB752;
+    color: #FFFFFF;
+}
+
+.ui-accordion-icons {
+
+}
+
+.ui-accordion-content {
+    /*background:#000000;*/
+}
+
+/*------------------------------------*/

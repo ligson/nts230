@@ -1,0 +1,66 @@
+@charset "utf-8";
+/******************************************************************
+* ID: 邦丰网络教学资源发布系统css规范及样式库
+* date created: 2013-11-21 gaoweizhong
+* latest changed :
+* Description: 用于控制全局的页面结构划分。
+******************************************************************/
+/* CSS Document */
+
+/*页面容器层 */
+
+/* 头部 */
+/*#header {
+    clear: both;
+    width: 100%;
+    height: auto;
+    padding: 0;
+}*/
+
+/* 主体 */
+
+/* Tree */
+#sidebar {
+    width: 200px;
+    color: #FFFFFF;
+    background: #FFFFFF;
+    /*   background: url("../images/sidebar_bg.png");*/
+    float: left;
+    overflow: auto;
+}
+
+/* 主体-主操作区域 */
+
+/* 单页 */
+
+/* 底部 */
+#footer {
+    clear: both;
+    width: 100%;
+    padding: 0;
+    height: 81px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.zi-cu1 {
+    margin: 10px 0;
+    display: block;
+    overflow: hidden;
+}
+
+.ass_button {
+    color: #2E5B88;
+    background: url("../images/but_4.png") repeat-x;
+    padding: 3px 15px;
+    border: 1px solid #8FB2DA;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.ass_button:hover {
+    background: url("../images/but_3.png") repeat-x;
+    padding: 3px 15px;
+    cursor: pointer;
+}

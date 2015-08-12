@@ -1,0 +1,345 @@
+p {
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    /*background: url("../images/furley_bg.png");*/
+    background: #f4f4f4;
+}
+
+.userspace_background {
+    background: url("../images/body_bg_img1.png") #F2F3F2 top no-repeat;
+    display: block;
+    overflow: hidden;
+
+}
+
+/*.userspace_header{
+    height: 400px;
+}*/
+.userspace_header .users_portrait {
+    background: url("../images/portrait_bg_size1.png") no-repeat;
+    height: 160px;
+    margin-top: 160px;
+    width: 180px;
+    text-align: center;
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+
+.userspace_header .users_portrait .users_portrait_size {
+    height: 147px;
+    width: 147px;
+    margin: 4px 15px 9px 18px;
+    display: block;
+    overflow: hidden;
+}
+
+.userspace_header .userspace_infor {
+    width: 235px;
+    font-size: 14px;
+    margin-top: 280px;
+    height: 30px;
+    line-height: 25px;
+    float: left;
+}
+
+.userspace_header .userspace_infor .userspace_name {
+    height: 25px;
+}
+
+.userspace_header .userspace_infor .userspace_name span {
+    float: left;
+    margin-right: 10px;
+    width: 60px;
+    text-align: left;
+}
+
+.userspace_header .userspace_infor .userspace_name_identity {
+    font-size: 12px;
+    color: #E35804;
+    line-height: 25px;
+
+}
+
+.userspace_header .userspace_infor .userspace_datum {
+    float: left;
+}
+
+.userspace_header .userspace_infor .userspace_datum .edit_userspace {
+    margin: 0;
+    background: #FFFFFF;
+    border-radius: 3px;
+    border: #FFFFFF 1px solid;
+    color: #878987;
+}
+
+.userspace_header .userspace_infor .userspace_datum .edit_userspace:hover {
+    margin: 0;
+    border: #F4B57D 1px solid;
+    border-radius: 3px;
+
+}
+
+.userspace_header .userspace_infor .userspace_datum .edit_userspace span {
+    font-size: 12px;
+}
+
+.userspace_content {
+    /*background: #FFF;*/
+    min-height: 650px;
+    display: block;
+    /*overflow: hidden;*/
+    /*margin-top: 20px;*/
+}
+
+/*--------------头部-----*/
+.userspace_nav_item {
+    width: 160px;
+    overflow: hidden;
+}
+
+.userspace_header_item {
+    /*background: url("../images/userspace_header_item_line.png") right no-repeat;*/
+    float: left;
+    text-align: center;
+    width: 100%;
+    line-height: 48px;
+    border-right: none;
+}
+
+.userspace_header_items {
+    background: url("../images/userspace_header_items_bg.png") repeat-x;
+    height: 48px;
+    font-size: 16px;
+    border-bottom: #E2E2E2 1px solid;
+}
+
+/*----内容-----*/
+
+.userspace_content_infor .userspace_groups {
+    width: 670px;
+    height: 160px;
+}
+
+.userspace_group {
+
+    height: 75px;
+    width: 220px;
+}
+
+/* .userspace_group a, . .userspace_group p{
+    float: left;
+}*/
+.userspace_group span {
+    font-size: 12px;
+    color: #319B98;
+}
+
+.userspace_group_img, .userspace_group_infor {
+    float: left;
+}
+
+.userspace_group_infor {
+    width: 100px;
+    padding: 0 10px;
+    height: 75px;
+    background: #F8F8F8;
+
+}
+
+.userspace_group_infor h1 {
+    margin: 3px 0 2px 0;
+    color: #319B98;
+}
+
+.userspace_group_infor p {
+    height: 50px;
+}
+
+.userspace_header_item a {
+    color: #333333;
+    width: 100%;
+    line-height: 26px;
+    margin: 12px 0 0 0px;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+
+.userspace_header_item a:hover {
+    border-bottom: #319B98 3px solid;
+    color: #319B98;
+
+}
+
+.user_space_back {
+    margin-left: 15px;
+    background: url("../images/user_space_backicon1.png") left no-repeat;
+    color: #5C5C5C;
+    float: left;
+    padding-left: 30px;
+    font-size: 12px;
+    line-height: 35px;
+}
+
+.user_space_back:hover {
+    background: url("../images/user_space_backicon2.png") left no-repeat;
+    color: #319B98;
+}
+
+.boful_toolbar_flo {
+    width: 100%;
+    border-bottom: #EF9632 2px solid;
+    position: fixed;
+    background: url("../images/boful_toolbar_flo_bg.png");
+    z-index: 5;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 1px 3px 0px #333333;
+    display: block;
+}
+
+.on {
+    border-bottom: #319B98 3px solid;
+    color: #319B98;
+}
+
+.userspace_background_img {
+    height: 330px;
+    width: 1024px;
+}
+
+/*用户空间左侧树头像名称样式*/
+.userspace_name {
+    width: 160px;
+    text-align: center;
+}
+
+.userspace_name p {
+
+    text-align: center;
+}
+
+/*用户空间左侧树头像名称样式*/
+
+/*2014-10-13新空间右侧样式表*/
+.space_height {
+    float: left;
+    width: 100%;
+    display: block;
+    margin: 20px 0 20px 0;
+}
+
+.space_line {
+    float: left;
+    width: 100%;
+    display: block;
+    margin: 4px 0 4px 0;
+}
+
+.newsspace_style {
+    margin-bottom: 15px;
+    display: block;
+}
+
+.newsspace_style span {
+    float: left;
+    display: block;
+    width: 100%;
+    text-align: left;
+    font-size: 12px;
+    font-family: "宋体";
+    font-weight: bold;
+    margin: 5px 0 5px 0;
+}
+
+.space_selectsty {
+    float: left;
+    font-size: 12px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.space_inputsty {
+    float: left;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.space_but {
+
+    margin: 10px 0 10px 0;
+}
+
+.space_buttop {
+    margin: 10px 0 10px 0;
+    width: 80px;
+
+}
+
+/*2014-10-13新空间右侧样式表*/
+.boful_doc_video_item_date p {
+    background: #FE7800;
+    height: 20px;
+    width: 96px;
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_doc_video_item_date {
+    height: 20px;
+    width: 96px;
+    position: absolute;
+    z-index: 2;
+    line-height: 20px;
+    text-align: right;
+    margin-top: 109px;
+    margin-left: 32px;
+    color: #EFEFEF;
+    font-size: 12px;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_doc_video_item_play_p {
+    width: 97px;
+    height: 129px;
+    position: absolute;
+    z-index: 3;
+    margin-left: 30px;
+    visibility: hidden;
+    box-shadow: none;
+}
+
+.boful_doc_video_item_play_p a {
+    text-align: center;
+    margin: 55px auto 0;
+    width: 65px;
+    height: 21px;
+    color: #E35804;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_doc_video_item_play_p a:hover {
+    color: #E35804;
+}
+
+.boful_my_doc_item_infor {
+    background: url("../images/boful_recommond_video_item_date_bg.png");
+    height: 20px;
+    width: 87px;
+    position: absolute;
+    z-index: 4;
+    line-height: 20px;
+    text-align: right;
+    padding-right: 10px;
+    margin: 109px 0 0 32px;
+    color: #FFFFFF;
+    font-size: 12px;
+}

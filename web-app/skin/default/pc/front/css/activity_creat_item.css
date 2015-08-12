@@ -1,0 +1,33 @@
+.creat_act_boxs_title {
+    width: 100%;
+    background: #F0F6F3;
+    padding: 15px 30px;
+}
+
+.creat_act_boxs_title h1 {
+    background: url("../images/creat_act_boxs_title_icon.png") left no-repeat;
+    font-size: 18px;
+    padding-left: 30px;
+    height: 25px;
+    line-height: 25px;
+    color: #333333;
+    text-align: left;
+}
+
+.creat_act_sup {
+    font-size: 16px;
+}
+
+.creat_act_sup span {
+    font-size: 18px;
+    color: red;
+    margin-right: 3px;
+}
+
+.table tr {
+    border: 0
+}
+
+.creat_act_boxs_body {
+    min-height: 726px;
+}

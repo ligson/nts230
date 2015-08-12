@@ -1,0 +1,75 @@
+/*Example for a Menu Style*/
+.x_caseTT {
+    background: url(/images/skin/x_caseBottomT.png) no-repeat top left;
+    color: #272727;
+    height: 30px;
+    font: 11px Arial, Helvetica, sans-serif;
+}
+
+.menu {
+    margin-bottom: -1px;
+    width: 459px;
+    height: 33px;
+    float: left;
+}
+
+.menu ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+    margin-left: 12px;
+}
+
+.menu li {
+    display: inline;
+    line-height: 33px;
+    float: left;
+    height: 33px;
+    display: block;
+}
+
+.menu li a {
+    color: #000000;
+    text-decoration: none;
+    line-height: 40px;
+    width: 103px;
+    text-align: center;
+    height: 33px;
+    display: block;
+    float: left;
+    background: url(/images/skin/x_selNo.jpg) no-repeat left bottom;
+    margin-right: 1px;
+}
+
+.menu li a.tabactive {
+    background: url(/images/skin/x_sel.jpg) no-repeat left bottom;
+    display: block;
+    float: left;
+    width: 103px;
+    height: 33px;
+    font-weight: bold;
+    position: relative;
+    line-height: 40px;
+    margin-right: 1px;
+    color: blue;
+}
+
+.tabsbg {
+    background: url(/images/skin/tabs_bg.png) no-repeat top left;
+    display: inline;
+    padding-bottom: 0px;
+}
+
+.x_casetabsBg {
+    padding-top: 12px;
+}
+
+.menu li a span {
+    display: block;
+    width: 90px;
+    line-height: 26px;
+    margin-top: 7px !Important;
+    margin-top: 7px;
+    height: 20px;
+}

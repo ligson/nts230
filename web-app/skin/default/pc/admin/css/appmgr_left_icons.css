@@ -1,0 +1,385 @@
+/*---------应用管理--------*/
+.appmgr_massage, .appmgr_word, .appmgr_answer, .appmgr_come, .appmgr_explo, .appmgr_mass,
+.appmgr_change, .appmgr_tools, .appmgr_talk, .appmgr_wid, .appmgr_clas, .appmgr_form, .appmgr_activit, .appmgr_works, .appmgr_save,
+.usermgr_use, .usermgr_user, .usermgr_users, .usermgr_mgrs, .usermgr_prsent, .usermgr_search, .usermgr_door, .usermgr_Musers,
+.core_sys, .core_old, .core_save, .core_clas {
+    width: 16px;
+    height: 16px;
+    margin-top: 9px;
+    margin-left: 5px;
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+
+.appmgr_massage {
+    background: url("../images/userMgr_all_icons.png") left no-repeat;
+    background-position: 0 0;
+}
+
+.appmgr_word {
+    background: url("../images/userMgr_all_icons.png") left no-repeat;
+    background-position: 0 -17px;
+}
+
+.appmgr_answer {
+    background: url("../images/userMgr_all_icons.png") left no-repeat;
+    background-position: 0 -34px;
+}
+
+.appmgr_come {
+    background: url("../images/userMgr_all_icons.png") left no-repeat;
+    background-position: 0 -51px;
+}
+
+.appmgr_explo {
+    background: url("../images/userMgr_all_icons.png") left no-repeat;
+    background-position: 0 -68px;
+}
+
+.appmgr_mass {
+    background: url("../images/userMgr_all_icons.png") left no-repeat;
+    background-position: 0 -85px;
+}
+
+.appmgr_change {
+    background: url("../images/userMgr_all_icons.png") left no-repeat;
+    background-position: 0 -102px;
+}
+
+.appmgr_tools {
+    background: url("../images/userMgr_all_icons.png") left no-repeat;
+    background-position: 0 -119px;
+}
+
+.appmgr_talk {
+    background: url("../images/userMgr_all_icons.png") left no-repeat;
+    background-position: 0 -136px;
+}
+
+.appmgr_wid {
+    background: url("../images/userMgr_all_icons.png") left no-repeat;
+    background-position: 0 -152px;
+}
+
+.appmgr_clas {
+    background: url("../images/userMgr_all_icons.png") left no-repeat;
+    background-position: 0 -169px;
+}
+
+.appmgr_form {
+    background: url("../images/userMgr_all_icons.png") left no-repeat;
+    background-position: 0 -186px;
+}
+
+.appmgr_activit {
+    background: url("../images/userMgr_all_icons.png") left no-repeat;
+    background-position: 0 -205px;
+}
+
+.appmgr_works {
+    background: url("../images/userMgr_all_icons.png") left no-repeat;
+    background-position: 0 -222px;
+}
+
+.appmgr_save {
+    background: url("../images/userMgr_all_icons.png") left no-repeat;
+    background-position: 0 -238px;
+}
+
+/*---------用户管理--------*/
+.usermgr_use {
+    background: url("../images/userMgr_all_icons.png") left no-repeat;
+    background-position: 0 -256px;
+}
+
+.usermgr_user {
+    background: url("../images/userMgr_all_icons.png") left no-repeat;
+    background-position: 0 -271px;
+}
+
+.usermgr_users {
+    background: url("../images/userMgr_all_icons.png") left no-repeat;
+    background-position: 0 -289px;
+}
+
+.usermgr_mgrs {
+    background: url("../images/userMgr_all_icons.png") left no-repeat;
+    background-position: 0 -305px;
+}
+
+.usermgr_prsent {
+    background: url("../images/userMgr_all_icons.png") left no-repeat;
+    background-position: 0 -324px;
+}
+
+.usermgr_search {
+    background: url("../images/userMgr_all_icons.png") left no-repeat;
+    background-position: 0 -340px;
+}
+
+.usermgr_door {
+    background: url("../images/userMgr_all_icons.png") left no-repeat;
+    background-position: 0 -358px;
+}
+
+.usermgr_Musers {
+    background: url("../images/userMgr_all_icons.png") left no-repeat;
+    background-position: 0 -375px;
+}
+
+/*---------核心管理--------*/
+.core_sys {
+    background: url("../images/userMgr_all_icons.png") left no-repeat;
+    background-position: 0 -392px;
+}
+
+.core_old {
+    background: url("../images/userMgr_all_icons.png") left no-repeat;
+    background-position: 0 -409px;
+}
+
+.core_save {
+    background: url("../images/userMgr_all_icons.png") left no-repeat;
+    background-position: 0 -426px;
+}
+
+.core_clas {
+    background: url("../images/userMgr_all_icons.png") left no-repeat;
+    background-position: 0 -442px;
+}
+
+/*-----------------*/
+.sidebar_resource_box {
+    width: 195px;
+    height: auto;
+    background: #D9E6F0;
+    border: 1px solid #6896BA;
+    margin-left: 3px;
+    border-radius: 2px;
+    display: block;
+    overflow: hidden;
+}
+
+/*---------------------------------------------------------*/
+.ou_community_mgr {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.c_act_box {
+    width: 1024px;
+    margin: 10px auto;
+    height: 100px;
+    /*  border-bottom: 1px solid #eeeeee;*/
+    display: block;
+    overflow: hidden;
+}
+
+.c_act_con {
+    position: absolute;
+    z-index: 2;
+    padding: 15px 0 15px 20px;
+    width: 980px;
+    height: auto;
+    display: block;
+    overflow: hidden;
+}
+
+.c_act_con img {
+    width: 70px;
+    border: 2px solid #FFF;
+    height: 70px;
+    display: block;
+    box-shadow: 1px 1px 1px #999;
+    float: left;
+}
+
+.c_act_in {
+    width: 870px;
+    margin-left: 34px;
+    float: left;
+    height: 59px;
+    margin-top: 15px;
+    display: block;
+    overflow: hidden;
+}
+
+.c_act_in h1 {
+    font-size: 18px;
+    margin: 0 0 5px 0;
+    color: #5c5c5c;
+
+}
+
+.c_act_in p span {
+    color: #999;
+}
+
+.c_act_in p span em {
+    color: #39a53e;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.community_master {
+    border-bottom: 5px solid #eeeeee;
+}
+
+.c_x_ng {
+    width: 1024px;
+    height: 100px;
+}
+
+.c_a_b {
+    height: 25px;
+    line-height: 25px;
+    width: 100px;
+    /* background: url("../images/ou_space_head_right_bg.png");*/
+    font-size: 14px;
+    color: #FFF;
+    float: right;
+    display: block;
+    border-radius: 4px;
+    overflow: hidden;
+    text-align: center;
+    background-color: #4DB652;
+    border-color: #348738;
+    filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#4db652', endColorstr='#348738');
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #4DB652), color-stop(100%, #348738));
+    background-image: -webkit-linear-gradient(top, #4DB652 0%, #348738 100%);
+    background-image: -moz-linear-gradient(top, #4DB652 0%, #348738 100%);
+    background-image: -o-linear-gradient(top, #4DB652 0%, #348738 100%);
+    background-image: linear-gradient(top, #4DB652 0%, #348738 100%);
+}
+
+.c_a_b:hover {
+    color: #FFF;
+    background-image: -webkit-linear-gradient(top, #58C95E 0%, #40A245 100%);
+}
+
+.c_act_in p {
+    height: 25px;
+    line-height: 25px;
+    /* background: #FFF;*/
+    /*  padding: 0 15px;*/
+}
+
+.com_o_des {
+    padding: 0 0 10px 0;
+    font-size: 12px;
+    color: #999;
+}
+
+.com_o_d_t {
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.com_o_d_t span {
+    color: #999;
+    margin-right: 15px;
+}
+
+.com_o_d_t span em {
+    font-style: normal;
+    margin-left: 5px;
+}
+
+.com_o_d_w {
+    color: #878787;
+}
+
+.com_creat_ac {
+    width: 740px;
+    height: auto;
+}
+
+.com_c_ac {
+    font-size: 18px;
+    font-weight: normal;
+    color: #333;
+    height: 30px;
+    background: #FFF;
+    line-height: 30px;
+    border-top: 2px solid #eeeeee;
+    padding: 10px 0 0 20px;
+    border-bottom: 1px solid #ebebeb;
+    margin: 0;
+}
+
+.c_from_nuim {
+    width: 30px;
+    float: right;
+    color: #39b94e;
+    font-size: 12px;
+    text-align: center;
+    height: 35px;
+    line-height: 35px;
+    background: #dffbd5;
+    border-bottom: 2px solid #c3eaca;
+}
+
+.com_g_des {
+    width: 720px;
+    padding: 10px;
+    height: auto;
+    border-bottom: 2px solid #EBEBEB;
+    display: block;
+    overflow: hidden;
+}
+
+.com_g_des_img {
+    width: 720px;
+    height: 48px;
+    margin: 0 10px 0 0;
+}
+
+.com_g_des_img img {
+    width: 48px;
+    height: 48px;
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+
+.com_g_des_img p {
+    width: 650px;
+    height: 48px;
+    float: left;
+    margin-left: 20px;
+}
+
+.com_n_tit {
+    font-size: 16px;
+    height: 48px;
+    line-height: 48px;
+    color: #5c5c5c;
+    width: 560px;
+    font-weight: bold;
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+
+.con_n_j {
+    width: 60px;
+    padding: 0 10px;
+    height: 25px;
+    color: #39b94e;
+    margin-top: 15px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 4px;
+    background: #dffbd5;
+    float: left;
+    cursor: pointer;
+    display: block;
+    overflow: hidden;
+}
+
+.con_n_j:hover {
+    color: #FFF;
+    background: #39a53e;
+}
+

@@ -1,0 +1,308 @@
+body {
+    font-family: "微软雅黑", cursive;
+}
+
+.statistics_index_box {
+    background: #FFFFFF;
+    margin-top: 10px;
+    /* border-top: 1px solid #EAEAEA;*/
+    border-bottom: 1px solid #EAEAEA;
+    display: block;
+    overflow: hidden;
+}
+
+.statistics_index_nav {
+    padding-top: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #F6F6F6;
+    padding-bottom: 10px;
+    /*  border-top: 1px solid #EAEAEA;*/
+    border-bottom: 1px solid #EAEAEA;
+    display: block;
+    overflow: hidden;
+}
+
+.statistics_index_nav a {
+    padding: 15px 10px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+    /*background: #C3CBD3;*/
+    background: #a1bfd6;
+    display: block;
+    overflow: hidden;
+}
+
+.statistics_index_nav a:hover {
+    background: #3C7DB0;
+}
+
+.index_nav_box {
+    height: auto;
+    width: 160px;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+
+.nav_play_icon, .nav_read_icon, .nav_download_icon, .nav_recommend_icon, .nav_save_icon {
+    background: url("../images/statistics_index_nav_icon.png") center no-repeat;
+    height: 32px;
+    width: 32px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.nav_upload_icon {
+    background: url("../images/upload_icon.png") center no-repeat;
+    height: 32px;
+    width: 32px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.nav_play_icon {
+    background-position: 0 0;
+}
+
+.nav_read_icon {
+    background-position: 0 -33px;
+}
+
+.nav_download_icon {
+    background-position: 0 -66px;
+}
+
+.nav_recommend_icon {
+    background-position: 0 -99px;
+}
+
+.nav_save_icon {
+    background-position: 0 -132px;
+}
+
+.nav_icon_name {
+    font-size: 12px;
+    color: #FFFFFF;
+    margin-top: 5px;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+}
+
+.nav_icon_name:hover {
+    text-decoration: none;
+}
+
+/*---------图标样式------------*/
+.statistics_index_content {
+    padding: 10px 10px 0;
+    display: block;
+    overflow: hidden;
+}
+
+.datasheet_play_box {
+    width: 375px;
+    /*height: 300px;*/
+    float: left;
+    border: 1px solid #E2E4E7;
+    background: #FFFFFF;
+    margin: 0 10px 10px 0;
+    display: block;
+    overflow: hidden;
+}
+
+.datasheet_play_box h1 {
+    height: 30px;
+    line-height: 30px;
+    margin: 0;
+    color: #5C6A76;
+    font-size: 14px;
+    /*  background: #D4D4D4;*/
+    font-weight: normal;
+    padding: 0 0 0 10px;
+    text-align: left;
+    background-color: #C3CBD3;
+    background: -webkit-linear-gradient(#CED6DE, #C3CBD3);
+    background: linear-gradient(#CED6DE, #C3CBD3);
+    border: 1px solid #FEFEFE;
+    border-bottom-color: #BAC2CA;
+    /*border-bottom: 1px solid #CADAE6;
+    border-left: 1px solid #D3E3EF;
+    border-right: 1px solid #D3E3EF;
+    border-top: 1px solid #D8E2EA;*/
+}
+
+.datasheet_play_box h1 a {
+    font-size: 12px;
+    padding-right: 15px;
+    line-height: 30px;
+    float: right;
+    color: #767E86;
+}
+
+.datasheet_play_box h1 a:hover {
+    color: #D57100;
+    text-decoration: underline;
+}
+
+.index_bg {
+    background: #28B779;
+}
+
+/*--------------------------------*/
+.statistics_infor {
+    height: auto;
+    background: #FFFFFF;
+    border-bottom: 1px solid #E5E5E5;
+    display: block;
+    overflow: hidden;
+}
+
+.statistics_infor table td {
+    border-right: 1px solid #E5E5E5;
+    padding: 20px 0;
+}
+
+.statistics_res_title {
+    font-size: 14px;
+    color: #999999;
+    line-height: 16px;
+    padding: 5px 20px;
+    text-align: left;
+}
+
+.statistics_res_number {
+    font-size: 30px;
+    padding-left: 20px;
+    font-weight: 500;
+    color: #737373;
+    text-align: left;
+}
+
+.statistics_res_percent {
+    font-size: 20px;
+    color: #D28745;
+    margin-left: 20px;
+
+}
+.c1 {
+    font-size: 12px;
+    margin-left: 12px;
+}
+
+.statistics_res_icon {
+    width: 75px;
+    background: url("../images/statistics_res_title_icon.png") right no-repeat;
+    height: 18px;
+    line-height: 20px;
+    display: block;
+    overflow: hidden;
+}
+
+.title_statistics {
+    height: 30px;
+    width: 100%;
+    padding-bottom: 5px;
+    display: block;
+    overflow: hidden;
+}
+
+.title_statistics_but {
+    float: left;
+    width: 100px;
+    text-align: center;
+    height: 30px;
+    padding: 0 5px;
+    line-height: 30px;
+    color: #FFFFFF;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.35);
+    border-radius: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 12px;
+    font-family: "微软雅黑", serif;
+    background-color: #4DB652;
+    border: 1px solid #317D35;
+    cursor: pointer;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #4DB652), color-stop(100%, #348738));
+    background-image: -webkit-linear-gradient(top, #4DB652 0%, #348738 100%);
+    background-image: -moz-linear-gradient(top, #4DB652 0%, #348738 100%);
+    background-image: -o-linear-gradient(top, #4DB652 0%, #348738 100%);
+    background-image: linear-gradient(top, #4DB652 0%, #348738 100%);
+}
+
+.title_statistics_but:hover {
+    background-image: -webkit-linear-gradient(top, #58C95E 0%, #40A245 100%);
+}
+
+.program_statistics_sector {
+    /*   min-width: 400px;*/
+    height: auto;
+    margin-right: 10px;
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+
+.program_statistics_histogram {
+    float: left;
+}
+
+.program_statistics_search {
+    height: 40px;
+    width: 100%;
+    background-color: #C7DEED;
+    background: -webkit-linear-gradient(#EDF7FE, #D2E4EF);
+    background: linear-gradient(#EDF7FE, #D2E4EF);
+    display: block;
+    overflow: hidden;
+}
+
+.program_ser_star,
+.program_ser_end {
+    width: 150px;
+    float: left;
+    padding: 5px;
+    margin-right: 10px;
+    height: 40px;
+}
+
+.program_ser_star input,
+.program_ser_end input {
+    padding: 5px;
+    color: #999999;
+}
+
+.program_ser_but {
+    width: 60px;
+    padding: 5px;
+    height: 40px;
+    font-size: 12px;
+    text-align: center;
+    float: left;
+}
+
+.program_ser_but input {
+    padding: 5px 10px;
+}
+
+/*通用统计查询*/
+.statistics_input {
+    width: 100%;
+    margin: 10px 0;
+    overflow: hidden;
+}
+.generalq {
+    float: left;
+    padding: 2px 5px;
+    margin:0 15px;
+    line-height: 25px;
+}
+.generalq label {
+    line-height: 22px;
+}
+
+

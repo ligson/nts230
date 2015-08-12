@@ -1,0 +1,21 @@
+.index_moocs_head {
+    width: 100%;
+    height: 380px;
+    background: url("../images/moocsbanner.jpg") center no-repeat;
+}
+
+.wrap {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.index_moocs_join a {
+    height: 60px;
+    line-height: 60px;
+    width: 120px;
+    border-radius: 50%;
+    background: none;
+    border: 1px solid #FFF;
+    display: block;
+    overflow: hidden;
+}

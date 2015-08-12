@@ -1,0 +1,100 @@
+body {
+    font-family: "微软雅黑", serif;
+}
+
+.tit_sh {
+    width: 100%;
+    background: #F0F6F3;
+    padding: 30px 0 20px 0;
+}
+
+.tit_sh h1 {
+    background: url("../images/communityMain_seach_icon_see6.png") no-repeat;
+    font-size: 18px;
+    height: 25px;
+    text-align: left;
+    padding-left: 40px;
+    font-weight: normal;
+    line-height: 25px;
+}
+
+.wrap {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.share_list {
+    min-height: 445px;
+    padding: 30px 0;
+}
+
+.share_list td {
+    font-size: 14px;
+    color: #333333;
+    height: 25px;
+    line-height: 25px;
+}
+
+.share_list_con {
+    width: 150px;
+}
+
+.share_list_con input {
+    height: 36px;
+    line-height: 36px;
+    border: 1px solid #ABADB3;
+    text-align: left;
+    font-size: 14px;
+    padding: 0 5px;
+}
+
+.share_list_con1 {
+    padding: 15px 10px;
+    vertical-align: top;
+    border-bottom: 1px solid #F4F4F4;
+    text-align: left;
+}
+
+.share_list input,
+.share_list textarea {
+    float: left;
+    text-align: left;
+}
+
+.qtdin {
+    width: 400px;
+    float: left;
+    height: 36px;
+    line-height: 36px;
+    border: 1px solid #ABADB3;
+    font-size: 14px;
+    padding: 0 5px;
+}
+
+.qtdbbut {
+    float: left;
+}
+
+.s_order {
+    padding: 30px 0;
+}
+
+.main {
+    min-height: 595px;
+}
+
+.p_sent_w {
+    width: 180px;
+    text-align: left;
+    height: auto;
+    background: red;
+    float: left;
+    border-radius: 4px;
+    font-size: 12px;
+    color: #FFF;
+    font-family: "微软雅黑", serif;
+    line-height: 25px;
+    padding: 0 10px;
+    display: block;
+    overflow: hidden;
+}

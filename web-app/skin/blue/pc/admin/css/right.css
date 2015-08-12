@@ -1,0 +1,51 @@
+
+strong {
+    color: #0000CC;
+}
+
+.x_firstLeft {
+    float: left;
+    width: 383px;
+}
+
+.x_search {
+    float: left;
+    margin: 10px 0px 0px 28px;
+}
+
+.x_nkpx, .x_pages {
+    width: 660px;
+    height: 50px;
+    background: #FAFAFA;
+    border: 1px solid #DDDDDD;
+    float: left;
+    margin: 10px 10px 10px 28px;
+}
+
+.x_caseDiv {
+    width: 800px;
+    height: auto;
+    float: left;
+}
+
+.x_daohang {
+    width: 660px;
+    height: 20px;
+    line-height: 20px;
+    text-align: left;
+    float: left;
+    margin: 10px 10px 10px 28px;
+}
+
+.x_daohang p {
+    text-align: left;
+}
+
+.x_nkpx {
+    padding: 8px 5px 5px 10px;
+}
+
+.curLink {
+    color: #FF6600;
+    PADDING-bottom: 10px;
+}

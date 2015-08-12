@@ -1,0 +1,14 @@
+.showRemark_tit {
+    font-size: 14px;
+    height: 30px;
+    font-weight: bold;
+    font-family: "微软雅黑", serif;
+    line-height: 30px;
+    color: #333;
+}
+
+.answer_back_word {
+    /*height: 25px;*/
+    line-height: 25px;
+    color: #333;
+}

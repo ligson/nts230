@@ -1,0 +1,846 @@
+/* CSS Document */
+* {
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+    text-align: left;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+strong {
+    color: red;
+    font-weight: 600;
+}
+
+a img {
+    border: 0;
+}
+
+body {
+    overflow-x: hidden;
+    background: url(/images/skin/bg.gif) left top;
+}
+
+.x_max {
+    width: 953px;
+}
+
+.x_top {
+    width: 953px;
+    background: url(/images/skin/topBg.jpg) no-repeat top left;
+    height: 158px;
+    position: relative;
+}
+
+.x_nav {
+    width: 950px;
+    height: 33px;
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    bottom: 0px;
+}
+
+.x_logo {
+    width: 314px;
+    height: 69px;
+    position: absolute;
+    z-index: 9;
+    top: 29px;
+    left: 34px;
+}
+
+.x_logo a img {
+    border: 0;
+    margin-top: 3px;
+}
+
+.x_menu {
+    width: 900px;
+    height: 30px;
+    float: left;
+    margin-left: 12px;
+}
+
+.x_sel, .x_noSel {
+    height: 30px;
+    line-height: 33px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 600;
+    text-align: center;
+    padding: 0px 14px 0px 12px;
+    display: block;
+    float: left;
+    font-size: 14px;
+}
+
+.x_noSel:hover {
+    color: #055CF9;
+}
+
+.x_sel {
+    color: #FFFFFF;
+    margin-top: 0px;
+}
+
+.x_noSel {
+}
+
+.x_content {
+    width: 953px;
+    background: url(/images/skin/contentBg.png) center top;
+    float: left;
+}
+
+.x_contentLeft {
+    width: 672px;
+    height: auto;
+    float: left;
+    margin-left: 2px !Important;
+    margin-left: 0px;
+    margin-top: 12px;
+}
+
+.x_contentRight {
+    width: 262px;
+    height: auto;
+    float: left;
+    margin-left: 4px !Important;
+    margin-left: 8px;
+    margin-top: 12px;
+}
+
+.x_rightFirst {
+    width: 262px !Important;
+    width: 262px;
+    height: 30px;
+    float: left;
+    margin-top: 0px !Important;
+    margin-top: 4px;
+}
+
+.x_rightFirst span {
+    font-weight: 600;
+    margin: 0px 4px 3px 4px;
+    color: #045DF9;
+    line-height: 23px;
+    float: left;
+    display: block;
+}
+
+.x_rightFirst span a {
+    text-decoration: none;
+}
+
+.x_otherweb {
+    text-align: left;
+    width: 241px;
+    height: 65px;
+    background: url(/images/skin/otherweb.png) no-repeat left top;
+    float: left;
+    margin-top: 10px;
+    padding: 20px;
+    padding: 20px 10px 20px 20px;
+}
+
+.x_otherweb p {
+    line-height: 24px;
+    text-align: left;
+    text-indent: 12px;
+}
+
+.x_otherweb a {
+    line-height: 24px;
+    color: #333333;
+    text-decoration: none;
+    margin: 0px 5px 0px 5px;
+}
+
+.x_titleHRight a, .x_BannerContent ul li a, .toolDown ul li a {
+    color: #333333;
+    text-decoration: none;
+    width: 100%;
+    height: 33px;
+    display: block;
+    text-align: left;
+    overflow: hidden;
+}
+
+.x_otherweb a:hover, .x_titleHRight a:hover, .x_BannerContent ul li a:hover, .toolDown ul li a:hover {
+    color: #055CF9;
+    text-decoration: underline;
+}
+
+.toolDown ul li img {
+    margin-top: 3px;
+    margin-left: 10px;
+    margin-right: 3px;
+    float: left;
+    display: block;
+    width: 24px;
+}
+
+.toolDown ul li a {
+    float: left;
+    display: block;
+    overflow: hidden;
+    width: 200px;
+    height: 32px;
+}
+
+.x_firstP {
+    margin-top: 22px;
+}
+
+.x_rightBanner {
+    float: left;
+    margin-top: 10px;
+}
+
+.x_rightBannerTop {
+    background: url(/images/skin/rightbannerBG.jpg) no-repeat left top;
+    width: 257px;
+    float: left;
+}
+
+.x_rightBannerBottom {
+    background: url(/images/skin/rightbannerBGB.jpg) no-repeat left top;
+    width: 257px;
+    height: 12px;
+    float: left;
+}
+
+.x_titleH {
+    width: 100%;
+    height: 28px;
+    margin-top: 6px;
+    float: left;
+}
+
+.x_titleH span {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+}
+
+.x_titleHLeft {
+    width: 132px;
+    margin-left: 14px;
+    color: #055CF9;
+    font-weight: 600;
+    text-align: left;
+    text-indent: 23px;
+    background: url(/images/skin/Title_icon.jpg) no-repeat left center;
+    float: left;
+}
+
+.x_zxgg {
+    background: url(/images/skin/zxgg.jpg) no-repeat left center;
+}
+
+.x_llph {
+    background: url(/images/skin/llph.jpg) no-repeat left center;
+}
+
+.x_wbzy {
+    background: url(/images/skin/wbzy.jpg) no-repeat left center;
+}
+
+.x_rdzt {
+    background: url(/images/skin/rdzt.jpg) no-repeat left center;
+}
+
+.x_downsSpan {
+    background: url(/images/skin/downs.jpg) no-repeat left center;
+}
+
+.x_downDT {
+    margin-bottom: 7px;
+}
+
+.x_tongji {
+    background: url(/images/skin/tongji.jpg) no-repeat left center;
+    text-indent: 25px;
+}
+
+.x_titleHRight {
+    width: 42px;
+    float: right;
+    text-align: center;
+}
+
+.x_BannerContent, .toolDown {
+    width: 257px;
+    float: left;
+}
+
+.x_BannerContent ul, .x_BannerContent ul li, .toolDown ul, .toolDown ul li {
+    display: block;
+    float: left;
+    list-style: none;
+}
+
+.x_BannerContent ul {
+    width: 220px;
+    margin-left: 26px !important;
+    margin-left: 15px;
+}
+
+.x_listDiv ul {
+    width: 270px;
+}
+
+.toolDown ul {
+    width: 240px;
+    margin-left: 12px;
+}
+
+.x_BannerContent ul li, .toolDown ul li {
+    height: 30px;
+    line-height: 33px;
+    width: 99%;
+    overflow: hidden;
+    text-align: left;
+    text-indent: 12px;
+    background: url(/images/skin/ulliBg1.jpg) no-repeat left center;
+}
+
+.llph ul li {
+    background: none;
+    border-bottom: 1px dotted #AAAAAA;
+    text-indent: 4px;
+}
+
+.no1, .no2, .no3, .no4, .no5, .no6, .no7, .no8, .no9, .no10 {
+    background: url(/images/skin/no1.jpg) no-repeat left center;
+    width: 14px;
+    height: 13px;
+    margin: 8px 0px 0px 0px;
+    float: left;
+}
+
+.no2 {
+    background: url(/images/skin/no2.jpg) no-repeat left center;
+}
+
+.no3 {
+    background: url(/images/skin/no3.jpg) no-repeat left center;
+}
+
+.no4 {
+    background: url(/images/skin/no4.jpg) no-repeat left center;
+}
+
+.no5 {
+    background: url(/images/skin/no5.jpg) no-repeat left center;
+}
+
+.no6 {
+    background: url(/images/skin/no6.jpg) no-repeat left center;
+}
+
+.no7 {
+    background: url(/images/skin/no7.jpg) no-repeat left center;
+}
+
+.no8 {
+    background: url(/images/skin/no8.jpg) no-repeat left center;
+}
+
+.no9 {
+    background: url(/images/skin/no9.jpg) no-repeat left center;
+}
+
+.no10 {
+    background: url(/images/skin/no10.jpg) no-repeat left center;
+}
+
+.x_listDiv {
+    width: 314px;
+    margin-top: 18px;
+    float: left;
+    border-right: 1px solid #CCCCCC;
+}
+
+.x_firstLeft {
+    width: 290px;
+    padding-bottom: 12px;
+    margin-top: 6px;
+    margin-left: 6px;
+    height: 107px;
+}
+
+.x_firstImg {
+    width: 130px;
+    float: left;
+    margin-top: 7px;
+}
+
+.x_firstFont {
+    width: 159px;
+    float: left;
+    line-height: 22px;
+    text-align: left;
+    margin-top: 7px;
+}
+
+.x_firstFont a {
+    color: #777777;
+    text-decoration: none;
+}
+
+.x_firstFont a:hover {
+    color: #055CF9;
+    text-decoration: underline;
+}
+
+.x_onePic {
+    background: url(/images/skin/list_bg.jpg) no-repeat left center;
+    margin: 12px 0px 0px 0px;
+    float: left;
+    text-indent: 2px;
+    width: 5px;
+    height: 12px;
+}
+
+.x_content_llph {
+    float: left;
+    text-align: left;
+    overflow: hidden;
+    width: 160px;
+    cursor: pointer;
+}
+
+.x_content_nomber, .x_date {
+    float: right;
+    color: #F66706;
+    font-weight: 600;
+    width: 49px;
+    text-align: right;
+}
+
+.x_date {
+    color: #777777;
+    font-weight: 400;
+}
+
+.toolDown ul li {
+    background: none;
+    width: 99%;
+    text-indent: 0px;
+    display: block;
+    float: left;
+    height: 32px;
+}
+
+.toolDown ul li img, .toolDown ul li a {
+    display: block;
+    float: left;
+}
+
+.toolDown ul li a {
+    width: 180px;
+}
+
+.toolDown ul li a strong {
+    margin-left: 8px;
+    color: red;
+}
+
+.x_contentBottom {
+    height: 111px;
+    width: 953px;
+    margin-top: 0px;
+    background: url(/images/skin/x_bottom.jpg) no-repeat center top;
+    padding-top: 72px;
+    float: left;
+    background-position-x: 2px !Important;
+    background-position-x: 0px;
+    overflow: hidden;
+}
+
+.x_contentBottom p {
+    line-height: 28px;
+    color: blue;
+    text-align: center;
+}
+
+.x_search {
+    width: 643px;
+    float: right;
+    line-height: 33px;
+    overflow: hidden;
+}
+
+.x_search span {
+    display: block;
+    float: left;
+    line-height: 33px;
+    margin-right: 2px;
+}
+
+.x_search span select {
+    width: 120px;
+    height: 23px;
+    line-height: 20px;
+    margin-top: 4px;
+    text-align: left;
+}
+
+.x_search span input {
+    width: 412px;
+    height: 22px !important;
+    height: 19px;
+    text-align: left;
+    text-indent: 2px;
+    line-height: 23px !important;
+    line-height: 17px;
+    margin-top: 4px !important;
+    margin-top: 2px;
+}
+
+.x_searchB {
+    border: 0;
+    width: 24px;
+    float: left;
+    height: 27px;
+    margin-top: 4px !important;
+    margin-top: 2px;
+    background: url(/images/skin/x_searchB.jpg) no-repeat left top;
+    cursor: pointer
+}
+
+.x_searchP {
+    float: left;
+    height: 25px;
+    margin: -4px 2px 0px 60px;
+}
+
+.x_case {
+    width: 643px;
+    float: left;
+    margin: 6px 0px 6px 18px !important;
+    margin: 6px 0px 6px 10px;
+    overflow: hidden;
+}
+
+.x_CaseTitle {
+    width: 643px;
+    height: 30px;
+    float: left;
+    background: url(/images/skin/x_caseTitle.png) no-repeat left top;
+}
+
+.x_CaseTitle span {
+    display: block;
+    height: 30px;
+    line-height: 28px;
+}
+
+.x_CaseTitleL {
+    float: left;
+    margin-left: 28px !Important;
+    margin-left: 13px;
+    text-align: center;
+    color: blue;
+    font-weight: 600;
+}
+
+.x_more {
+    float: right;
+    margin: 0px 9px 0px 0px;
+}
+
+.x_more a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.x_more a:hover {
+    color: #0000FF;
+    text-decoration: underline;
+}
+
+.x_colum {
+    width: 136px;
+    float: left;
+    margin: 14px 4px 0px 12px;
+    overflow: hidden;
+    height: 155px;
+}
+
+.x_colum p {
+    float: left;
+    width: 100%;
+    display: block;
+}
+
+.x_pTitle {
+    font-weight: 600;
+}
+
+.x_pContent {
+    color: #666666;
+    text-align: left;
+    height: 42px;
+    line-height: 14px;
+    margin: 4px 0px 0px 0px;
+    overflow: hidden;
+}
+
+.x_CaseCenter {
+    width: 643px;
+    padding-bottom: 8px;
+    overflow: hidden;
+    float: left;
+    background: #FFFFFF url(/images/skin/x_caseCenter.gif) repeat-y left top;
+}
+
+.x_CaseBottom {
+    width: 643px;
+    height: 20px;
+    float: left;
+    background: url(/images/skin/x_caseBottom.png) no-repeat left bottom;
+}
+
+.x_sorry {
+    margin-top: 12px;
+}
+
+.menu {
+    width: 633px !important
+}
+
+.x_aSpan {
+    text-align: center !important;
+}
+
+.x_pTitle {
+    text-align: center !important;
+    margin-top: 3px;
+}
+
+.x_pTitle a {
+    color: #111111;
+    text-decoration: none;
+}
+
+.x_pTitle a:hover {
+    color: #0000FF;
+    text-decoration: underline;
+}
+
+.x_content_llph_left {
+    float: left;
+    text-align: left;
+    width: 145px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.x_content_llph_news, .x_content_llph_topic {
+    float: left;
+    text-align: left;
+    width: 165px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.x_welcome {
+    width: 262px !Important;
+    width: 262px;
+    height: 20px;
+    float: left;
+    margin-top: -8px !Important;
+}
+
+.x_welcome span {
+    font-weight: 600;
+    margin: 0px 4px 3px 6px;
+    color: #055CF9;
+    line-height: 23px;
+    float: left;
+    display: block;
+    font-weight: normal;
+}
+
+.x_pImg, .x_firstImg {
+    text-align: center;
+}
+
+.x_pImg img, .x_firstImg img {
+    width: 85px;
+    height: 85px;
+}
+
+.x_menu a {
+    color: #FFFFFF !important;
+}
+
+.x_menu a:hover {
+    color: #0000FF !important;
+}
+
+.x_star {
+    text-align: center;
+}
+
+.x_secMainDiv {
+    width: 953px;
+    height: 100%;
+    margin: 0 auto !Important;
+}
+
+.x_firstFont2 {
+    width: 220px;
+    float: left;
+    line-height: 22px;
+    text-align: left;
+    margin-top: 7px;
+}
+
+.x_firstImg2 {
+    width: 100px;
+    float: left;
+    margin-top: 7px;
+    margin-left: 22px;
+}
+
+/* PAGINATION */
+.paginateButtons {
+    FLOAT: right;
+    TEXT-ALIGN: center;
+    padding: 10px 3px;
+}
+
+.step {
+    BORDER-RIGHT: #7EC5F6 1px solid;
+    PADDING-RIGHT: 5px;
+    PADDING-LEFT: 5px;
+    BORDER-TOP: #7EC5F6 1px solid;
+    PADDING-BOTTOM: 2px;
+    BORDER-LEFT: #7EC5F6 1px solid;
+    COLOR: #2E6AB1;
+    MARGIN-RIGHT: 3px;
+    PADDING-TOP: 2px;
+    BORDER-BOTTOM: #7EC5F6 1px solid;
+    TEXT-DECORATION: none
+}
+
+.prevLink, .nextLink {
+    BORDER-RIGHT: #7EC5F6 1px solid;
+    PADDING-RIGHT: 5px;
+    PADDING-LEFT: 5px;
+    BORDER-TOP: #7EC5F6 1px solid;
+    PADDING-BOTTOM: 0px;
+    BORDER-LEFT: #7EC5F6 1px solid;
+    COLOR: #2E6AB1;
+    MARGIN-RIGHT: 3px;
+    PADDING-TOP: 3px;
+    BORDER-BOTTOM: #7EC5F6 1px solid;
+    TEXT-DECORATION: none
+}
+
+.step:hover {
+    BORDER-RIGHT: #2B66A5 1px solid;
+    BORDER-TOP: #2B66A5 1px solid;
+    BORDER-LEFT: #2B66A5 1px solid;
+    COLOR: #2E6AB1;
+    BORDER-BOTTOM: #2B66A5 1px solid;
+    BACKGROUND-COLOR: #DAE7F5
+}
+
+paginateButtons A:active {
+    BORDER-RIGHT: #2B66A5 1px solid;
+    BORDER-TOP: #2B66A5 1px solid;
+    BORDER-LEFT: #2B66A5 1px solid;
+    COLOR: #2E6AB1;
+    BORDER-BOTTOM: #2B66A5 1px solid
+}
+
+.paginateButtons span {
+    color: #FF6600;
+    PADDING-RIGHT: 5px;
+}
+
+#turnPage {
+    background-color: #FCFCFC;
+    border: #7EC5F6 1px solid;
+    font: 11px verdana, arial, helvetica, sans-serif;
+    margin: 5px 0px 0px 0px;
+    padding: 1px 5px 0px 5px;
+    height: 16px;
+    width: 30px;
+}
+
+#turnPageBtn {
+    background: #FFFFFF url(../../../../../images/skin/shadow.jpg) bottom repeat-x;
+    border: 1px solid #CCCCCC;
+    color: #666666;
+    font-size: 12px;
+    margin-top: 5px;
+    overflow: hidden;
+    padding-top: 2px;
+}
+
+.x_daohang {
+    margin: 2px 2px 2px 20px;
+}
+
+.x_daohang a:link, .x_daohang a:visited {
+    color: #333333 !important;
+    font-weight: normal !important;
+    margin-left: 2px;
+    margin-right: 2px;
+    text-decoration: none;
+}
+
+.x_daohang a:hover {
+    color: blue !important;
+    text-decoration: underline;
+}
+
+/* add by xyb  */
+.x_wlds {
+    background: url(/images/skin/wlds.gif) no-repeat left center;
+}
+
+.x_zbkt {
+    background: url(/images/skin/zbkt.gif) no-repeat left center;
+}
+
+.x_content_llph_courseBcast {
+    float: left;
+    text-align: left;
+    width: 160px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.x_content_llph_courseBcastPlay {
+    float: right;
+    text-align: right;
+    width: 30px;
+    overflow: hidden;
+    cursor: pointer;
+    margin-top: 7px;
+}
+
+#videoDiv {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+#video1 {
+    width: 640px;
+    height: 352px;
+}
+

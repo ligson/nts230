@@ -1,0 +1,30 @@
+.boful_image_box {
+    width: 100%;
+    overflow: hidden;
+    height: 200px;
+}
+
+.img1_inner {
+    width: 100%;
+    height: 200px;
+    text-align: left;
+    position: absolute;
+}
+
+.boful_inner_div {
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    opacity: 0.8;
+}
+
+.boful_inner_div div {
+    width: 100%;
+    height: 40px;
+    padding: 0;
+    background-color: #000000;
+    color: #FFFFFF;
+}

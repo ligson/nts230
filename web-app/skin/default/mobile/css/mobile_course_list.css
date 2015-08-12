@@ -1,0 +1,163 @@
+.boful_coures_item_image{
+    height: 12.5em;
+    box-shadow: 0 1px 1px #ABABAB;
+    display: block;
+    overflow: hidden;
+}
+.boful_coures_item_present{
+    height: auto;
+    margin-top: 0.5em;
+}
+.boful_coures_item_present_title{
+    height: 3em;
+}
+.boful_coures_item_present_title a{
+    line-height: 3em;
+    color: #333;
+    width: 33%;
+    height: 3em;
+    float: left;
+    background: #FFF;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+.boful_coures_item_present_title a:hover{
+    background: #319b89;
+    color: #FFF;
+}
+.boful_coures_item_image_bg{
+    margin-top: 10.5em;
+    width: 96%;
+    height: 2em;
+    background: #333;
+    position: absolute;
+    z-index: 3;
+    opacity: 0.8;
+    display: block;
+    overflow: hidden;
+}
+.boful_coures_item_image_title{
+    height: 2em;
+    line-height: 2em;
+    margin-top: 10.5em;
+    position: absolute;
+    z-index: 4;
+    color: #FFF;
+}
+.boful_coures_item_present_infor{
+    background: #FFF;
+    font-size: 0.875em;
+    box-shadow: 0 1px 1px #ABABAB;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    border-radius: 0.25em;
+}
+.ingfor_course_number{
+    width: 20%;
+    height: 3em;
+    line-height: 3em;
+    display: block;
+    overflow: hidden;
+    float: left;
+}
+.boful_coures_item_present_infor_list{
+    border-bottom: 1px #ebebeb solid;
+    padding: 0   0.4em;
+    display: block;
+    overflow: hidden;
+}
+.boful_coures_item_present_infor_list:hover{
+    color: #39A53E;
+    background: #e6f5f5;
+}
+.boful_coures_item_present_infor_list p{
+    font-size: 1em;
+    line-height: 3em;
+    margin: 0;
+    width: 60%;
+    height: 3em;
+    float: left;
+}
+.ingfor_course_paly{
+    background: url("../images/boful_course_content_time_icon1.png") center no-repeat;
+    height: 1.4em;
+    padding-left: 1.5em;
+    line-height: 1.4em;
+    margin-top: 0.7em;
+    width: 10%;
+    color: #999;
+    float: right;
+    display: block;
+    overflow: hidden;
+}
+.course_sup_word,
+.course_sup_voice,
+.course_sup_img{
+    width: 24px;
+    height: 24px;
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+.course_sup_word{
+    margin: 0.2em 0 0 0.2em;
+    background:url("../images/course_sup_word.png") center no-repeat ;
+}
+.course_sup_voice{
+    margin: 0.2em 0 0 0.2em;
+    background: url("../images/course_sup_voice.png") center no-repeat;
+}
+.course_sup_img{
+    margin: 0.2em 0 0 0.2em;
+    background: url("../images/course_sup_image.png") center no-repeat;
+}
+.boful_coures_item_present_add_sup:hover{
+    color: #39a53e;
+    background: #e6f5f5;
+}
+.boful_coures_item_present_add_sup p{
+    width: 90%;
+    height: 2em;
+    text-align: left;
+    margin: 0.5em 0;
+    padding: 0.2em 0;
+    /*border-bottom: 1px #ebebeb dashed;*/
+    font-size: 0.875em;
+    line-height: 2em;
+    padding-left: 3em;
+}
+.coures_name_introduce{
+    border-radius: 0.25em 0 0 0.25em;
+    /*border: 1px #d0d0d0 solid;*/
+}
+
+/*.coures_name_introduce:hover,
+.coures_name_add:hover{
+    border: 1px #39a53e solid;
+}*/
+.coures_name_add {
+    border-radius: 0 0.25em 0.25em 0;
+    /*border: 1px #d0d0d0 solid;*/
+}
+.coures_name_list{
+    /*border-top: 1px #d0d0d0 solid;
+    border-bottom:1px #d0d0d0 solid ;*/
+}
+.coures_name_list:hover{
+    /*border-bottom: 1px #39a53e solid;
+    border-top: 1px #39a53e solid;*/
+}
+.boful_coures_item_present_infor_lists a{
+    color: #333;
+    text-decoration: none;
+}
+.boful_coures_item_present_infor_conteng td{
+    line-height: 1.5em;
+    height: 1.5em;
+    text-align: left;
+}
+.boful_coures_item_present_infor_conteng table{
+    width: 100%;
+}

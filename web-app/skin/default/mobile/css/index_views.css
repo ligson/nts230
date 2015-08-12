@@ -1,0 +1,431 @@
+@charset "utf-8";
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/
+*/
+img, object, embed, video {
+    max-width: 100%;
+}
+
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+    width: 100%;
+}
+
+/*
+	Dreamweaver Fluid Grid Properties
+	----------------------------------
+	dw-num-cols-mobile:		9;
+	dw-num-cols-tablet:		8;
+	dw-num-cols-desktop:	12;
+	dw-gutter-percentage:	25;
+
+	Inspiration from "Responsive Web Design" by Ethan Marcotte
+	http://www.alistapart.com/articles/responsive-web-design
+
+	and Golden Grid System by Joni Korpi
+	http://goldengridsystem.com/
+*/
+
+.fluid {
+    clear: both;
+    margin-left: 0;
+    width: 100%;
+    float: left;
+    display: block;
+}
+
+.fluidList {
+    list-style: none;
+    list-style-image: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Mobile Layout: 480px and below. */
+
+.gridContainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95.8222%;
+    padding-left: 1.0888%;
+    padding-right: 1.0888%;
+    clear: none;
+    float: none;
+}
+
+/*.fluid img {
+    width: 100%;
+}*/
+
+#div1 {
+    margin-left: 0;
+    margin-top: 1em;
+    clear: both;
+    width: 32%;
+}
+
+#div2 {
+    margin-left: 1%;
+    margin-top: 1em;
+    clear: none;
+    width: 33%;
+}
+
+#div3 {
+    margin-left: 1%;
+    clear: none;
+    margin-top: 1em;
+    width: 33%;
+}
+
+#div4 {
+    margin-left: 0;
+    clear: both;
+    width: 32%;
+}
+
+#div5 {
+    margin-left: 1%;
+    clear: none;
+    width: 33%;
+}
+
+#div6 {
+    margin-left: 1%;
+    clear: none;
+    width: 33%;
+}
+
+#div7 {
+    margin-left: 0;
+    clear: both;
+    width: 32%;
+    margin-top: 1em;
+}
+
+#div8 {
+    margin-left: 1%;
+    clear: none;
+    width: 33%;
+    margin-top: 1em;
+}
+
+#div9 {
+    margin-left: 1%;
+    clear: none;
+    width: 33%;
+    margin-top: 1em;
+}
+
+#div10 {
+    margin-left: 0;
+    clear: both;
+    width: 32%;
+}
+
+#div11 {
+    margin-left: 1%;
+    clear: none;
+    width: 33%;
+}
+
+#div12 {
+    margin-left:1%;
+    clear: none;
+    width: 33%;
+}
+#div13{
+    margin-left: 0;
+    clear: both;
+    width: 32%;
+    margin-top: 1em;
+}
+#div14{
+    margin-left: 1%;
+    clear: none;
+    width: 33%;
+    margin-top: 1em;
+}
+#div15{
+    margin-left: 1%;
+    clear: none;
+    width: 33%;
+    margin-top: 1em;
+}#div16{
+    margin-left: 0;
+    clear: both;
+    width: 32%;
+}
+#div17{
+    margin-left: 1%;
+    clear: none;
+    width: 33%;
+}
+#div18{
+    margin-left: 1%;
+    clear: none;
+    width: 33%;
+}
+
+.zeroMargin_mobile {
+    margin-left: 0;
+}
+
+.hide_mobile {
+    display: none;
+}
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+
+    .gridContainer {
+        width: 95.55%;
+        padding-left: 1.225%;
+        padding-right: 1.225%;
+        clear: none;
+        float: none;
+        margin-left: auto;
+    }
+
+    #div1 {
+        margin-left: 0;
+        clear: both;
+        width: 32%;
+    }
+
+    #div2 {
+        margin-left: 2%;
+        clear: none;
+        width: 32%;
+    }
+
+    #div3 {
+        margin-left: 2%;
+        clear: none;
+        width: 32%;
+    }
+
+    #div4 {
+        margin-left: 0;
+        clear: both;
+        width: 32%;
+    }
+
+    #div5 {
+        margin-left: 2%;
+        clear: none;
+        width: 32%;
+    }
+
+    #div6 {
+        margin-left: 2%;
+        clear: none;
+        width: 32%;
+    }
+
+    #div7 {
+        margin-left: 0;
+        clear: both;
+        width: 32%;;
+    }
+
+    #div8 {
+        margin-left: 2%;
+        clear: none;
+        width: 32%;;
+    }
+
+    #div9 {
+        margin-left: 2%;
+        clear: none;
+        width: 32%;;
+    }
+
+    #div10 {
+        margin-left: 0;
+        clear: both;
+        width: 32%;
+    }
+
+    #div11 {
+        margin-left: 2%;
+        clear: none;
+        width: 32%;
+    }
+
+    #div12 {
+        margin-left: 2%;
+        clear: none;
+        width: 32%;
+    }
+    #div13{
+        margin-left: 0;
+        clear: both;
+        width: 32%;
+    }
+    #div14{
+        margin-left: 2%;
+        clear: none;
+        width: 32%;
+    }
+    #div15{
+        margin-left: 2%;
+        clear: none;
+        width: 32%;
+    }
+
+    /*  #div1 {
+          width: 23.0769%;
+          clear: both;
+          margin-left: 0;
+      }
+      #div2 {
+          width: 23.0769%;
+          clear: none;
+          margin-left: 2.5641%;
+      }
+      #div3 {
+          width: 23.0769%;
+          clear: none;
+          margin-left: 2.5641%;
+      }
+      .fluid img{
+          width: 150%;
+      }
+      #div4 {
+          width: 23.0769%;
+          clear: both;
+          margin-left: 0;
+      }
+      #div5 {
+          width: 23.0769%;
+          clear: none;
+          margin-left: 2.5641%;
+      }
+      #div6{
+          width: 23.0769%;
+          clear: none;
+          margin-left: 2.5641%;
+      }*/
+    .zeroMargin_tablet {
+        margin-left: 0;
+    }
+
+    .hide_tablet {
+        display: none;
+    }
+
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+
+    .gridContainer {
+        width: 96.3666%;
+        max-width: 1232px;
+        padding-left: 0.8166%;
+        padding-right: 0.8166%;
+        margin: auto;
+        clear: none;
+        float: none;
+        margin-left: auto;
+    }
+
+    #div1 {
+        width: 23.7288%;
+        clear: both;
+        margin-left: 0;
+    }
+
+    #div3 {
+        width: 23.7288%;
+        clear: none;
+        margin-left: 1.6949%;
+    }
+
+    #div2 {
+        width: 23.7288%;
+        clear: none;
+        margin-left: 1.6949%;
+    }
+
+    #div4 {
+        width: 23.7288%;
+        clear: none;
+        margin-left: 1.6949%;
+    }
+
+    #div5 {
+        width: 23.7288%;
+        clear: both;
+        margin-left: 0;
+    }
+
+    #div6 {
+        width: 23.7288%;
+        clear: none;
+        margin-left: 1.6949%;
+    }
+
+    #div7 {
+        width: 23.7288%;
+        clear: both;
+        margin-left: 0;
+    }
+
+    #div8 {
+        width: 23.7288%;
+        clear: none;
+        margin-left: 1.6949%;
+    }
+
+    #div9 {
+        width: 23.7288%;
+        clear: none;
+        margin-left: 1.6949%;
+    }
+
+    #div10 {
+        width: 23.7288%;
+        clear: none;
+        margin-left: 0;
+    }
+
+    #div11 {
+        width: 23.7288%;
+        clear: none;
+        margin-left: 1.6949%;
+    }
+
+    #div12 {
+        width: 23.7288%;
+        clear: none;
+        margin-left: 1.6949%;
+    }
+    #div13{
+        width: 23.7288%;
+        clear: both;
+        margin-left: 0;
+    }
+    #div14{
+        width: 23.7288%;
+        clear: none;
+        margin-left: 1.6949%;
+    }
+    #div15{
+        width: 23.7288%;
+        clear: none;
+        margin-left: 1.6949%;
+    }
+
+    .zeroMargin_desktop {
+        margin-left: 0;
+    }
+
+    .hide_desktop {
+        display: none;
+    }
+}

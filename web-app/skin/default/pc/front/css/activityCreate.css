@@ -1,0 +1,15 @@
+
+.activityCreate_content {
+    /*width: 683px;*/
+    width: 710px;
+    padding: 0 20px;
+}
+
+.creat_chose_mode {
+    width: 120px;
+}
+
+.creat_chose_mode select {
+    float: left;
+    width: 60px;
+}

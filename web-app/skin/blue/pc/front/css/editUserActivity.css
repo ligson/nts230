@@ -1,0 +1,36 @@
+.boful_activity_fix_infor tr {
+    border-bottom: 1px solid #F4F4F4;
+
+}
+
+.boful_activity_fix_infor td {
+    vertical-align: top;
+    font-size: 16px;
+    color: #333333;
+    line-height: 36px;
+    text-align: left;
+    border-bottom: 1px solid #F4F4F4;
+}
+
+.boful_activity_fix_infor {
+    width: 1002px;
+}
+
+.boful_activity_fix_infor th {
+    font-size: 16px;
+    border: 0;
+    font-weight: normal;
+    background: #FFFFFF;
+    border-bottom: 1px solid #F4F4F4;
+}
+
+.boful_activity_fix_infor th, .boful_activity_fix_infor td {
+    padding: 15px 10px;
+}
+
+.inputwitdh {
+    width: 400px;
+    height: 26px;
+    line-height: 36px;
+    padding: 5px;
+}

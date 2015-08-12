@@ -1,0 +1,311 @@
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    background: #E9E9E9;
+    color: #666;
+    font: 12px Arial, Helvetica, sans-serif, '新宋体';
+    font: 12px/15px "Lucida Sans Unicode", "Lucida Grande", sans-serif, '新宋体';
+    text-align: center;
+}
+
+body > div {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+div, form, ul, ol, li, span, p, dl, dt, dd, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+em {
+    font-style: normal
+}
+
+ul, ol, li {
+    list-style: none
+}
+
+table, td, input, textarea {
+    font-size: 12px
+}
+
+/* ������ɫ */
+a {
+    color: #5a5a5a;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2071A1;
+}
+
+/* ���� */
+h2 {
+    text-align: right;
+}
+
+.clear, .area {
+    zoom: 1
+}
+
+.hidden {
+    display: none;
+}
+
+.area {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.areabg {
+    background-color: #fff
+}
+
+.areabg1 {
+    background-color: #fff;
+    padding-bottom: 20px;
+    padding-top: 8px;
+}
+
+.area:after, .clear:after {
+    content: ".";
+    display: block;
+    visibility: hidden;
+    height: 0;
+    clear: both;
+}
+
+/* �����б����� */
+
+/* �������� */
+.left, .l, .right, .r {
+    display: inline;
+    float: left;
+}
+
+.top {
+    margin-top: 15px;
+}
+
+.right, .r {
+    float: right;
+}
+
+#logoFocus .search {
+    background: url(head/top.png) no-repeat;
+}
+
+.logoFull {
+    background: url(head/top1.png) repeat-x;
+}
+
+#logoFocus {
+    color: #d8d8d8;
+}
+
+.logoheard {
+    height: 160px;
+}
+
+#logoFocus .left {
+    width: 215px;
+    height: 29px;
+    float: left;
+    margin: 2px 0 0;
+}
+
+#logoFocus .right {
+    width: 765px;
+    height: 32px;
+    float: right;
+    line-height: 29px;
+    margin: 4px 0 0;
+}
+
+#logoFocus .navList {
+    width: 316px;
+}
+
+#logoFocus .navList .nv {
+    float: left;
+    width: 310px;
+    color: #FFF;
+}
+
+#logoFocus .navList .nv a {
+    color: #FFF;
+}
+
+#logoFocus .search {
+    width: 191px;
+    height: 25px;
+    background-position: -38px 0px;
+    position: relative;
+    z-index: 1;
+}
+
+#logoFocus .search .tx {
+    width: 140px;
+    height: 18px;
+    *height: 25px;
+    padding: 0 0 1px 5px;
+    *padding: 0 0 0 5px;
+    border: 0;
+    color: #c1c1c1;
+    line-height: 25px;
+    background: none;
+}
+
+#logoFocus .search .btn {
+    cursor: pointer;
+    width: 40px;
+    height: 25px;
+    border: 0;
+    background: none;
+    color: #666666;
+    line-height: 25px;
+}
+
+#logoFocus .login {
+    position: relative;
+    width: 252px;
+    height: 28px;
+    text-align: right;
+    z-index: 200;
+    color: #FFF;
+}
+
+#logoFocus .login a {
+    color: #FFF;
+}
+
+/*--------------------*/
+.center {
+    margin: 0px auto;
+}
+
+.w960 {
+    width: 980px; /*position:relative;*/
+}
+
+.clear {
+    overflow: hidden;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.margtop {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.padtop {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*----ͷ��ͼƬ-----*/
+.header {
+    width: 980px;
+    height: 140px;
+    background-image: url(head/header.gif);
+}
+
+/*------�˵�--------*/
+.menu ul {
+    float: left;
+}
+
+.menu ul li {
+    float: left;
+    margin-right: 40px;
+}
+
+.menu ul li a {
+    font: 18px "΢���ź�", Verdana, Arial, Tahoma;
+    color: #FFF;
+    line-height: 60px;
+}
+
+.menu ul li.hover {
+    background-image: url(head/menua_bg.gif);
+    text-decoration: none;
+    display: inline-block;
+    width: 120px;
+    height: 69px;
+    text-align: center;
+    position: relative;
+}
+
+.menu ul li.hover a {
+    color: #010101;
+    font-weight: bold;
+}
+
+.menu_right {
+    float: right;
+}
+
+.menu_right img {
+    text-decoration: none;
+    border: none;
+}
+
+/*---------��������ʽ��-----------*/
+.Search {
+}
+
+.Search a.gjserch {
+    color: #FFF;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.serch_reg {
+    color: #FFF;
+    font-size: 14px;
+    margin-left: 5px;
+    margin-left: 60px;
+    padding-top: 5px;
+}
+
+.serch_reg a {
+    color: #FFF;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+/*---------ҳ��------------*/
+.footer {
+    margin: 20px 0px 20px 0px;
+    height: 60px;
+}
+
+.footer_menu, .Copyright {
+    line-height: 26px;
+    text-align: center;
+    color: #B29EB9;
+    font-size: 14px;
+}
+
+.footer_menu a, .Copyright a {
+    color: #B29EB9;
+    font-size: 14px;
+}

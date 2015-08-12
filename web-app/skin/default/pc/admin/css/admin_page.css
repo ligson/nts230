@@ -1,0 +1,64 @@
+.currentStep {
+    background: #095686;
+    border: #095686 1px solid;
+    margin: 0 3px;
+    padding: 7px 12px;
+    border-radius: 2px;
+    font-size: 12px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.num, .guipa {
+    background: #FFFFFF;
+    border: #DBDADA 1px solid;
+    margin: 0 3px;
+    color: #303030;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 7px 12px;
+    border-radius: 2px;
+}
+
+.num:hover {
+    background: #C3E7FB;
+    border: #85C0DF 1px solid;
+    color: #095686;
+}
+
+.guipa:hover {
+    background: #C3E7FB;
+    border: #85C0DF 1px solid;
+    color: #095686;
+}
+
+.ser_a {
+    color: #FFFFFF;
+    display: block;
+    overflow: hidden;
+}
+
+.bace_infor {
+    width: 60px;
+    height: 20px;
+    float: left;
+    line-height: 20px;
+    color: #2E5B88;
+    padding: 0 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    display: block;
+    overflow: hidden;
+}
+
+/*---------------2014-11-19, 资源分类多选样式引用-------------*/
+.boful_resources_classall_delete {
+    background: url("../images/boful_resources_classall_delete_icon.png") no-repeat;
+    width: 15px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    float: right;
+    display: block;
+    overflow: hidden;
+}

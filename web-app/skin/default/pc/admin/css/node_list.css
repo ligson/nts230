@@ -1,0 +1,96 @@
+.tree_left {
+    min-height: 490px;
+    margin: 5px;
+    width: 200px;
+    padding-top: 10px;
+    float: left;
+    background: #F8F8F8;
+}
+
+.buttons {
+    display: block;
+    overflow: hidden;
+}
+
+.tree_content {
+    float: left;
+    background: #F8F8F8;
+    height: 480px;
+    width: 400px;
+    margin: 5px 5px 5px 0;
+    padding: 10px;
+}
+
+.tree_content_but {
+    height: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px #DBDBDB solid;
+}
+
+.content_but {
+    color: #2E5B88;
+    background: url("../images/but_4.png") repeat-x;
+    padding: 3px 15px;
+    border: 1px solid #8FB2DA;
+    border-radius: 3px;
+    overflow: visible;
+    cursor: pointer;
+}
+
+.content_but:hover {
+    background: url("../images/but_3.png") repeat-x;
+    padding: 3px 15px;
+    cursor: pointer;
+}
+
+.buttons_right {
+    float: right;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.dialog tr {
+    height: 25px;
+}
+
+.dialog td,
+.dialog td input {
+    line-height: 25px;
+}
+
+.dialog input {
+    width: 180px;
+}
+
+.dialog td {
+    margin-top: 10px;
+}
+
+.content_bu {
+    color: #8B4003;
+    border-radius: 3px;
+    background-image: url(../images/but1.png);
+    text-align: center;
+    height: 25px;
+    width: 70px;
+    padding-top: 2px;
+    border: 0;
+    overflow: visible;
+    cursor: hand;
+}
+
+.content_bu:hover {
+    background: url("../images/but2.png");
+    height: 25px;
+    width: 70px;
+}
+
+.dialog td {
+    height: 35px;
+}
+
+#createRootServerNodeDialog .ui-widget-content input {
+    margin: 5px 0;
+    padding: 5px;
+    height: 20px;
+}

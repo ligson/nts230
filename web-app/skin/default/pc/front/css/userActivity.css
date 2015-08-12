@@ -1,0 +1,240 @@
+/*925活动详细页面样式*/
+.js925 {
+    float: left;
+    width: 750px
+}
+
+.js925 h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #FF6600;
+    text-align: center;
+    line-height: 28px
+}
+
+.js925 p {
+    text-align: center;
+    color: #333333
+}
+
+.js925 p a:hover {
+    background: #CCCCCC;
+    color: #FFFFFF
+}
+
+.js925 DL {
+    FLOAT: left;
+    margin: 10px
+}
+
+.js925 DL IMG {
+    MARGIN-TOP: 5px;
+    FLOAT: left;
+    MARGIN-RIGHT: 4px;
+    width: 280px;
+    height: 200px
+}
+
+.js925 DL DD {
+    FLOAT: left;
+    FONT-SIZE: 12px;
+    border: none;
+    margin-left: 6px;
+    margin-right: 3px;
+    width: 420px
+}
+
+.js925 DL DD span {
+    float: left;
+    width: 400px;
+    line-height: 24px
+}
+
+.js925 dl dd .cy925 {
+    background: url(../../../../../images/xiazai.gif) no-repeat left top;
+    width: 80px;
+    height: 23px;
+    text-align: center;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    float: left;
+    margin-top: 6px
+}
+
+#list_ifo929 {
+    padding: 10px;
+    line-height: 20px;
+    overflow: hidden;
+}
+
+.js925img {
+    border: none;
+    position: relative;
+}
+
+.js925img1 {
+    border: none;
+    position: relative;
+    width: 700px;
+}
+
+.hot_play {
+    position: relative;
+}
+
+.hot_play ul {
+    float: left;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.hot_play li {
+    float: left;
+    position: relative;
+    width: 172px;
+    height: 238px;
+    margin: 4px 4px 10px 5px;
+    overflow: hidden;
+    border: 1px solid #E5E5E5;
+    background-color: #F7F7F7;
+}
+
+.hot_play li p {
+    text-align: left;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+
+.hot_play li p a {
+    font-size: 14px;
+}
+
+.hot_play a img {
+    width: 150px;
+    height: 155px;
+    padding: 2px;
+    border: 0px solid #CFCFCF;
+    padding: 8px;
+}
+
+.hot_play a:hover img {
+
+}
+
+.hot_play span {
+    display: block;
+    width: 60px;
+    height: 65px;
+    position: absolute;
+    top: 0px;
+}
+
+.hot_play span.back1 {
+    background: url(/images/1.png) no-repeat;
+    left: 114px;
+}
+
+.hot_play span.back2 {
+    background: url(/images/2.png) no-repeat;
+    left: 122px;
+}
+
+.hot_play span.back3 {
+    background: url(/images/3.png) no-repeat;
+    left: 128px;
+}
+
+.hot_play span.back4 {
+    background: url(/images/4.png) no-repeat;
+    left: 125px;
+}
+
+.hot_play span.back5 {
+    background: url(/images/5.png) no-repeat;
+    left: 125px;
+}
+
+.hot_play span.back6 {
+    background: url(/images/6.png) no-repeat;
+    left: 125px;
+}
+
+.hot_play span.back7 {
+    background: url(/images/7.png) no-repeat;
+    left: 125px;
+}
+
+.hot_play span.back8 {
+    background: url(/images/8.png) no-repeat;
+    left: 125px;
+}
+
+.hot_play span.back9 {
+    background: url(/images/bt01.gif) no-repeat;
+    left: 142px;
+    top: 208px;
+    text-align: center;
+    width: 30px;
+    height: 24px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.back1012 {
+    background: url(/images/bt01.gif) no-repeat;
+    left: 142px;
+    top: 208px;
+    text-align: center;
+    width: 30px;
+    height: 24px;
+    line-height: 24px;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+.hot_play span.back9 a {
+    color: #FFFFFF;
+}
+
+#td_img {
+    border: 1px solid #DFDFDF;
+    width: 280px;
+    height: 205px;
+}
+
+#td_img a img {
+    width: 265px;
+    height: 190px;
+    padding: 2px;
+    border: 0px solid #CFCFCF;
+    padding: 2px 2px 2px 8px;
+}
+
+.hot_play span.img_txt {
+    position: absolute;
+    display: block;
+    width: 148px;
+    height: 30px;
+    top: 133px;
+    text-align: right;
+    color: #FFFFFF;
+    background: #000000;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #FFFFFF;
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.6;
+    opacity: 0.6;
+    font: bold 12px/30px Verdana, Arial;
+    padding-right: 2px;
+    cursor: hand;
+    margin-left: 11px;
+}
+
+.hot_play a:hover span.img_txt {
+    text-decoration: none;
+    text-align: right;
+}

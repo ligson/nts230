@@ -1,0 +1,1509 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #333333;
+}
+
+h3 {
+    margin: 0;
+}
+
+.boful_course {
+    background: #E0E1E1;
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+/*.boful_course_play,
+.boful_course_play_describe,
+.boful_course_play_content_about,
+.boful_course_play_class_all {
+    box-shadow: 0 1px 3px #C2C2C2;
+
+}*/
+
+.boful_course_name {
+    height: 44px;
+    width: 1024px;
+    padding: 8px 0;
+    line-height: 40px;
+}
+
+.boful_course_name_box {
+    width: 900px;
+    height: 60px;
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_course_name_download {
+    width: 80px;
+    height: 44px;
+    float: right;
+}
+
+.course_download_icon {
+    width: 40px;
+    height: 25px;
+    background: url("../images/course_download_name_icon.png") center no-repeat;
+    display: block;
+    overflow: hidden;
+}
+
+.course_download_name {
+    width: 40px;
+    height: 12px;
+    line-height: 12px;
+    margin-top: 3px;
+    font-size: 11px;
+    color: #A7A7A7;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_course_name_title a {
+    font-weight: normal;
+    height: 20px;
+    float: left;
+    line-height: 20px;
+    text-align: left;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_course_name_download a {
+    width: 38px;
+    padding: 0 20px;
+    text-align: center;
+    border-left: 1px solid #D4D4D4;
+    border-right: 1px solid #D4D4D4;
+    height: 60px;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_course_name_download a:hover {
+    background: #F3F3F3;
+}
+
+.boful_course_name_title a:hover {
+    text-decoration: underline;
+}
+
+.course_name_frist, .course_name_second {
+    font-size: 14px;
+    color: #868585;
+}
+
+.boful_course_name_title {
+    width: 1024px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.boful_course_name p {
+    padding: 0;
+    height: 20px;
+    margin-top: 3px;
+    line-height: 20px;
+    font-size: 16px;
+    float: left;
+    color: #333333;
+}
+
+.boful_course_play {
+    width: 1024px;
+    height: 480px;
+    box-shadow: 0 0 20px #000000;
+}
+
+.boful_course_play_window {
+    width: 720px;
+    height: 480px;
+    float: left;
+}
+
+.course_mark {
+    background: url("../images/course_dd_r.png") center no-repeat;
+    float: left;
+    height: 20px;
+    width: 10px;
+    margin: 0 5px;
+    display: block;
+    overflow: hidden;
+}
+
+/*.boful_course_play_window img {
+    width: 720px;
+    height: 480px;
+}*/
+
+/*.boful_course_play_meau {
+    width: 297px;
+    height: 470px;
+    background: #232323;
+    padding: 5px 0 5px 7px;
+    float: left;
+    overflow: hidden;
+}
+
+.boful_course_play_list {
+    width: 279px;
+    margin: 0;
+    height: 470px;
+    float: left;
+    overflow: hidden;
+}
+
+.boful_course_play_list_sup {
+    width: 269px;
+    height: 60px;
+    padding: 5px;
+    background: #383838;
+    margin-bottom: 1px;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_course_play_list_sup:hover {
+    background: #232323;
+}
+
+.boful_course_play_list_img {
+    width: 150px;
+    height: 60px;
+    float: left;
+}
+
+.boful_course_play_list_img img {
+    width: 150px;
+    height: 60px;
+    float: left;
+}
+
+.boful_course_play_list_infor {
+    width: 114px;
+    height: 60px;
+    margin-left: 5px;
+    float: left;
+}
+
+.boful_course_play_list_infor h2 {
+    font-weight: normal;
+    font-size: 12px;
+    color: #FFF;
+    height: 30px;
+    text-align: left;
+    line-height: 15px;
+    margin: 0;
+    overflow: hidden;
+}
+
+.boful_course_play_list_infor h2:hover {
+    color: #ea8717;
+}
+
+.boful_course_play_list_infor p,
+.boful_course_play_list_infor p span {
+    font-size: 12px;
+    height: 20px;
+    margin: 5px 0 0 5px;
+    line-height: 20px;
+    color: #7b7b7b;
+}*/
+
+.boful_course_play_list_scrollbar {
+    width: 16px;
+    height: 480px;
+    margin: 0 1px;
+    float: left;
+    background: #303030;
+}
+
+/*------简介------*/
+.boful_course_play_content_left {
+    width: 720px;
+    float: left;
+}
+
+.boful_course_play_describe {
+    background: #FFFFFF;
+    width: 700px;
+    padding: 25px 10px;
+    height: 125px;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_course_play_describe h1 {
+    font-size: 16px;
+    text-align: left;
+    height: 20px;
+    font-weight: normal;
+}
+
+.boful_course_play_describe_infor {
+    height: 30px;
+}
+
+.cou_mar {
+    -top: 29px;
+}
+
+.boful_course_play_describe_infor_starts {
+    height: 30px;
+    width: 180px;
+    float: left;
+}
+
+.boful_course_content_directory_question {
+    margin: 0;
+}
+
+.boful_course_content_directory_play h1 {
+    margin: 10px 0 0 0;
+}
+
+.boful_course_play_describe_infor_user {
+    height: 30px;
+    float: left;
+    margin-left: 30px;
+}
+
+.boful_course_play_describe_infor_user p {
+    float: left;
+    line-height: 30px;
+    margin-right: 15px;
+}
+
+.boful_course_play_describe_infor_start,
+.boful_course_play_describe_infor_talk {
+    float: left;
+    line-height: 30px;
+}
+
+.boful_course_play_describe_infor_talk {
+    color: #999999;
+    font-size: 12px;
+    height: 30px;
+    line-height: 25px;
+}
+
+.boful_course_detail_name {
+    color: #319B98;
+    font-size: 12px;
+}
+
+.boful_course_play_describe_words {
+    background: #FBE9C7;
+    color: #78644D;
+    font-size: 12px;
+    padding: 5px;
+    height: 85px;
+    margin-bottom: 5px;
+}
+
+.boful_course_play_content_left {
+    background: #FFFFFF;
+    width: 720px;
+    float: left;
+    border-right: 1px solid #D4D4D4;
+}
+
+.directory_mgr {
+    display: block;
+    overflow: hidden;
+}
+
+.boful_course_play_content_right {
+    width: 289px;
+    height: auto;
+    margin: 15px 0 0 15px;
+    float: left;
+}
+
+.boful_course_play_content_about {
+    height: 115px;
+    padding: 10px 0;
+    margin-bottom: 15px;
+    background: #FFFFFF;
+}
+
+.boful_c_pad {
+    padding-top: 50px;
+}
+
+.boful_course_play_content_user_portrait {
+    width: 115px;
+    height: 115px;
+    float: left;
+    margin-left: 10px;
+}
+
+.boful_course_play_content_user_infor1 {
+    height: 115px;
+    width: 150px;
+    padding: 0;
+    margin-left: 10px;
+    float: left;
+}
+
+.boful_course_play_content_user_infor1 p {
+    height: 105px;
+    font-size: 12px;
+    color: #5C5C5C;
+    line-height: 16px;
+    text-indent: 2em;
+    margin: 5px 0;
+}
+
+.boful_course_user_names {
+    font-size: 14px;
+    width: 150px;
+    color: #78644D;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_course_botm {
+    padding-bottom: 25px;
+    background: #22272E;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_course_play_class_all {
+    width: 720px;
+    height: auto;
+}
+
+.course_play_user_massage {
+    height: 28px;
+    padding: 5px 0;
+}
+
+.course_play_user_massage img {
+    float: left;
+    height: 28px;
+    width: 28px;
+}
+
+.course_play_user_massage p {
+    float: left;
+    width: 650px;
+    height: 28px;
+    padding: 0 10px;
+}
+
+.boful_course_names_bgs {
+    width: 100%;
+    background-color: #F4F4F4;
+    border-color: #D2D2D2;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #F4F4F4), color-stop(100%, #D2D2D2));
+    background-image: -webkit-linear-gradient(top, #F4F4F4 0%, #D2D2D2 100%);
+    background-image: -moz-linear-gradient(top, #F4F4F4 0%, #D2D2D2 100%);
+    background-image: -o-linear-gradient(top, #F4F4F4 0%, #D2D2D2 100%);
+    background-image: linear-gradient(top, #F4F4F4 0%, #D2D2D2 100%);
+}
+
+.note_master_write {
+    width: 245px;
+    float: right;
+}
+
+.note_master_write_fnamerom {
+    width: 150px;
+    float: right;
+}
+
+.note_master_write_fnamerom,
+.note_master_write_fnamerom,
+.note_master_write_fnamerom span {
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    color: #999999;
+    float: right;
+    text-align: right;
+    display: block;
+    overflow: hidden;
+}
+
+.note_master_write_fnamerom span {
+    float: right;
+}
+
+.note_name_m {
+    float: right;
+}
+
+.course_play_user_massage_name {
+    color: #319B98;
+    line-height: 28px;
+    width: 120px;
+    font-size: 12px;
+    float: left;
+    text-align: left;
+}
+
+.course_play_user_massage_name a {
+    color: #53A93F;
+}
+
+.course_play_top_m {
+    margin-top: 20px;
+}
+
+.boful_course_play_class_items {
+    padding: 5px 0;
+    border-top: #D2D3D3 1px solid;
+}
+
+.course_play_user_massage_time {
+    color: #999999;
+    line-height: 28px;
+    font-size: 12px;
+    float: right;
+}
+
+.boful_course_play_class_item {
+    padding: 5px 10px;
+    border-bottom: #E4E3E3 1px dashed;
+    margin-top: 5px;
+}
+
+.course_play_user_massage_talk {
+    text-align: left;
+    text-indent: 3em;
+    font-size: 12px;
+    max-height: 50px;
+    padding: 5px;
+}
+
+.boful_video_player_information {
+    width: 1024px;
+    height: auto;
+    background: #FFFFFF;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_course_content_directory_column_talk {
+    padding: 15px 10px 5px 10px;
+    border-top: #D2D3D3 1px solid;
+}
+
+.boful_course_content_directory_column_talk h3 {
+    font-size: 14px;
+    color: #5C5C5C;
+    margin: 5px 0;
+    text-align: left;
+    font-weight: normal;
+}
+
+.column_talk_input {
+    width: 686px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #9ED388;
+    background: #FFFFFF;
+}
+
+.column_talk_input:hover {
+    border: 1px solid #37A508;
+}
+
+.column_talk_input_words {
+    width: 688px;
+    height: 90px;
+    padding: 5px;
+    border: #EFF7F0 1px solid;
+    background: #F0F2F0;
+    resize: none;
+}
+
+.column_talk_input_starts {
+    padding: 0 10px;
+    height: 25px;
+    margin: 10px 0;
+}
+
+.column_talk_input_start {
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    width: 245px;
+}
+
+.column_talk_input_but {
+    float: right;
+    width: 70px;
+    border: 0;
+    height: 25px;
+    background: #EF9632;
+    color: #FFFFFF;
+}
+
+.column_talk_input_but1 {
+    background: #37A508;
+    float: right;
+    width: 70px;
+    border: 0;
+    height: 25px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.column_talk_input_but:hover {
+    background: #F4A751;
+}
+
+.column_talk_input_start p {
+    color: #EF9632;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 15px;
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+
+.column_talk_input_userstart {
+    width: 190px;
+    height: 25px;
+    float: right;
+}
+
+.course_play_user_massage_title {
+    font-size: 12px;
+    color: #333333;
+    text-align: left;
+}
+
+.boful_course_content_directory_talk {
+    display: block;
+}
+
+.question_green {
+    font-size: 16px;
+    line-height: 22px;
+    padding-left: 25px;
+    height: 22px;
+    color: #37A508;
+    background: url("../images/quesion_icon.png") left no-repeat;
+    margin: 5px 0;
+    text-align: left;
+    font-weight: normal;
+}
+
+.course_play_user_massage_question {
+    text-align: left;
+    font-size: 14px;
+    max-height: 50px;
+    color: #3C5C3C;
+}
+
+.course_play_user_massage_question_infor {
+    height: 16px;
+    margin-top: 5px;
+}
+
+.course_question_user_massage {
+    height: 80px;
+    padding: 5px 0;
+}
+
+.course_play_user_massage_portrait {
+    width: 28px;
+    height: 60px;
+    padding: 1px;
+    float: left;
+}
+
+.course_play_user_massage_portrait img {
+    width: 28px;
+    height: 28px;
+    overflow: hidden;
+}
+
+.course_question_user_massage_con {
+    width: 650px;
+    float: left;
+    padding: 5px;
+    background: #F8F9F8;
+}
+
+.course_question_user_massage_con:hover {
+    background: #EFF3EF;
+}
+
+.course_question_user_massage_name {
+    color: #8DA88D;
+    line-height: 16px;
+    width: 120px;
+    font-size: 12px;
+    text-align: left;
+    float: left;
+}
+
+.course_question_user_massage_time {
+    color: #8DA88D;
+    line-height: 16px;
+    font-size: 12px;
+    float: right;
+}
+
+.course_question_user_massage_name a {
+    color: #37A508;
+}
+
+.course_question_user_massage_time a {
+    color: #758F75;
+}
+
+.other_querstion {
+    padding: 0 10px;
+}
+
+.course_question_user_massage_bod {
+    height: 70px;
+    padding: 5px 0;
+}
+
+.course_question_user_massage_cons {
+    width: 660px;
+    margin-left: 10px;
+    float: left;
+}
+
+.my_quesion {
+    height: 20px;
+    padding: 5px 0;
+    width: 660px;
+    display: block;
+    overflow: hidden;
+}
+
+.my_quesion a {
+    font-size: 12px;
+    color: #FFFFFF;
+    background: #BDD4B3;
+    text-align: center;
+    line-height: 20px;
+    width: 70px;
+    height: 20px;
+    float: right;
+    display: block;
+    overflow: hidden;
+}
+
+.my_quesion a:hover {
+    color: #FFFFFF;
+    background: #37A508;
+}
+
+.course_question_user_back {
+    width: 700px;
+    padding: 15px 10px;
+    border-bottom: #E4E3E3 1px dashed;
+    border-top: #FFFFFF 1px dashed;
+    background: #F8F9F8;
+}
+
+.course_question_back_input {
+    background: #F8F9F8;
+    padding: 5px;
+}
+
+.question_ye {
+    font-size: 14px;
+    line-height: 22px;
+    padding-left: 25px;
+    height: 22px;
+    color: #DF9D11;
+    background: url("../images/quesion_icon1.png") left no-repeat;
+    margin: 5px 0;
+    text-align: left;
+    font-weight: normal;
+}
+
+.question_content {
+    width: 680px;
+    border: 1px solid #E7E8E7;
+    height: 60px;
+    background: #FFFFFF;
+    resize: none;
+}
+
+.course_question_back_up {
+    height: 25px;
+    margin: 5px 0;
+    width: 700px;
+    display: block;
+    overflow: hidden;
+}
+
+.course_question_back_solution {
+    background: #DF9D11;
+    color: #FFFFFF;
+    text-align: center;
+    border: 0;
+    margin-right: 10px;
+    height: 25px;
+    float: right;
+    width: 80px;
+    cursor: pointer;
+}
+
+.course_question_back_solution:hover {
+    background: #F4B634;
+}
+
+.course_question_back_items {
+    width: 640px;
+    padding-left: 50px;
+    padding-right: 10px;
+}
+
+.course_question_back_item {
+    background: #FFFFFF;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #E7E8E7;
+}
+
+.course_question_back_item_infor {
+    height: 16px;
+}
+
+.course_question_back_item_con {
+    font-size: 12px;
+    color: #3C5C3C;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.course_question_back_item_con p {
+
+}
+
+.course_question_back_all {
+    font-size: 14px;
+    line-height: 22px;
+    padding-left: 55px;
+    height: 22px;
+    color: #333333;
+    margin: 5px 0;
+    text-align: left;
+    font-weight: bold;
+}
+
+.question_back_size {
+    font-size: 14px;
+    line-height: 22px;
+    padding-left: 55px;
+    height: 22px;
+    color: #DF9D11;
+    margin: 5px 0;
+    text-align: left;
+    font-weight: bold;
+}
+
+.cquestion_back_bg {
+    background: #FFF6DE;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px dashed #EFCD70;
+}
+
+.question_back_size_icon {
+    background: url("../images/question_back_size_icon.png") no-repeat;
+    width: 16px;
+    height: 16px;
+    margin-top: 3px;
+    margin-right: 5px;
+    display: block;
+    float: left;
+    overflow: hidden;
+}
+
+.course_question_back_mark {
+    background: url("../images/question_back_size_icon1.png") left no-repeat;
+    width: 70px;
+    height: 16px;
+    line-height: 16px;
+    padding-left: 20px;
+    font-size: 12px;
+    color: #C6AF82;
+    float: right;
+    text-align: left;
+    cursor: pointer;
+}
+
+.course_question_back_mark:hover {
+    background: url("../images/question_back_size_icon.png") left no-repeat;
+    color: #EF9F04;
+}
+
+.mark_line {
+    font-size: 10px;
+    color: #D4D4D4;
+    line-height: 16px;
+    margin-left: 10px;
+}
+
+.course_play_user_massage_talk_back {
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    padding-right: 10px;
+    color: #9ACB8E;
+    text-align: right;
+}
+
+.course_play_user_massage_talk_back:hover {
+    color: rgb(83, 169, 63);
+    text-decoration: underline;
+}
+
+.course_play_user_massage_talk_back_items {
+    width: 670px;
+    height: 80px;
+    padding-left: 30px;
+}
+
+.course_play_user_massage_talk_back_item {
+    width: 670px;
+    height: 80px;
+    margin-top: 5px;
+}
+
+.course_play_user_massage_talkback_item_imgs {
+    width: 30px;
+    height: 80px;
+    float: left;
+}
+
+.course_play_user_massage_talkback_item_imgs img {
+    width: 28px;
+    height: 28px;
+    padding: 1px;
+}
+
+.course_play_user_information2 {
+    height: 68px;
+    width: 618px;
+    margin-left: 10px;
+    float: left;
+    padding: 5px;
+    border: 1px solid #EEEEEF;
+    background: #F4F4F4;
+}
+
+.course_play_user_information1 {
+    height: 16px;
+}
+
+.course_play_user_information_name {
+    font-size: 12px;
+    line-height: 16px;
+    color: #319B98;
+    float: left;
+}
+
+.course_play_user_information_timer {
+    font-size: 12px;
+    line-height: 16px;
+    color: #999999;
+    float: right;
+}
+
+.course_play_user_information_discribe {
+    font-size: 12px;
+    text-align: left;
+    margin-top: 5px;
+    color: #5C5C5C;
+}
+
+/*=------评论回复-----*/
+.course_others_talkback {
+    height: auto;
+    width: 660px;
+    padding: 0 0 0 30px;
+}
+
+.course_others_talkback_input {
+    width: 670px;
+    height: 85px;
+}
+
+.course_others_talkback_input textarea {
+    height: 40px;
+    width: 650px;
+    padding: 5px;
+    border: 1px solid #F4F4F4;
+    resize: none;
+}
+
+.course_others_talkback_but {
+    height: 20px;
+    width: 660px;
+}
+
+.course_others_talkback_but label input {
+    float: right;
+    font-size: 12px;
+    color: #FFFFFF;
+    width: 70px;
+    border: 0px none;
+    height: 25px;
+    background: rgb(239, 150, 50);
+    text-align: center
+}
+
+.course_others_talkback_items {
+    width: 660px;
+    height: auto;
+}
+
+.course_others_talkback_item {
+    height: 70px;
+    margin-top: 10px;
+
+}
+
+.course_others_talkback_item_image {
+    width: 28px;
+    padding: 1px;
+    height: 28px;
+    float: left;
+}
+
+.course_others_talkback_item_image img {
+    height: 28px;
+    width: 28px;
+    display: block;
+    overflow: hidden;
+}
+
+.course_others_talk_back {
+    width: 620px;
+    height: 60px;
+    margin-left: 10px;
+    float: left;
+}
+
+.course_others_talk_back_infor {
+    width: 630px;
+    height: 30px;
+}
+
+.course_others_talkback_descript {
+    height: 30px;
+    width: 620px;
+    padding: 5px;
+    font-size: 12px;
+    background: #F4F4F4;
+}
+
+/*-------------------------*/
+.boful_video_infor_box_left {
+    width: 288px;
+    min-height: 480px;
+    float: left;
+    /* background: #fdfcf4;*/
+}
+
+.infor_box_note,
+.note_conts {
+    width: 288px;
+    height: auto;
+}
+
+.infor_box_note {
+    background: #FDFCF4;
+}
+
+.note_conts {
+    height: 365px;
+}
+
+.infor_box_note_cut {
+    width: 288px;
+    height: 35px;
+    padding-top: 5px;
+    background: #68351A;
+}
+
+.infor_box_note_cut p {
+    margin: 0 24px 0 24px;
+    height: 25px;
+    border-bottom: 1px solid #774C35;
+}
+
+.infor_box_note_cut p span {
+    width: 70px;
+    height: 24px;
+    float: left;
+    margin: 0 5px 0 5px;
+    color: #AA8977;
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.infor_box_note_cut p span:hover {
+    border-bottom: 2px solid #F0A837;
+    color: #FFFFFF;
+}
+
+.note_item_tab {
+    border-bottom: 2px solid #F0A837;
+    color: #FFFFFF;
+}
+
+.note_cont_items {
+    /*width: 269px;*/
+    /*margin: 0 9px;*/
+    /*border-left: 1px solid #D3C8BA;*/
+    /*height: 365px;*/
+    /*overflow:auto;*/
+}
+
+.note_cont_item {
+    width: 255px;
+    margin: 0 7px;
+    padding: 8px 0;
+    border-bottom: 1px #D3C8BA dashed;
+}
+
+.note_item_icon {
+    width: 20px;
+    height: 20px;
+    background: url("../images/note_item_icon.png") no-repeat;
+    margin: 2px 0 5px 0;
+    float: left;
+}
+
+.note_master_write {
+    width: 230px;
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+.note_master_write_time {
+    width: 50px;
+    height: 20px;
+    float: left;
+}
+
+.note_item_icon_bb {
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+
+.note_master_write_time a {
+    width: 50px;
+    height: 18px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #846945;
+    text-align: center;
+    background-color: #E9DFD3;
+    border-color: #D3CAC1;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #E9DFD3), color-stop(100%, #DDD4CB));
+    background-image: -webkit-linear-gradient(top, #E9DFD3 0%, #DDD4CB 100%);
+    background-image: -moz-linear-gradient(top, #E9DFD3 0%, #DDD4CB 100%);
+    background-image: -o-linear-gradient(top, #E9DFD3 0%, #DDD4CB 100%);
+    background-image: linear-gradient(top, #E9DFD3 0%, #DDD4CB 100%);
+    border-radius: 4px;
+    display: block;
+    overflow: hidden;
+}
+
+.note_master_write_time a:hover {
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #664734;
+    border-color: #664734;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #664734), color-stop(100%, #664734));
+    background-image: -webkit-linear-gradient(top, #825940 0%, #664734 100%);
+    background-image: -moz-linear-gradient(top, #825940 0%, #664734 100%);
+    background-image: -o-linear-gradient(top, #825940 0%, #664734 100%);
+    background-image: linear-gradient(top, #825940 0%, #664734 100%);
+    border-radius: 4px;
+
+}
+
+.note_master_write_from {
+    width: 150px;
+    height: 20px;
+    text-align: right;
+    line-height: 20px;
+    font-size: 12px;
+    float: right;
+    color: #999999;
+}
+
+.note_master_write_from span {
+    color: #999999;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.note_master_write_describe {
+    font-size: 12px;
+    text-align: left;
+    color: #5C5C5C;
+}
+
+.note_master_date {
+    margin-top: 5px;
+    height: 14px;
+    color: #999999;
+}
+
+.note_todate {
+    width: 120px;
+    height: 14px;
+    line-height: 14px;
+    font-size: 12px;
+    text-align: left;
+    color: #999999;
+    float: left;
+}
+
+.note_good {
+    width: 60px;
+    height: 14px;
+    font-size: 12px;
+    color: #999999;
+    float: right;
+}
+
+.good_number {
+    height: 14px;
+    line-height: 14px;
+    float: right;
+    min-width: 20px;
+}
+
+.note_good .good_icon {
+    background: url("../images/goods_icon.png") no-repeat 0 0;
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+    cursor: pointer;
+    float: right;
+    display: block;
+    overflow: hidden;
+}
+
+.note_good .good_icon:hover {
+    background: url("../images/goods_icon.png") no-repeat 0 -15px;
+    width: 14px;
+    height: 14px;
+    display: block;
+    overflow: hidden;
+}
+
+.note_cont_more,
+.note_cont_more a {
+    height: 15px;
+    margin: 10px 0;
+    line-height: 15px;
+    font-size: 12px;
+    color: #825940;
+    text-align: center;
+}
+
+.note_cont_more a {
+    cursor: pointer;
+}
+
+.note_cont_more a:hover {
+    color: #563420;
+    text-decoration: underline;
+}
+
+.note_write {
+    width: 268px;
+    padding: 7px 10px;
+    height: 61px;
+    background: #D3C7B7;
+}
+
+.note_write textarea {
+    font-size: 12px;
+    width: 266px;
+    height: 30px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #B9AB99;
+    border-radius: 4px;
+    resize: none;
+}
+
+.boful_course_user_names a {
+    color: #5C5C5C;
+}
+
+.boful_course_user_names a:hover {
+    text-decoration: underline;
+    color: #37A508;
+}
+
+.note_write_save {
+    height: 20px;
+}
+
+.note_write_save1 {
+    height: 20px;
+    width: 20px;
+    margin: 0;
+}
+
+.note_write_chose {
+    width: 80px;
+    float: left;
+    height: 20px;
+    color: #666666;
+    text-align: left;
+    font-size: 12px;
+}
+
+.note_write_chose label input {
+    float: left;
+}
+
+.note_write_chose span {
+    font-size: 12px;
+    line-height: 20px;
+    color: #666666;
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+
+.note_write_save2 {
+    width: 60px;
+    height: 20px;
+    font-size: 12px;
+    float: right;
+    margin-right: 3px;
+    border: 1px solid #B9AB99;
+    color: #563420;
+    /*  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#4db652', endColorstr='#348738');*/
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #E9DFD3), color-stop(100%, #DDD4CB));
+    background-image: -webkit-linear-gradient(top, #E9DFD3 0%, #DDD4CB 100%);
+    background-image: -moz-linear-gradient(top, #E9DFD3 0%, #DDD4CB 100%);
+    background-image: -o-linear-gradient(top, #E9DFD3 0%, #DDD4CB 100%);
+    background-image: linear-gradient(top, #E9DFD3 0%, #DDD4CB 100%);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.boful_video_infor_box_right {
+    width: 15px;
+    margin-right: 1px;
+    height: auto;
+    float: left;
+}
+
+.s_note,
+.s_list {
+    width: 15px;
+    height: 40px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    padding-top: 12px;
+    color: #798085;
+    text-align: center;
+    background: #44494D;
+    cursor: pointer;
+}
+
+.s_note {
+    background: url("../images/s_note1.png") #3E4347 top no-repeat;
+}
+
+.s_note:hover {
+    background: url("../images/s_note2.png") #3E4347 top no-repeat;
+    color: #A0A8AE;
+}
+
+.s_list {
+    background: url("../images/s_list1.png") #3E4347 top no-repeat;
+}
+
+.s_list:hover {
+    background: url("../images/s_list2.png") #3E4347 top no-repeat;
+    color: #A0A8AE;
+}
+
+/*----------列表------------*/
+.infor_box_lists {
+    width: 288px;
+    height: 480px;
+    background: #2D3236;
+}
+
+.infor_box_list {
+    width: 270px;
+    margin: 0;
+    background: #2D3236;
+}
+
+.infor_box_lists p {
+    width: 249px;
+    padding: 10px;
+    height: 30px;
+    background: #373E44;
+    border-top: #414A52 1px solid;
+    border-bottom: #2C343A 1px solid;
+}
+
+.infor_box_lists p:hover {
+    background: #3D454C;
+}
+
+.infor_box_list_icon {
+    background: url("../images/p_icon.png") center no-repeat;
+    width: 17px;
+    height: 30px;
+    float: right;
+    display: block;
+    overflow: hidden;
+}
+
+.infor_box_list_ws {
+    font-size: 12px;
+    color: #67717C;
+    line-height: 30px;
+    text-align: left;
+    width: 155px;
+    margin-left: 5px;
+    height: 30px;
+    font-family: "serif", serif;
+    float: left;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.l_time {
+    width: 60px;
+    float: right;
+    margin-right: 10px;
+    font-size: 12px;
+    color: #67717C;
+    line-height: 30px;
+}
+
+.infor_starts {
+    width: 110px;
+    height: 16px;
+    margin-top: 2px;
+    float: left;
+}
+
+/*---------2014-03-15-----------*/
+.infor_box_list,
+.infor_box_list p {
+    width: 270px;
+    font-size: 12px;
+    /* display: block;
+     overflow: hidden;*/
+}
+
+
+/*-----------------------------分页-----------------------------*/
+.f_page{
+    color: #999;
+    height: 31px;
+}
+.f_page  .num{
+    background-color: #FFF;
+    color: #999;
+    display: inline-block;
+    margin-left: 5px;
+    width: 29px;
+    font-size: 12px;
+    height: 29px;
+    padding: 0;
+    float: left;
+    line-height: 31px;
+    text-align: center;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+.f_page .guinum{
+    height: 29px;
+    border: 1px solid #ddd;
+    line-height: 29px;
+    color: #999;
+    width: 50px;
+    padding: 0 3px;
+    float: left;
+    font-size: 12px;
+    margin: 0 0 0 5px;
+}
+.guipa{
+    background-color: #FFF;
+    color: #999;
+    border: 1px solid #ddd;
+    line-height: 31px;
+    height: 29px;
+    padding: 0 5px;
+    font-size: 12px;
+    float: left;
+    margin-left: 5px;
+    display: block;
+    overflow: hidden;
+}
+.f_page .currentStep{
+    background: #4aa563;
+    width: 31px;
+    height: 31px;
+    margin-left: 5px;
+    float: left;
+    color: #FFF;
+    font-size: 12px;
+    line-height: 31px;
+    display: block;
+    text-align: center;
+}
+#turnPageBtn{
+    background-color: #FFF;
+    color: #999;
+    border: 1px solid #ddd;
+    line-height: 29px;
+    height: 29px;
+    padding: 0 5px;
+    font-size: 12px;
+    margin-left: 5px;
+    border-radius: 0;
+}
+.f_page  .num:hover,  .f_page .guipa:hover{
+    border: 1px solid #4aa563;
+    color: #4aa563;
+}
+.page_total_num{
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+#turnPageBtn{
+    float: left;
+}

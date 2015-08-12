@@ -1,0 +1,159 @@
+.communityMgr_content {
+    width: 1024px;
+    min-height: 528px;
+    margin: 0 auto;
+    padding: 30px 0;
+    display: block;
+    overflow: hidden;
+}
+
+.communityMgr_content_left {
+    width: 783px;
+    height: auto;
+    float: left;
+}
+
+.communityMgr_content_right {
+
+    width: 224px;
+    height: auto;
+    float: right;
+
+}
+
+.communityMgr_plate_mgr h1,
+.communityMgr_posts_mgr h1,
+.communityMgr_crew_mgr h1,
+.communityMgr_activity_mgr h1 {
+    text-align: center;
+    height: 30px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 30px;
+    background-color: #428BCA;
+    color: #FFFFFF;
+}
+
+.communityMgr_plate_list,
+.communityMgr_activity_list {
+    width: 224px;
+    height: auto;
+    list-style: none;
+}
+
+.communityMgr_plate_list ul {
+    margin: 0;
+    padding: 0;
+}
+
+.communityMgr_plate_list li,
+.communityMgr_activity_list li {
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    float: left;
+}
+
+.communityMgr_plate_list li a,
+.communityMgr_activity_list li a {
+    width: 150px;
+    height: 25px;
+    padding-left: 2px;
+    /*padding-right: 10px;*/
+    font-size: 12px;
+    color: #333333;
+    float: left;
+    line-height: 25px;
+    /*margin-left: 30px;*/
+    text-align: center;
+    display: block;
+    overflow: hidden;
+
+}
+
+.communityMgr_plate_list li a:hover,
+.communityMgr_activity_list li a:hover {
+    /*background: #6cbafd;*/
+    color: #22272E;
+    padding-left: 2px;
+    border-left: 5px solid #428BCA;
+    /*border-bottom: 1px solid #428bca;*/
+}
+
+.commuit_nav_box {
+    width: 224px;
+    overflow: hidden;
+}
+
+.commuit_nav_box h2 {
+    font-size: 14px;
+    float: left;
+    font-weight: bold;
+    margin: 10px 0 10px 0;
+    background-color: #428BCA;
+    color: #FFFFFF;
+    width: 100%;
+    display: block;
+    /*padding: 5px;*/
+    line-height: 30px;
+}
+
+.commuit_nav {
+    width: 224px;
+    overflow: hidden;
+}
+
+.commuit_nav ul {
+
+}
+
+.commuit_nav ul li {
+    float: left;
+    width: 100%;
+    text-align: left;
+    list-style: none;
+    /*line-height: 26px;*/
+    /*margin: 5px 0 5px 0;*/
+}
+
+.commuit_nav li a {
+    width: 150px;
+    height: 25px;
+    /*padding-left: 2px;*/
+    /*padding-right: 10px;*/
+    font-size: 12px;
+    color: #333333;
+    float: left;
+    /*margin-left: 30px;*/
+    text-align: center;
+
+}
+
+.commuit_nav li:hover {
+    /*background: #6cbafd;*/
+    color: #22272E;
+    border-left: 2px solid #428BCA;
+    /*border-bottom: 1px solid #428bca;*/
+}
+
+.mine_grupe_list img {
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.mine_g td a,
+.mine_g td span {
+    line-height: 40px;
+    display: block;
+    overflow: hidden;
+}
+
+.mine_grupe_name a {
+    width: 380px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

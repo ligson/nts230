@@ -1,0 +1,367 @@
+body {
+    font-family: "微软雅黑", serif;
+    background: #f4f4f4;
+}
+
+.list_hd {
+    float: left;
+    height: auto;
+    width: 980px;
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.pl_win {
+    width: 980px;
+    height: 360px;
+    padding: 80px 0;
+    text-align: center;
+    background: #F8F8F8;
+}
+
+#player {
+    margin: 0 auto;
+}
+
+.list_hd h3 {
+    text-align: left;
+    height: 25px;
+    padding-top: 15px;
+    line-height: 25px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.list_hd dd {
+    text-align: center;
+    margin-left: 5px;
+    line-height: 26px;
+}
+
+.list_hd dd span {
+    margin-right: 15px;
+    line-height: 26px;
+}
+
+.list_hd dd.nv_flash {
+    margin: 10px 5px 10px 0px;
+    overflow: hidden;
+}
+
+.hd_nv {
+    float: left;
+    margin-top: 20px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.hd_nv dt {
+    float: left;
+    text-align: left;
+    width: 980px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    border-bottom: 1px #DDDDDD solid;
+}
+
+.hd_nv dt em {
+    width: 120px;
+    height: 38px;
+    line-height: 38px;
+    font-style: normal;
+    border-bottom: 3px solid #39a53e;
+    display: block;
+    overflow: hidden;
+}
+
+.hd_nv dd {
+    float: left;
+    text-align: left;
+    width: 700px;
+    padding: 5px 5px 5px 0;
+    line-height: 26px;
+}
+
+.color3 {
+    font-size: 14px;
+    margin-left: 15px;
+    line-height: 50px;
+}
+
+.works_show_title {
+    height: 90px;
+    font-size: 12px;
+    width: 1024px;
+    padding: 15px 0;
+    color: #999;
+    /*    border-bottom: 2px solid #eeeeee;*/
+}
+
+.works_show_title a {
+    width: 1024px;
+    height: 90px;
+    display: block;
+    overflow: hidden;
+}
+
+.works_show_title a img {
+    width: 1024px;
+    height: auto;
+    display: block;
+    overflow: hidden;
+}
+
+.color3 a {
+    float: left;
+    margin-right: 10px;
+}
+
+.wrap {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.color3 font {
+    width: 300px;
+    height: 40px;
+    float: left;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+
+. color3 span {
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+
+.hd_infor {
+    height: auto;
+    width: 800px;
+    display: block;
+    float: left;
+}
+
+.hd_infor span {
+    margin-right: 20px;
+    color: #999;
+}
+
+.hd_infor_num {
+    width: 120px;
+    height: 50px;
+    float: right;
+}
+
+.hh {
+    margin-top: 20px;
+}
+
+.works_show_hh {
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+
+/*----------------------------------------------------------------------------------------------*/
+.hd_infor span {
+    float: left;
+}
+
+.work_see_box {
+    width: 984px;
+    float: left;
+    background: #FFF;
+    padding: 0 20px;
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+}
+
+.area {
+    width: 1024px;
+    margin: 0 auto;
+    height: auto;
+    display: block;
+}
+
+.color3 span {
+    float: left;
+    color: #999;
+    margin-right: 5px;
+}
+
+.work_see_new {
+    width: 230px;
+    background: #FFF;
+    padding: 15px 10px;
+    float: left;
+    margin-left: 14px;
+}
+
+.o_hh {
+    height: 220px;
+    margin-bottom: 10px;
+}
+
+.indexMenu h2 {
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.indexMenu h2 span {
+    height: 28px;
+    width: 100px;
+    line-height: 28px;
+    border-bottom: 3px solid #39a53e;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_activity_show_bg {
+    padding: 15px 0;
+    display: block;
+    overflow: hidden;
+}
+
+/*-----------------------------------------------------------------*/
+.list_hd, .hd_infor_tit, .work_hd_box {
+    display: block;
+    overflow: hidden;
+}
+
+.work_hd_box {
+    border-bottom: 1px solid #f4f4f4;
+    margin: 10px 0;
+}
+
+.hd_infor_tit {
+    width: 800px;
+    height: 80px;
+    border-right: 1px solid #f4f4f4;
+    float: left;
+}
+
+.hd_infor_num {
+    width: 160px;
+    float: right;
+    height: 80px;
+}
+
+.hd_infor_num_but {
+    width: 140px;
+    height: 45px;
+    margin: 15px 0 0 10px;
+    background: #39a53e;
+    color: #FFF;
+    line-height: 40px;
+    font-size: 14px;
+    font-family: "微软雅黑", serif;
+    display: block;
+    border: 0;
+}
+
+.hd_infor_num_but:hover {
+    background: #42be47;
+}
+
+.hd_other_work {
+    width: 984px;
+    height: auto;
+    display: block;
+    overflow: hidden;
+}
+
+.hd_other_work h1 {
+    ext-align: left;
+    width: 980px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    border-bottom: 1px #DDDDDD solid;
+}
+
+.hd_other_work h1 em {
+    width: 120px;
+    height: 38px;
+    line-height: 38px;
+    font-style: normal;
+    text-align: left;
+    font-weight: normal;
+    border-bottom: 3px solid #39a53e;
+    display: block;
+    overflow: hidden;
+}
+
+/*---------------------------item-----------------------*/
+.hd_other_work_con {
+    width: 984px;
+    padding: 15px 0;
+    height: auto;
+    display: block;
+    overflow: hidden;
+}
+
+.hd_other_work_item {
+    width: 220px;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    display: block;
+    overflow: hidden;
+}
+
+.hd_other_work_item_img, .hd_other_work_item_img img {
+    width: 220px;
+    height: 160px;
+    display: block;
+    overflow: hidden;
+}
+
+.hd_other_work_item_infor {
+    width: 220px;
+    padding: 5px 0;
+}
+
+.hd_other_work_item_infor h4 {
+    font-size: 16px;
+    color: #333;
+    font-weight: normal;
+    height: 25px;
+    text-align: left;
+    line-height: 25px;
+}
+
+.hd_other_work_item_infor h4 a {
+    color: #333;
+}
+
+.hd_other_work_item_infor h4 a:hover {
+    color: #39a53e;
+}
+
+.work_operat, .work_itme {
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    text-align: left;
+    color: #5c5c5c;
+}
+
+em {
+    font-style: normal;
+}
+
+.work_operat span, .work_itme span {
+    margin-right: 10px;
+    text-align: left;
+}

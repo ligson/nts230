@@ -1,0 +1,136 @@
+
+.boful_coures_item {
+    margin-top: 0.25em;
+    height: 5.625em;
+    padding: 0.5em;
+    border-radius: 0.25em;
+    background: #FFF;
+    box-shadow: 0 1px 1px #ABABAB;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_coures_items {
+    margin-top: 0.5em;
+}
+
+.boful_coures_item_img {
+    width: 5.625em;
+    height: 5.625em;
+    border-radius: 0.25em;
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_coures_item_img img {
+    width: 5.625em;
+    height: 5.625em;
+}
+
+.boful_coures_item_infors {
+    width: 50%;
+    height: 5.625em;
+    margin-left: 0.5em;
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_coures_item_infors h4 {
+    font-size: 1em;
+    height: 1.5em;
+    line-height: 1.5em;
+    text-align: left;
+    margin: 0.25em 0;
+    font-weight: normal;
+    color: #333;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.boful_coures_item_author {
+    height: 1em;
+    font-size: 1em;
+    margin: 0.5em 0;
+    color: #39A53E;
+    text-align: left;
+}
+
+.boful_coures_item_author span {
+    color: #39a53e;
+    font-size: 0.875em;
+    display: block;
+    line-height: 1em;
+    float: left;
+    overflow: hidden;
+}
+
+.boful_coures_item_number {
+    height: 1em;
+    font-size: 0.875em;
+    color: #5c5c5c;
+    margin: 0.5em 0;
+    line-height: 1em;
+    text-align: left;
+}
+
+.boful_coures_item_number span {
+    color: #999;
+    font-size: 1em;
+    width: 8em;
+    line-height: 1em;
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_coures_item_play {
+    width: 16%;
+    height: 5.9375em;
+    margin-left: 0.5em;
+    float: right;
+    font-size: 0.875em;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_coures_item_play_icon a:hover {
+    color: #890a0a;
+}
+
+.boful_coures_item_play_icon {
+    background: url("../images/boful_coures_item_number_icon.png") center no-repeat;
+    width: 46px;
+    height: 46px;
+    font-size: 0.875em;
+    text-align: center;
+    color: #FFF;
+    padding-top: 20px;
+    text-decoration: none;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_coures_item_play_icon:hover {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.boful_coures_items_more {
+    background: #FFF;
+    height: 2.5em;
+    margin: 0.5em 0;
+    line-height: 2.5em;
+    border-radius: 0.25em;
+    text-align: center;
+    box-shadow: 0 1px 1px #ABABAB;
+    color: #5c5c5c;
+}
+
+.boful_coures_items_more:hover {
+    color: #39a53e;
+    background: #e6f5f5;
+    box-shadow: 0 1px 1px #ABABAB;
+}

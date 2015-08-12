@@ -1,0 +1,198 @@
+/*---------- base ---------*/
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    background: #F3F3F3;
+}
+
+body {
+    font: 12px Verdana, Arial, Tahoma;
+}
+
+img {
+    border: none;
+}
+
+a {
+    color: #034383;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #585858;
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+}
+
+input, select, button {
+    font: 12px Verdana, Arial, Tahoma;
+    vertical-align: middle;
+}
+
+/*---------- stock ---------*/
+.center {
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+.w960 {
+    width: 940px; /*position:relative;*/
+}
+
+.bottom {
+    margin-bottom: 10px;
+}
+
+/***首页头部开始**/
+.headtop {
+    height: 112px;
+    overflow: hidden;
+    z-index: 1;
+    background-color: #0C3;
+    background: url(../images/index_ban.png) bottom no-repeat;
+}
+
+.menu {
+    width: 940px;
+    height: 32px;
+    clear: both;
+}
+
+.menu ul {
+    float: left;
+    height: 32px;
+    bottom: 0px;
+    margin-left: 25px;
+    overflow: hidden;
+    width: 787px;
+}
+
+.menu ul li {
+    font: 14px/1.5 "Microsoft YaHei", "微软雅黑", "Microsoft JhengHei", "宋体";
+    float: left;
+    height: 32px;
+    line-height: 30px;
+    margin-right: 20px;
+    width: 82px;
+}
+
+.menu ul li a {
+    color: #FFF;
+    height: 32px;
+    text-decoration: none;
+}
+
+.menu ul li.hover {
+    color: #0D4786;
+    height: 32px;
+    margin-top: 4px;
+    line-height: 32px;
+    background: url(../images/hover.png) center no-repeat;
+    height: 23px;
+    width: 82px;
+}
+
+.menu ul li.hover a {
+    display: block;
+    color: #0C4988;
+    line-height: 32px;
+    text-align: center;
+    line-height: 22px;
+}
+
+.headimg {
+    height: 80px;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu_span {
+    line-height: 34px;
+    float: right;
+    overflow: hidden;
+}
+
+.menu_span a {
+    margin-right: 25px;
+    color: #FFF;
+}
+
+/*****首页头部结束*********/
+
+/***其他公用头部开始**/
+
+/*****其他公用头部结束*********/
+
+/**首页分中心代码**/
+.branch {
+    border: 1px solid #CDCDCD;
+    border-right: none;
+    border-left: none;
+    overflow: hidden;
+    background-color: #EDEDED;
+}
+
+.branch ul {
+}
+
+.branch ul li {
+    float: left;
+    line-height: 32px;
+    color: #838383;
+    width: 10%;
+    overflow: hidden;
+    padding-left: 45px;
+    margin-right: 5px;
+}
+
+.branch ul li a, .footer a {
+    color: #828282;
+    font: 12px/1.5 "Microsoft YaHei", "微软雅黑", "Microsoft JhengHei", "宋体";
+    line-height: 32px;
+}
+
+/********通用页脚******/
+.footer {
+    text-align: center;
+    color: #838383;
+    line-height: 32px;
+    font: 12px/1.5 "Microsoft YaHei", "微软雅黑", "Microsoft JhengHei", "宋体";
+}
+
+/*标准页面代码*/
+.index_left {
+    float: left;
+    width: 640px;
+    margin-right: 10px;
+}
+
+.index_right {
+    float: left;
+    width: 290px;
+}
+
+.list_left {
+    float: right;
+    width: 710px;
+}
+
+.list_right {
+    float: left;
+    width: 220px;
+    margin-right: 10px;
+}
+
+/*搜索*/
+.serch {
+    width: 940px;
+    overflow: hidden;
+    padding: 0px;
+    height: 50px;
+}

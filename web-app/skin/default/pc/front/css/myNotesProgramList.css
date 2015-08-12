@@ -1,0 +1,101 @@
+/* CSS Document */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+    padding: 0px;
+    margin: 0px;
+}
+
+.f-cb:after, .f-cbli li:after {
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0px;
+    overflow: hidden;
+    content: ".";
+}
+
+.f-cb, .f-cbli li {
+}
+
+.g-doc, .g-wrap, .g-ft {
+    text-align: left;
+}
+
+.m-myCloudNotes .m-myCloudNotesAll .list .m-basepool .m-data-lists .w-cardnoteitem {
+    float: left;
+    margin: 20px 0px 0px 20px;
+}
+
+.m-examBox .last, .m-answerBox .last, .cloudinnerbox .last {
+    border: medium none;
+    margin-bottom: 0px;
+}
+
+.w-cardnoteitem {
+    width: 337px;
+    /*height: 70px;*/
+    padding: 10px 0px 10px 10px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    box-shadow: 0px 1px 1px #999999;
+    position: relative;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.g-doc, .g-wrap, .g-ft {
+    text-align: left;
+}
+
+.w-cardnoteitem .img {
+    float: left;
+    width: 120px;
+    height: 66px;
+}
+
+fieldset, img, html, body, iframe {
+    border: 0px none;
+}
+
+.w-cardnoteitem .info {
+    float: left;
+    margin-left: 10px;
+}
+
+.w-cardnoteitem .info .name {
+    font-family: '微软雅黑';
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+    width: 197px;
+}
+
+.f-thide {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.w-cardnoteitem .info .numwrap {
+    margin-top: 7px;
+    font-size: 12px;
+    line-height: 12px;
+    color: #999999;
+}
+
+.w-cardnoteitem .info .numwrap {
+    font-size: 12px;
+    line-height: 12px;
+    color: #999999;
+}
+
+.w-cardnoteitem .info .time {
+    margin-top: 12px;
+    font-size: 12px;
+    line-height: 12px;
+    color: #999999;
+}
+
+.w-cardnoteitem {
+    cursor: pointer;
+}

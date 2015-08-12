@@ -1,0 +1,87 @@
+.tree_main {
+    width: 800px;
+    height: 500px;
+}
+
+.tree_left {
+    width: 200px;
+    height: 490px;
+    float: left;
+    margin-left: 15px;
+    padding-top: 10px;
+    /*background: #f3f3f3;*/
+
+    border-right: #E2E3E4 1px solid;
+}
+
+.tree_content {
+    width: 550px;
+    height: 470px;
+    padding: 15px;
+    float: left;
+    _width: 500px;
+    margin-left: 5px;
+    border-left: #FFFFFF 1px solid;
+    /*background: #f3f3f3;*/
+}
+
+.boful_tree_content_but {
+    color: #2E5B88;
+    background: url("../images/but_4.png") repeat-x;
+    padding: 3px 15px;
+    border: 1px solid #8FB2DA;
+    border-radius: 3px;
+    overflow: visible;
+    cursor: pointer;
+}
+
+.boful_tree_content_but:hover {
+    background: url("../images/but_3.png") repeat-x;
+    padding: 3px 15px;
+}
+
+.boful_tree_content_but2 {
+    color: #8B4003;
+    border-radius: 3px;
+    background-image: url(../images/but1.png);
+    text-align: center;
+    height: 25px;
+    width: 70px;
+    padding-top: 2px;
+    border: 0px;
+    overflow: visible;
+    cursor: hand;
+}
+
+.boful_tree_content_but2:hover {
+    background: url("../images/but2.png");
+    height: 25px;
+    width: 70px;
+}
+
+select {
+    width: 120px;
+}
+
+textarea {
+    margin-top: 20px;
+    width: 300px;
+    height: 120px;
+}
+
+.crea_win table tr {
+    padding: 5px 0;
+}
+
+.crea_inp {
+    line-height: 15px;
+    padding: 5px;
+}
+
+.se_mgr {
+    padding: 5px;
+}
+
+.tree_content input {
+    margin: 5px 0 0 0;
+}

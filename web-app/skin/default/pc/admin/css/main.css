@@ -1,0 +1,1048 @@
+/* 缩略图设置 */
+#posterTd {
+    width: 35%;
+    border: 2px solid #D0EFFF;
+    vertical-align: top;
+    text-align: center;
+    background: #EEF9FF;
+    padding: 15px 7px 15px 0
+}
+
+#posterTd img {
+    width: 260px;
+    height: 300px;
+    border: 3px solid #CAEBFF;
+}
+
+#progInfoTd {
+    width: 65%;
+    vertical-align: top;
+}
+
+/*html * {*/
+/*margin: 0;*/
+/*padding: 0; SELECT NOT DISPLAYED CORRECTLY IN FIREFOX */
+/*}*/
+
+/* GENERAL */
+
+.spinner {
+    padding: 5px;
+    position: absolute;
+    right: 0;
+}
+
+body {
+    color: #333333;
+    /*font: 11px "微软雅黑", sans-serif;*/
+    margin-top: 0;
+}
+
+h1 {
+    color: #006DBA;
+    font-weight: normal;
+    font-size: 13px;
+    margin: 2px 0 4px 0;
+}
+
+ul {
+    padding-left: 15px;
+}
+
+input, select, textarea {
+    font: 11px verdana, arial, helvetica, sans-serif;
+    margin: 1px 0;
+    padding: 1px 4px;
+    height: 18px;
+}
+
+select {
+    padding: 2px 2px 2px 0;
+}
+
+textarea {
+    width: 180px;
+    height: 150px;
+    vertical-align: top;
+}
+
+input:focus, select:focus, textarea:focus {
+    border: 1px solid #B2D1FF;
+}
+
+.body {
+    float: left;
+    /*margin: 0 1px 20px 5px;
+    padding: 0 10px 10px 10px;
+    border: 2px solid #BDEDFB;*/
+}
+
+/* NAVIGATION MENU */
+
+.nav {
+    background: #FFFFFF url(../images/skin/shadow.jpg) bottom repeat-x;
+    border: 1px solid #CCCCCC;
+    border-style: solid none solid none;
+    margin-top: 5px;
+    padding: 7px 12px;
+}
+
+.menuButton {
+    font-size: 10px;
+    padding: 0 5px;
+}
+
+.menuButton a {
+    color: #333333;
+    padding: 4px 6px;
+}
+
+.menuButton a.home {
+    background: url(../../../../../images/skin/house.png) center left no-repeat;
+    color: #333333;
+    padding-left: 25px;
+}
+
+.menuButton a.list {
+    background: url(../images/skin/database_table.png) center left no-repeat;
+    font-size: 11px;
+    color: #333333;
+    padding-left: 25px;
+}
+
+.menuButton a.create {
+    background: url(../../../../../images/skin/database_add.png) center left no-repeat;
+    font-size: 11px;
+    color: #333333;
+    padding-left: 25px;
+}
+
+/* MESSAGES AND ERRORS */
+
+.message {
+    background: #F3F8FC url(../../../../../images/skin/information.png) 8px 50% no-repeat;
+    border: 1px solid #B2D1FF;
+    color: #006DBA;
+    margin: 10px 0 5px 0;
+    padding: 5px 5px 5px 30px
+}
+
+div.errors {
+    background: #FFF3F3;
+    border: 1px solid red;
+    color: #CC0000;
+    margin: 10px 0 5px 0;
+    padding: 5px 0 5px 0;
+}
+
+div.errors ul {
+    list-style: none;
+    padding: 0;
+}
+
+div.errors li {
+    background: url(../../../../../images/skin/exclamation.png) 8px 0% no-repeat;
+    line-height: 16px;
+    padding-left: 30px;
+}
+
+td.errors select {
+    border: 1px solid red;
+}
+
+td.errors input {
+    border: 1px solid red;
+}
+
+/* TABLES */
+
+table {
+    word-break: break-all;
+}
+
+tr {
+    border: 0;
+    height: 30px;
+}
+
+td, th {
+    font-size: 12px;
+    font: 11px "微软雅黑", sans-serif;
+    line-height: 12px;
+
+}
+
+th {
+    background: #FFFFFF url(../images/skin/shadow.jpg);
+    color: #666666;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 17px;
+    padding: 2px 6px;
+}
+
+th a:link, th a:visited, th a:hover {
+    color: #666666;
+    display: block;
+    font-size: 11px;
+    text-decoration: none;
+    width: 100%;
+}
+
+th.asc a, th.desc a {
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+th.asc a {
+    background-image: url(../images/skin/sorted_asc.gif);
+}
+
+th.desc a {
+    background-image: url(../../../../../images/skin/sorted_desc.gif);
+}
+
+.odd {
+    background: #FFFFFF;
+}
+
+.even {
+    background: #ECECEC;
+}
+
+/*-------------------范嘉2009-04-08修改CSS--------------------------*/
+/*-------------------------------CSS------------------------------*/
+.consumer_center {
+    text-align: center;
+}
+
+.consumer_left {
+    width: 120px;
+}
+
+.consumer_table {
+    border: 1px solid #CCCCCC;
+}
+
+.shade {
+    position: relative;
+}
+
+#consumer_list table {
+    BACKGROUND-COLOR: #FCFAFC;
+    padding-top: 1px;
+    width: 100%;
+}
+
+#consumerLeft table {
+    border: 0;
+    cellpadding: 0;
+    cellspacing: 0;
+    width: 100%;
+}
+
+#consumerLeft td {
+    TEXT-ALIGN: center;
+    width: 100%;
+}
+
+#consumerLeft img {
+    border: 0;
+}
+
+#news_list table {
+    BACKGROUND-COLOR: #FCFAFC;
+    padding-top: 1px;
+    width: 100%;
+}
+
+/*-------------------范嘉2009-04-08修改CSS--------------------------*/
+/*-------------------------------CSS------------------------------*/
+
+/* LIST */
+
+.list table {
+    border-collapse: collapse;
+}
+
+.list th, .list td {
+    font-size: 12px;
+    border-left: 1px solid #DDDDDD;
+    padding-left: 4px;
+}
+
+.list th:hover, .list tr:hover {
+    background: #B2D1FF;
+}
+
+/* PAGINATION */
+.paginateButtons {
+    FLOAT: right;
+    TEXT-ALIGN: center;
+    padding: 10px 3px;
+}
+
+/*
+.step {
+    BORDER-RIGHT: #7EC5F6 1px solid;
+    PADDING-RIGHT: 5px;
+    PADDING-LEFT: 5px;
+    BORDER-TOP: #7EC5F6 1px solid;
+    PADDING-BOTTOM: 2px;
+    BORDER-LEFT: #7EC5F6 1px solid;
+    COLOR: #2e6ab1;
+    MARGIN-RIGHT: 3px;
+    PADDING-TOP: 2px;
+    BORDER-BOTTOM: #7EC5F6 1px solid;
+    TEXT-DECORATION: none
+}
+
+.prevLink, .nextLink {
+    BORDER-RIGHT: #7EC5F6 1px solid;
+    PADDING-RIGHT: 5px;
+    PADDING-LEFT: 5px;
+    BORDER-TOP: #7EC5F6 1px solid;
+    PADDING-BOTTOM: 0;
+    BORDER-LEFT: #7EC5F6 1px solid;
+    COLOR: #2e6ab1;
+    MARGIN-RIGHT: 3px;
+    PADDING-TOP: 3px;
+    BORDER-BOTTOM: #7EC5F6 1px solid;
+    TEXT-DECORATION: none
+}
+
+.step:hover {
+    BORDER-RIGHT: #2b66a5 1px solid;
+    BORDER-TOP: #2b66a5 1px solid;
+    BORDER-LEFT: #2b66a5 1px solid;
+    COLOR: #2e6ab1;
+    BORDER-BOTTOM: #2b66a5 1px solid;
+    BACKGROUND-COLOR: #dae7f5
+}
+
+.paginateButtons A:active {
+    BORDER-RIGHT: #2b66a5 1px solid;
+    BORDER-TOP: #2b66a5 1px solid;
+    BORDER-LEFT: #2b66a5 1px solid;
+    COLOR: #2e6ab1;
+    BORDER-BOTTOM: #2b66a5 1px solid
+}
+
+.paginateButtons span {
+    color: #f60;
+    PADDING-RIGHT: 5px;
+}
+*/
+
+/* DIALOG */
+
+.dialog table {
+    padding: 5px 0;
+}
+
+.prop {
+    padding: 5px;
+}
+
+.prop .name {
+    text-align: left;
+    white-space: nowrap;
+}
+
+.prop .value {
+    text-align: left;
+}
+
+/* ACTION BUTTONS */
+
+.buttons {
+    /*background: #fff url(../images/skin/shadow.jpg) bottom repeat-x;
+    border: 1px solid #ccc;
+    color: #666;*/
+    font-size: 12px;
+    margin-top: 5px;
+    padding: 0;
+}
+
+.buttons input {
+    background: #FFFFFF;
+    border: 0;
+    color: #333333;
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 3px;
+    overflow: visible;
+    padding: 2px 0;
+}
+
+.buttons input.delete {
+    background: transparent url(../images/skin/database_delete.png) 5px 50% no-repeat;
+    padding-top: 8px;
+    padding-left: 23px;
+    font-size: 12px;
+}
+
+.buttons input.edit {
+    background: transparent url(../../../../../images/skin/database_edit.png) 5px 50% no-repeat;
+    padding-top: 8px;
+    padding-left: 23px;
+    font-size: 12px;
+}
+
+.buttons input.save {
+    background: transparent url(../../../../../images/skin/database_save.png) 5px 50% no-repeat;
+    padding-left: 23px;
+    font-size: 12px;
+}
+
+.buttons input.return {
+    padding-left: 23px;
+    font-size: 11px;
+}
+
+/*add by jlf*/
+.operation {
+    background: #F3F8FC url(../../../../../images/skin/information.png) 8px 50% no-repeat;
+    border: 1px solid #B2D1FF;
+    color: #006DBA;
+    margin: 0 0 0 0;
+    padding: 2px 5px 2px 30px
+}
+
+.tag {
+    width: 80px;
+}
+
+#serialEdit td, #serialEdit input {
+    height: 20px;
+    line-height: 20px;
+    padding: 0 0 0 5px;
+    text-align: center;
+}
+
+.fromMaterial {
+    padding-top: 12px;
+    vertical-align: top;
+}
+
+#programList table {
+    border: 0 solid #CCCCCC;
+    margin: 8px 0 10px 0;
+}
+
+#programList td {
+    color: #666666;
+    line-height: 16px;
+    padding: 2px;
+}
+
+#programList a {
+    color: #0096C6;
+    font-weight: normal;
+}
+
+#programList .type {
+    color: #FF6600;
+    font-weight: normal;
+}
+
+#directoryList {
+    BACKGROUND-COLOR: #FCFAFC;
+    padding-top: 1px;
+}
+
+#directoryList table {
+    border: 0 solid #CCCCCC;
+    BORDER-BOTTOM: #FFECFF 3px solid;
+}
+
+#directoryList td {
+    color: #666666;
+    line-height: 14px;
+    padding-left: 10px;
+}
+
+#directoryList a {
+    color: #0096C6;
+    font-weight: normal;
+}
+
+/* showProgram css */
+#progInfo, #progInfo table, #otherProgramList table, #relationProgramList table, #consumerList table, #remarkList table {
+    border: 0 solid #CCCCCC;
+}
+
+#progInfo td {
+    color: #666666;
+    line-height: 18px;
+    padding-left: 10px;
+}
+
+#progInfo a {
+    color: #0096C6;
+    font-weight: normal;
+    text-decoration: underline
+}
+
+#progInfo .desc {
+    line-height: 18px;
+    padding-left: 25px;
+    padding-right: 5px;
+}
+
+#progInfo #playLink {
+    line-height: 26px;
+}
+
+#progInfo #playLink a {
+    BORDER-RIGHT: #7EC5F6 1px solid;
+    PADDING-RIGHT: 5px;
+    PADDING-LEFT: 5px;
+    BORDER-TOP: #7EC5F6 1px solid;
+    PADDING-BOTTOM: 2px;
+    BORDER-LEFT: #7EC5F6 1px solid;
+    COLOR: #2E6AB1;
+    MARGIN-RIGHT: 3px;
+    PADDING-TOP: 2px;
+    BORDER-BOTTOM: #7EC5F6 1px solid;
+    TEXT-DECORATION: none
+}
+
+#playTab a {
+    BORDER-RIGHT: #7EC5F6 1px solid;
+    PADDING-RIGHT: 5px;
+    PADDING-LEFT: 5px;
+    BORDER-TOP: #7EC5F6 1px solid;
+    PADDING-BOTTOM: 2px;
+    BORDER-LEFT: #7EC5F6 1px solid;
+    COLOR: #2E6AB1;
+    MARGIN-RIGHT: 3px;
+    PADDING-TOP: 2px;
+    BORDER-BOTTOM: #7EC5F6 1px solid;
+    TEXT-DECORATION: none;
+    line-height: 24px;
+}
+
+#otherProgramList table, #relationProgramList table, #consumerList table, #remarkList table {
+    table-layout: fixed;
+}
+
+#consumerList a, #otherProgramList a, #relationProgramList a {
+    padding-left: 10px;
+    line-height: 20px;
+    color: #0096C6;
+    font-weight: normal;
+    text-decoration: underline
+}
+
+#otherProgramList td, #relationProgramList td, #consumerList td, #remarkList td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#remarkList {
+    BACKGROUND-COLOR: #FFFFFF;
+}
+
+#remarReplykList {
+    BACKGROUND-COLOR: #FFFFFF;
+}
+
+#remarkList td {
+    color: #666666;
+    line-height: 15px;
+    padding-left: 10px;
+}
+
+#radio input {
+    border: 0
+}
+
+#remarkPost td {
+    color: #0096C6
+}
+
+#remarkList .tit {
+    line-height: 18px;
+    color: #0096C6;
+    BACKGROUND-COLOR: #E7FBCE;
+    padding: 2px;
+    BORDER-TOP: #CEDFFF 1px solid;
+}
+
+#search {
+    color: #0869A5;
+    padding: 5px;
+    padding-left: 7px;
+}
+
+#search input {
+    color: #0869A5;
+    border-COLOR: #84A2CE;
+    width: 300px;
+}
+
+#search select {
+    color: #0869A5;
+    border-COLOR: #84A2CE;
+    padding: 4px;
+}
+
+.sortable {
+    background: #FFFFFF url(../images/skin/shadow.jpg);
+    color: #666666;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 17px;
+    padding: 2px 6px;
+}
+
+.categoryTitle {
+    color: #0096C6;
+    BACKGROUND-COLOR: #E4F5FF;
+    padding: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    BORDER-TOP: #BDEDFB 3px solid;
+}
+
+/* tag */
+#tbo td {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.bTD_L {
+    position: relative;
+    top: 12px;
+    border-left: 1px solid #B0DBEC;
+    border-top: 1px solid #B0DBEC;
+    height: 12px;
+    line-height: 12px;
+    width: 250px
+}
+
+td {
+    font-size: 13px;
+    font-family: "微软雅黑", Arial;
+    color: #333333
+}
+
+.bTB {
+    font-weight: bold;
+    line-height: 24px;
+    background: #D6ECF7;
+    border: 1px solid #B0DBEC;
+    width: 180px
+}
+
+a {
+    color: #0033CC
+}
+
+.btitle {
+    color: #333333;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px
+}
+
+.bTD_R {
+    position: relative;
+    top: 12px;
+    border-right: 1px solid #B0DBEC;
+    border-top: 1px solid #B0DBEC;
+    height: 12px;
+    line-height: 12px;
+    width: 250px
+}
+
+.bTD {
+    border-bottom: 1px solid #B0DBEC;
+    border-left: 1px solid #B0DBEC;
+    border-right: 1px solid #B0DBEC;
+}
+
+.tbi {
+    width: 96%;
+    border: 0;
+}
+
+.tbi th {
+    height: 23px;
+    font-weight: 100;
+    text-align: left;
+    font-size: 12px
+}
+
+.tbi th.tdpc {
+    text-align: center
+}
+
+.tbi td {
+    line-height: 14px
+}
+
+.bbg {
+    background: #D6ECF7;
+    line-height: 18px;
+    text-align: right
+}
+
+.tbi a, .bbg a {
+    padding-bottom: 1px;
+    BORDER-BOTTOM: #7EC5F6 1px solid;
+    font-weight: normal;
+    color: #0096C6;
+    width: 90px;
+    word-break: keep-all;
+    overflow: hidden;
+    line-height: 24px;
+}
+
+#enumTab th {
+    padding: 1px;
+    height: 25px;
+    border: 1px solid;
+    vertical-align: middle;
+}
+
+#enumTab td {
+    padding: 1px;
+    height: 15px;
+    border: 1px solid;
+    vertical-align: middle;
+}
+
+.enumBg1 {
+    BACKGROUND-COLOR: #E7FBCE;
+}
+
+.enumBg2 {
+    BACKGROUND-COLOR: #FFFFFF;
+}
+
+#enumTab tr {
+    /*设置onmouseover事件*/
+    /*onmouseover: expression(onmouseover=function (){this.style.backgroundColor='#E7FBCE'});*/
+
+    /*设置onmouseout事件*/
+    /*onmouseout: expression(onmouseout=function (){this.style.backgroundColor='#FFFFFF'});*/
+
+}
+
+#metaContTab td {
+    border-collapse: collapse;
+    padding: 3px;
+    height: 17px;
+    border: 1px solid #DDDDDD;
+    vertical-align: middle;
+}
+
+.key {
+    color: #333333;
+    width: 160px;
+}
+
+.value {
+    color: #333333;
+    width: 600px;
+    padding-left: 20px;
+}
+
+.value2 {
+    color: #333333;
+    width: 600px;
+    height: 30px;
+    padding: 16px 0 0 20px;
+}
+
+.value3 {
+    color: #333333;
+    width: 600px;
+    padding: 5px 0 0 20px;
+}
+
+#progEdit textarea {
+    width: 470px;
+    height: 80px;
+}
+
+#wtab input {
+    width: 300px;
+}
+
+#wtab textarea {
+    width: 300px;
+    height: 80px;
+}
+
+#wtab select {
+    width: 150px;
+}
+
+#progEdit .tag {
+    width: 90px;
+}
+
+#showPath {
+    width: 80px;
+}
+
+/* top */
+/* 菜单 */
+.test ul {
+    list-style: none;
+}
+
+.test li {
+    float: left;
+    width: 90px;
+    margin-left: 5px;
+    text-align: center;
+    line-height: 22px;
+}
+
+.test a {
+    display: block;
+    height: 24px;
+}
+
+.test a:link, .test a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.curItem, .test a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+    background-image: url(../../../../../images/skin/cd_on.gif);
+    font-size: 13px;
+}
+
+.line01 {
+    background-image: url(../../../../../images/skin/line01.gif);
+    height: 27px;
+}
+
+.line {
+    width: 730px;
+    height: 1px;
+    background: url(../../../../../images/skin/line.gif)
+}
+
+.viewLeftTD {
+    width: 200px;
+    height: 700px;
+    border: 1px solid #CCCCCC;
+    height: 355px;
+    BACKGROUND-COLOR: #F7FBFF;
+    vertical-align: top;
+}
+
+.viewRightTD {
+    width: 760px;
+    vertical-align: top;
+}
+
+#bodyTable {
+    width: 930px;
+}
+
+.noProg {
+    width: 630px;
+    text-align: center;
+}
+
+.myLeftTD {
+    width: 180px;
+    height: 700px;
+    border: 1px solid #CCCCCC;
+    height: 355px;
+    BACKGROUND-COLOR: #F7FBFF;
+    vertical-align: top;
+}
+
+.myRightTD {
+    width: 780px;
+    vertical-align: top;
+}
+
+.myLeft a {
+    padding: 10 2 2 0;
+    line-height: 18px;
+}
+
+.myLeft li {
+    list-style: none;
+}
+
+#myLeft .curLink {
+    color: #FF6600;
+}
+
+#listTab {
+    width: 750px;
+}
+
+#progDeal {
+    font-size: 14px;
+    width: 100%;
+    height: 35px;
+    /*padding: 5px 3px 3px 8px;*/
+    margin: 10px 0;
+    text-align: left;
+    line-height: 35px;
+    float: left;
+}
+
+#imgList table {
+    padding: 6px 6px 6px 6px;
+    border: 0;
+}
+
+#imgList img {
+    margin-bottom: 4px;
+    border: 2px solid #CAEBFF;
+}
+
+#curImg {
+    border: 2px solid #CAEBFF;
+}
+
+#imgList img.curAbbrImg {
+    border: 2px solid #FF6600;
+}
+
+.precur {
+    cursor: url(../../../../../images/skin/pre.ani)
+}
+
+.nextcur {
+    cursor: url(../../../../../images/skin/next.ani)
+}
+
+.line {
+    width: 730px;
+    height: 1px;
+    background: url(../../../../../images/skin/line.gif)
+}
+
+.urlTypeName {
+    width: 60px;
+}
+
+#batchPlay table {
+    border-collapse: collapse;
+    margin: 5px 10px 10px 5px;
+    border: 1px solid #C0E8B5;
+    width: 360px;
+    word-break: break-all;
+}
+
+#batchPlayTab th {
+    color: #666666;
+    border: 1px solid #DBF1D4;
+    line-height: 18px;
+    background: #EBF8E7;
+}
+
+#batchPlay td {
+    color: #666666;
+    border: 1px solid #DBF1D4;
+    line-height: 18px;
+}
+
+#turnPage {
+    background-color: #FCFCFC;
+    border: #7EC5F6 1px solid;
+    font: 11px verdana, arial, helvetica, sans-serif;
+    padding: 1px 5px 0 5px;
+    height: 16px;
+    width: 50px;
+}
+
+#turnPageBtn {
+    background: #FFFFFF url(../images/skin/shadow.jpg) bottom repeat-x;
+    border: 1px solid #CCCCCC;
+    color: #666666;
+    font-size: 12px;
+    overflow: hidden;
+    padding-top: 2px;
+}
+
+#fileInfo {
+    line-height: 16px;
+}
+
+.explain {
+    background: #F3F8FC url(../../../../../images/skin/information.png) 6px 4px no-repeat;
+    border: 1px solid #B2D1FF;
+    color: #006DBA;
+    margin: 10px 0 5px 0;
+    padding: 5px 5px 5px 30px
+}
+
+.x_daohang {
+    /* margin: 10px 0;*/
+}
+
+.x_daohang a:link {
+    font-weight: normal !important;
+    margin-left: 2px;
+    margin-right: 2px;
+    text-decoration: none;
+}
+
+.x_daohang a:hover {
+    text-decoration: underline;
+}
+
+#selLib {
+    color: #006DBA;
+    font-size: 13px;
+    margin: 2px 0 4px 0;
+}
+
+#selLib input {
+    border: 0 solid #B2D1FF;
+}
+
+#videoDiv {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#batchPlay div {
+    position: relative !important;
+}
+
+.useractivity_search_list_size tr {
+    height: 40px;
+}
+
+.useractivity_search_list_size th {
+    padding: 0;
+    height: 40px;
+    background: #F4F4F4;
+    font-size: 14px;
+}
+
+#turnPage {
+    width: 30px;
+    height: 30px;
+    background: #FFFFFF;
+    color: #333333;
+    line-height: 32px;
+    font-size: 14px;
+    border: #B5B7BD 1px solid;
+}
+
+.useractivity_search_list_size a {
+    color: #333333;
+}

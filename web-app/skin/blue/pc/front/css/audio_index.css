@@ -1,0 +1,614 @@
+.boful_img_box {
+    width: 1024px;
+    height: 320px;
+    text-align: center;
+}
+
+.boful_img_container {
+    width: 1024px;
+    height: 260px;
+    padding: 30px 0;
+    text-align: center;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.boful_img_items img {
+    float: left;
+    border: 0;
+    width: 1024px;
+    height: 260px;
+}
+
+.boful_img_items {
+    width: 1024px;
+    height: 260px;
+    background: #252B33;
+    text-align: center;
+    overflow: hidden;
+}
+
+.boful_img_items a {
+    width: 1024px;
+    height: 260px;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_img_bottom {
+    width: 120px;
+    height: 12px;
+    display: none;
+    z-index: 10;
+    position: absolute;
+    margin: 240px 0 0 452px;
+    overflow: hidden;
+    cursor: none;
+}
+
+.boful_item_titles {
+    width: 200px;
+    height: 64px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    float: left;
+    filter: alpha(opacity=100);
+    -moz-opacity: 1.00;
+    -khtml-opacity: 1.00;
+    opacity: 1;
+}
+
+.boful_item_screenshots {
+    width: 120px;
+    height: 12px;
+    float: left;
+}
+
+.boful_item_titles .boful_item_title {
+    width: 200px;
+    height: 64px;
+    overflow: hidden;
+    float: left;
+}
+
+.boful_item_titles .boful_item_name, .boful_item_titles .boful_item_desc {
+    width: 200px;
+    height: 32px;
+    color: #FFFFFF;
+    line-height: 32px;
+}
+
+.boful_item_name a {
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.boful_item_screenshots img {
+    width: 85px;
+    height: 60px;
+    border: 1px solid #333333;
+    float: left;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.boful_item_screenshots img:hover {
+    border: 1px solid #0DAD51;
+}
+
+.wrap {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.boful_item_screenshots span {
+    width: 12px;
+    height: 12px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    margin-right: 15px;
+    float: left;
+    opacity: 0.4;
+    cursor: pointer;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_item_screenshots span:hover {
+    opacity: 1;
+}
+
+.audio_content {
+    width: 1024px;
+    min-height: 500px;
+    padding-bottom: 40px;
+    display: block;
+    overflow: hidden;
+}
+
+.audio_content_left {
+    float: left;
+}
+
+.audio_content_left,
+.audio_left_hot {
+    width: 720px;
+    height: auto;
+    display: block;
+    overflow: hidden;
+}
+
+.audio_content_left h1 {
+    width: 720px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 30px;
+    margin: 20px 0 15px 0;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #BBBBBB;
+    text-align: left;
+    color: #5C5C5C;
+}
+
+.audio_content_left h1 span {
+    display: block;
+    width: 80px;
+    float: left;
+    font-size: 18px;
+    text-align: left;
+    line-height: 30px;
+    height: 30px;
+}
+
+.audio_content_left h1 p {
+    display: block;
+    border-bottom: 3px solid #0DAD51;
+    width: 140px;
+    float: left;
+    margin: 0;
+    text-align: left;
+    line-height: 30px;
+    height: 30px;
+}
+
+.audio_list_rank h1 p {
+    display: block;
+    border-bottom: 3px solid #0DAD51;
+    width: 140px;
+    float: left;
+    margin: 0;
+    text-align: left;
+    line-height: 30px;
+    height: 30px;
+}
+
+.audio_content_left h1 a, .audio_list_rank h1 a {
+    color: #0DAD51;
+    font-size: 12px;
+    float: left;
+    width: 50px;
+    height: 15px;
+    line-height: 15px;
+    margin-top: 10px;
+    display: block;
+    overflow: hidden;
+}
+
+.audio_content_left h1 a:hover {
+    color: #0DC153;
+}
+
+.audio_items {
+    border-bottom: 1px dashed #C3C8C3;
+    /*padding: 0 10px;*/
+    display: block;
+    overflow: hidden;
+}
+
+.audio_item {
+    width: 160px;
+    height: 184px;
+    margin-right: 15px;
+    float: left;
+}
+
+.audio_item_img, .audio_item_img img {
+    width: 160px;
+    height: 90px;
+    display: block;
+    overflow: hidden;
+}
+
+.audio_item_infor {
+    width: 160px;
+    height: auto;
+}
+
+.audio_item_title,
+.audio_item_descript,
+.audio_item_number {
+    width: 160px;
+    height: 20px;
+    padding: 0;
+    text-align: left;
+    line-height: 20px;
+}
+
+.audio_item_title {
+    margin-top: 5px;
+}
+
+.audio_item_title a {
+    font-size: 14px;
+    color: #0DAD51;
+    text-align: left;
+    cursor: pointer;
+}
+
+.audio_item_title a:hover {
+    color: #3DB743;
+}
+
+.audio_item_descript {
+    color: #999999;
+    font-size: 12px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.audio_item_user_num,
+.audio_item_user_time {
+    color: #999999;
+    width: 80px;
+    font-size: 12px;
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+
+.audio_left_new {
+    display: block;
+    overflow: hidden;
+}
+
+.audio_item_user_time {
+    float: right;
+    text-align: right;
+}
+
+.audio_item_user_num {
+    float: left;
+    text-align: left;
+}
+
+.audio_hot_items {
+    width: 335px;
+    float: left;
+    height: auto;
+}
+
+.audio_hot_item {
+    width: 335px;
+    height: 20px;
+    cursor: pointer;
+    line-height: 20px;
+    margin: 15px 0;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.audio_hot_item:hover {
+    border-bottom: 1px solid #E5EBE5;
+}
+
+.audio_hot_item span {
+    line-height: 20px;
+}
+
+.hot_item_title {
+    float: left;
+    width: 140px;
+    line-height: 20px;
+
+}
+
+.hot_item_title a {
+    color: #0DAD51;
+    font-size: 14px;
+    text-align: left;
+    width: 140px;
+    height: 20px;
+    line-height: 20px;
+    display: block;
+    overflow: hidden;
+}
+
+.hot_item_username {
+    width: 100px;
+    color: #999999;
+    font-size: 12px;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.hot_item_operate, .hot_play_number, .right_rank_user {
+    width: 80px;
+    color: #999999;
+    font-size: 12px;
+    text-align: right;
+    margin-left: 5px;
+    float: right;
+    line-height: 20px;
+}
+
+.hot_item_operate {
+    height: 16px;
+    margin-top: 2px;
+    display: none;
+    overflow: hidden;
+}
+
+.operate_paly, .operate_save, .operate_offer {
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin-left: 8px;
+    background: url("../images/hot_item_operate_icon.png") center no-repeat;
+    display: block;
+    overflow: hidden;
+}
+
+.operate_paly {
+    background-position: 0 0;
+}
+
+.operate_paly:hover {
+    background-position: 0 -17px;
+}
+
+.operate_save {
+    background-position: 0 -34px;
+}
+
+.operate_save:hover {
+    background-position: 0 -51px;
+}
+
+.operate_offer {
+    background-position: 0 -68px;
+}
+
+.operate_offer:hover {
+    background-position: 0 -85px;
+}
+
+.left_hot_mar {
+    margin-right: 15px;
+}
+
+.audio_left_new {
+    /*border-bottom: 2px solid #D9D9D9;*/
+    /*  padding-bottom: 15px;*/
+}
+
+.audio_content_right {
+    margin-left: 20px;
+}
+
+.audio_content_right,
+.audio_rank_items {
+    width: 284px;
+    height: auto;
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+
+.audio_rank_items {
+    border-bottom: 1px solid #D0D5D0;
+    padding-bottom: 10px;
+}
+
+.audio_rank_items p {
+    width: 274px;
+    height: 30px;
+    padding: 0 5px;
+}
+
+.audio_rank_items p:hover {
+    background: #F4F4F4;
+}
+
+.right_rank_number {
+    width: 35px;
+    line-height: 30px;
+    height: 30px;
+    float: left;
+    font-family: Arial, Tahoma, "hiragino sans gb", Helvetica;
+    /*color: #BBBBBB;*/
+    display: block;
+    overflow: hidden;
+}
+
+.right_rank_title {
+    width: 150px;
+    font-size: 14px;
+    color: #0DAD51;
+    line-height: 30px;
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+
+.rank_item_operate {
+    height: 16px;
+    margin-top: 4px;
+    width: 80px;
+    font-size: 12px;
+    text-align: right;
+    float: right;
+    line-height: 30px;
+    display: none;
+    overflow: hidden;
+}
+
+.audio_list_tally {
+    padding: 5px 0 10px 0;
+    display: block;
+    overflow: hidden;
+    border-bottom: 1px dashed #C3C8C3;
+}
+
+.audio_list_rank {
+    width: 284px;
+    padding-bottom: 10px;
+    display: block;
+    overflow: hidden;
+}
+
+.audio_list_rank h1 {
+    height: 30px;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 30px;
+    margin: 20px 0 15px 0;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #BBBBBB;
+    text-align: left;
+    color: #5C5C5C;
+}
+
+.audio_list_rank h1 span {
+    display: block;
+    border-bottom: 3px solid #0DAD51;
+    width: 75px;
+    float: left;
+    font-size: 18px;
+    text-align: left;
+    line-height: 30px;
+    height: 30px;
+}
+
+.audio_list_tally h1 {
+    height: 20px;
+    background: url("../images/tags.png") left no-repeat;
+    font-size: 14px;
+    padding-left: 20px;
+    color: #E8700B;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.audio_left_hot {
+    padding: 15px 0;
+}
+
+.right_rank_bla {
+    color: #BBBBBB;
+    font-size: 12px;
+}
+
+.right_rank_yellow {
+    color: #FF7900;
+    font-size: 16px;
+}
+
+.audio_tally_itmes {
+    margin: 10px 0;
+}
+
+.audio_tally_itmes a {
+    height: 25px;
+    line-height: 25px;
+    float: left;
+    font-size: 12px;
+    padding: 0 10px;
+    display: inline;
+    color: #5C5C5C;
+    cursor: pointer;
+}
+
+.audio_tally_itmes a:hover {
+    color: #0DAD51;
+
+}
+
+.audio_other_items {
+    width: 720px;
+    height: auto;
+    border-top: 1px solid #BBBBBB;
+    display: block;
+    overflow: hidden;
+}
+
+.audio_other_item {
+    width: 340px;
+    height: 355px;
+    padding: 10px 0;
+    float: left;
+    margin-right: 20px;
+    border-bottom: 1px dashed #BBBBBB;
+    display: block;
+    overflow: hidden;
+}
+
+.audio_other_items {
+    display: block;
+    overflow: hidden;
+
+}
+
+.audio_other_items h2 {
+    font-size: 16px;
+    margin: 10px 0;
+    height: 20px;
+    line-height: 20px;
+    border-left: 4px solid #0DAD51;
+    padding-left: 8px;
+    font-weight: normal;
+
+}
+
+.audio_other_items h2 a {
+    width: 60px;
+    font-size: 12px;
+    color: #0DAD51;
+    text-align: right;
+    height: 20px;
+    line-height: 20px;
+}
+
+.audio_other_items h2 a:hover {
+    color: #3DB743;
+}
+
+.audio_referee_works {
+    width: 284px;
+    padding: 10px 0;
+    height: auto;
+    display: block;
+    overflow: hidden;
+}
+
+.audio_referee_works h1 {
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    color: #333333;
+}
+
+.audio_referee_work {
+    width: 284px;
+    height: auto;
+    display: block;
+    overflow: hidden;
+}
+
+.audio_referee_user {
+
+}

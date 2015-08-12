@@ -1,0 +1,117 @@
+/*2014-06-19网站页面颜色，字体*/
+
+/*---------------网站头部颜色---------------------*/
+.hborder {
+    background: #FFF;
+    border-bottom: 2px #0298DB solid;
+}
+
+/*头部背景颜色 h代表头部*/
+.hcorlor {
+    /*background-color: #fff;*/
+    border-bottom: 1px solid #e0e6e2;
+}
+
+.hserchlist {
+    /*搜索SPAN表背景颜色*/
+    /*background-color: #000;*/
+}
+
+.hserchspan {
+    /*搜索下拉背景颜色*/
+    /*background-color: #000;*/
+}
+
+.hserchinput {
+    /*搜索框背景颜色*/
+    /*background-color: #fff;*/
+}
+
+.hserchbut {
+    /*搜索按钮颜色*/
+    height: 38px;
+    width: 60px;
+    background: url("../images/boful_button_icon_ss.png") no-repeat;
+}
+
+/*导航栏字体背景等颜色*/
+.hnavbg {
+    /*background-color: teal;*/
+    background: #0092D3;
+}
+
+.ou_header_nav .nav_item a:hover {
+    color: #fff;
+    border-bottom: 3px solid #01ABF6;
+    text-decoration: none;
+}
+
+.ou_header_nav .nav_item .currentnav {
+    color: #fff;
+    border-bottom: 3px solid #01ABF6;
+    text-decoration: none;
+}
+
+.hnavcorl1 a {
+    /*导航链接颜色*/
+    color: #fff;
+}
+
+.hnavcorl1 a:hover {
+    /*导航链接颜色*/
+    color: #fff;
+}
+
+.boful_logon_in {
+    /*登陆颜色*/
+    background: #39a53e;
+    color: #FFF;
+    border: 1px solid #34983a;
+}
+
+.boful_logon_enroll {
+    /*注册颜色*/
+    background: #ebebeb;
+    color: #777;
+    border: 1px solid #b1b1b1;
+}
+
+/*---------------网站头部颜色---------------------*/
+
+/*网站页脚footer颜色*/
+.fcorl1 {
+    background: #f4f4f4;
+    border-top: 1px solid #E7E7E7;
+}
+
+/*网站页脚footer颜色*/
+
+a:hover {
+    text-decoration: none;
+}
+
+/*----------------------课程页面样式------------------*/
+/*第一部分课程首页*/
+.course_item_header_title {
+    color: #333;
+    font-size: 22px;
+}
+
+.course_item_header_more {
+    font-size: 14px;
+    color: #5C5C5C;
+    font-weight: 400;
+}
+
+.course_item_header_line {
+    background: url(../images/course_item_header_line.png) no-repeat;
+}
+
+.course_video_item_head_see p a {
+    color: #FFF;
+    background: #53a93f;
+}
+
+.course_video_item_mgr {
+    background: #ECF2F4;
+}

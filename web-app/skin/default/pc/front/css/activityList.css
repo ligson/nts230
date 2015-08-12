@@ -1,0 +1,87 @@
+.activityList_content {
+    width: 710px;
+    padding: 0 15px;
+    height: auto;
+}
+
+.activityList_content_title td {
+    color: #5C5C5C;
+}
+
+.activityList_content_title,
+.activityList_content_title_list {
+    width: 753px;
+    height: 30px;
+}
+
+.activityList_content_title_list table {
+    border-bottom: 1px dashed #E7EFE7;
+}
+
+.activityList_content_title_list table:hover {
+    background: #F0F6F0;
+}
+
+.activityList_content_title {
+    padding-bottom: 5px;
+    border-bottom: #F4F4F4 1px solid;
+}
+
+.activityList_content_title table,
+.activityList_content_title tbody,
+.activityList_content_title_list tbody,
+.activityList_content_title_list table {
+    height: 25px;
+}
+
+.activityList_content_title tr,
+.activityList_content_title_list tr {
+    height: 25px;
+}
+
+.activityList_content_title td,
+.activityList_content_title_list td {
+    height: 25px;
+    font-size: 14px;
+
+}
+
+.con_title {
+    width: 520px;
+    text-align: center;
+}
+
+.con_titles {
+    width: 520px;
+    text-align: left;
+}
+
+.con_mode,
+.con_edit {
+    width: 16px;
+    text-align: left;
+    display: block;
+    overflow: hidden;
+}
+
+.con_starttime {
+    width: 150px;
+    color: #5C5C5C;
+}
+
+.con_bor {
+}
+
+.con_bor {
+    color: #4DB652;
+}
+
+.content_icon {
+    background: url("../images/con_mode.png") center no-repeat;
+    width: 65px;
+    height: 27px;
+}
+
+.content_icon:hover {
+    background: url("../images/con_mode1.png") center no-repeat;
+}

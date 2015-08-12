@@ -1,0 +1,342 @@
+/*@charset "utf-8";*/
+/* CSS Document */
+
+/*页面通用部分可删除部分---start*/
+/*body, div, p, h1, h2, h3, h4, h5, h6, ul, li, dl, dt, dd {*/
+/*margin: 0;*/
+/*padding: 0;*/
+/*font-size: 12px;*/
+/*text-align: left;*/
+/*font-family: "微软雅黑", serif;*/
+/*color: #333333;*/
+/*word-break: break-all;*/
+/*word-wrap: break-word;*/
+
+/*}*/
+
+/*img, input, button {*/
+/*border: 0 none;*/
+/*}*/
+
+/*a {*/
+/*outline: none;*/
+/*transition: color 0.2s ease 0s;*/
+/*text-decoration: none;*/
+/*color: #6E6E6E;*/
+/*}*/
+
+/*页面通用部分可删除部分---end*/
+
+/*2014topu----start*/
+/*.search_left a:hover, .search_lead a:hover {*/
+/*text-decoration: underline;*/
+/*}*/
+
+/* banner */
+#banner {
+    width: 100%;
+    min-width: 1024px;
+    height: 380px;
+    background: url(../images/banner-bg.jpg) repeat-x;
+    position: relative;
+}
+
+#banner .wrapper {
+    width: 1170px;
+    max-width: 1024px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#banner_img {
+    display: block;
+    position: relative;
+}
+
+#banner_img li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 381px;
+    background-position: center;
+    background-size: cover;
+    display: none;
+}
+
+#banner_img li.item1 {
+    display: block;
+}
+
+#banner_img .ad_img {
+    position: relative;
+    right: 10px;
+    max-height: 255px;
+    top: 0;
+    margin-top: 50px;
+    max-width: 450px;
+    display: block;
+    overflow: hidden;
+    float: right;
+
+}
+
+#banner_img .ad_img a img {
+    max-width: 450px;
+    max-height: 255px;
+    display: block;
+    overflow: hidden;
+}
+
+#banner_img .ad_txt {
+    position: absolute;
+    left: 10px;
+    top: 35px;
+    float: left;
+    width: 450px;
+
+}
+
+#banner_img .ad_txt h2 {
+    font: 500 40px/60px Microsoft YaHei;
+    color: #FFFFFF;
+    text-align: left;
+    height: 60px;
+    width: 440px;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#banner_img li {
+    background-color: #111926;
+}
+
+#banner_img li.item1 {
+    background-image: url(../images/banner_bg7.png);
+    display: block;
+}
+
+/*文献管理*/
+/*#banner_img li.item2 {*/
+/*background-image: url(../images/banner_bg2.jpg);*/
+/*}*/
+
+/*面向对象*/
+/*#banner_img li.item3 {*/
+/*background-image: url(../images/banner_bg3.jpg);*/
+/*}*/
+
+/*c++*/
+/*#banner_img li.item4 {*/
+/*background-image: url(../images/banner_bg4.jpg);*/
+/*}*/
+
+/*经济地理*/
+/*#banner_img li.item5 {*/
+/*background-image: url(../images/banner_bg5.jpg);*/
+/*}*/
+
+/*概率论*/
+
+#banner_ctr {
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    overflow: hidden;
+    left: 44%;
+    bottom: 0;
+    z-index: 1;
+}
+
+#banner_ctr ul {
+    width: 960px;
+    height: 16px;
+    font-size: 0;
+    line-height: 0;
+    position: relative;
+}
+
+#banner_ctr li {
+    display: block;
+    float: left;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    background: url(../images/bg_img.png) no-repeat 2px -86px;
+}
+
+#drag_arrow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 17px;
+    background: url(../images/bg_img.png) no-repeat left -106px;
+}
+
+.col33ff {
+    color: #FFFFFF;
+    width: 450px;
+    max-height: 100px;
+    font-size: 15px;
+    line-height: 25px;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.font37 {
+    font: 500 37px "微软雅黑";
+    color: #FFFFFF;
+}
+
+.col58 {
+    color: #FFFFFF;
+    font-size: 19px;
+    margin: 10px 0;
+}
+
+.go_btn_box {
+    margin-top: 20px;
+}
+
+.go_btn_box a {
+    color: #7FC334;
+}
+
+.go_btn_box .go_btn {
+    background: url(../images/bg_img.png) no-repeat -55px top;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    margin: 3px 10px 0 0;
+    vertical-align: middle;
+}
+
+.go_btn_box:hover .go_btn {
+    background-position: -55px -30px;
+}
+
+.go_btn_box:hover a {
+    color: #B4FF00;
+}
+
+/*清浮动*/
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+/* banner */
+.banner1 {
+    /* width: 100%;*/
+    /*min-width: 1024px;*/
+    height: 380px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner-btn {
+    display: none;
+}
+
+.banner-btn a {
+    display: block;
+    line-height: 40px;
+    position: absolute;
+    top: 150px;
+    width: 70px;
+    height: 65px;
+    overflow: hidden;
+    z-index: 4;
+}
+
+.prevBtn {
+    left: 50px;
+}
+
+.nextBtn {
+    right: 50px;
+}
+
+.banner-img {
+    font-size: 0;
+    *word-spacing: -1px; /* IE6、7 */
+    letter-spacing: -3px;
+    position: relative;
+    padding: 0;
+}
+
+.banner-img li {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1; /* IE6、7 */
+    vertical-align: top;
+    width: 100%;
+    height: 380px;
+    letter-spacing: normal;
+    word-spacing: normal;
+    font-size: 12px;
+}
+
+.banner1 i {
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+    margin: 8px 0 0 12px;
+    display: block;
+}
+
+.banner1 .nextBtn i {
+
+    background: url('../images/ou_index_dome_pre_next.png') no-repeat scroll 0px -112px transparent;
+}
+
+.banner1 .prevBtn i {
+    background: url('../images/ou_index_dome_pre_next.png') no-repeat scroll 0px 0px transparent;
+}
+
+.banner-circle {
+    position: absolute;
+    left: 50%;
+    bottom: 15px;
+    height: 22px;
+    text-align: center;
+    font-size: 0;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.3);
+    filter: alpha(opacity:30);
+}
+
+.banner-circle li {
+    border-radius: 10px;
+    margin: 5px;
+    display: inline-block;
+    display: -moz-inline-stack;
+    vertical-align: middle;
+    zoom: 1;
+}
+
+.banner-circle li a {
+    display: block;
+    padding-top: 12px;
+    width: 12px;
+    height: 0;
+    border-radius: 50%;
+    background: #B7B7B7;
+    overflow: hidden;
+    float: left;
+}
+
+.banner-circle .selected a {
+    background: #ffffff;
+}

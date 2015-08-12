@@ -1,0 +1,267 @@
+.index_moocs_head {
+    width: 100%;
+    height: 380px;
+    background: url("../images/moocsbanner.jpg") center no-repeat;
+}
+
+.wrap {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.index_moocs_join {
+    height: 42px;
+    padding-top: 250px;
+    padding-left: 10px;
+}
+
+.index_moocs_join a {
+    height: 40px;
+    line-height: 40px;
+    width: 120px;
+    text-align: center;
+    font-size: 16px;
+    float: left;
+    border-radius: 40px;
+    background: none;
+    border: 1px solid #FFF;
+    color: #FFF;
+    display: block;
+    overflow: hidden;
+    transition: all 0.2s ease-out 0s;
+}
+
+.index_moocs_join a:hover {
+    background: #FFF;
+    color: #7d9444;
+}
+
+.font12 {
+    font-size: 12px;
+}
+
+.font14 {
+    font-size: 14px;
+}
+
+.font16 {
+    font-size: 16px;
+}
+
+.font18 {
+    font-size: 18px;
+}
+
+.col27a {
+    color: #27ae60;
+}
+
+.col333 {
+    color: #333;
+}
+
+.col666 {
+    color: #666;
+}
+
+.fontnor {
+    font-weight: normal;
+}
+
+.index_moocs_body_left {
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    border-top: 2px solid #27ae60;
+    width: 240px;
+    height: auto;
+    float: left;
+}
+
+.index_moocs_clum {
+    width: 240px;
+    display: block;
+}
+
+.index_moocs_clum p {
+    height: 50px;
+    border-bottom: 1px solid #cccccc;
+    margin: 0;
+    padding: 0;
+}
+
+.index_moocs_clum p a {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    width: 240px;
+    display: block;
+    overflow: hidden;
+    transition: all 0.2s ease-out 0s;
+}
+
+.index_moocs_clum p a:hover {
+    background: #27ae60;
+    /*border: 1px solid #27ae60;*/
+    color: #FFF;
+    position: relative;
+    z-index: 1;
+}
+
+.index_moocs_body_right {
+    width: 760px;
+    margin-left: 22px;
+    float: left;
+    min-height: 600px;
+}
+
+.index_moocs_body {
+    padding: 40px 0;
+}
+
+.index_moocs_item {
+    width: 235px;
+    height: auto;
+    float: left;
+    margin-left: 16px;
+    margin-bottom: 16px;
+}
+
+.index_moocs_items {
+    display: block;
+    overflow: hidden;
+}
+
+.index_moocs_item_img {
+    width: 235px;
+    height: 130px;
+}
+
+.index_moocs_item_img img {
+    width: 100%;
+    height: 130px;
+}
+
+.index_moocs_item_infor {
+    padding: 10px 10px;
+    border: 1px solid #cccccc;
+    border-top: 0;
+    display: block;
+    overflow: hidden;
+}
+
+.index_moocs_item_infor h1 {
+    height: 25px;
+    line-height: 25px;
+    margin-bottom: 5px;
+}
+
+.index_moocs_item_infor p {
+    height: 40px;
+    line-height: 20px;
+    margin: 0;
+    overflow: hidden;
+}
+
+.index_moocs_path {
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.index_moocs_path p {
+    height: 30px;
+    line-height: 30px;
+}
+
+.index_moocs_path p a, .index_moocs_path p span {
+    display: block;
+    overflow: hidden;
+    float: left;
+}
+
+.index_moocs_path p a {
+    margin: 0 10px;
+}
+
+/*-----------------------------分页-----------------------------*/
+.f_page {
+    color: #999;
+    width: 500px;
+    height: 31px;
+    float: right;
+    margin: 15px 50px;
+}
+
+.f_page .num {
+    background-color: #FFF;
+    color: #999;
+    display: inline-block;
+    margin-left: 5px;
+    width: 29px;
+    font-size: 12px;
+    height: 29px;
+    padding: 0;
+    float: left;
+    line-height: 31px;
+    text-align: center;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.f_page .guinum {
+    height: 29px;
+    border: 1px solid #ddd;
+    line-height: 29px;
+    color: #999;
+    width: 50px;
+    padding: 0 3px;
+    float: left;
+    font-size: 12px;
+    margin: 0 0 0 5px;
+}
+
+.guipa {
+    background-color: #FFF;
+    color: #999;
+    border: 1px solid #ddd;
+    line-height: 31px;
+    height: 29px;
+    padding: 0 5px;
+    font-size: 12px;
+    float: left;
+    margin-left: 5px;
+    display: block;
+    overflow: hidden;
+}
+
+.f_page .currentStep {
+    background: #4aa563;
+    width: 31px;
+    height: 31px;
+    margin-left: 5px;
+    float: left;
+    color: #FFF;
+    font-size: 12px;
+    line-height: 31px;
+    display: block;
+    text-align: center;
+}
+
+#turnPageBtn {
+    background-color: #FFF;
+    color: #999;
+    border: 1px solid #ddd;
+    line-height: 29px;
+    height: 29px;
+    padding: 0 5px;
+    font-size: 12px;
+    margin-left: 5px;
+    border-radius: 0;
+}
+
+.f_page .num:hover, .f_page .guipa:hover {
+    border: 1px solid #4aa563;
+    color: #4aa563;
+}
+

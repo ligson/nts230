@@ -1,0 +1,528 @@
+body {
+    /*background: url("../images/community_groups_user_bg.png");*/
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.share_show_content {
+    min-height: 736px;
+    /*border-bottom: solid 1px #dadada;*/
+    background-color: #f2f2f2;
+    /* *//*background: #E4E4E4 url(img/play/bg_player_container.png) 0 0 repeat-x \9;*//*
+     background-image: -webkit-linear-gradient(#FBFBFB 0,#E4E4E4 300px,#E4E4E4 100%);
+     background-image: -moz-linear-gradient(#FBFBFB 0,#E4E4E4 300px,#E4E4E4 100%);
+     background-image: linear-gradient(#FBFBFB 0,#E4E4E4 300px,#E4E4E4 100%);*/
+}
+
+.share_show_body {
+    width: 1024px;
+    margin: 0 auto;
+    /* min-height: 530px;*/
+    display: block;
+    overflow: hidden;
+}
+
+.share_show_window img {
+    max-width: 720px;
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+}
+
+.share_show_content_left {
+    width: 984px;
+    float: left;
+    height: auto;
+    background: #FFFFFF;
+    padding: 20px;
+    border-bottom: 10px solid #f4f4f4;
+    /* -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), -1px 0 0 rgba(0, 0, 0, 0.03), 1px 0 0 rgba(0, 0, 0, 0.03), 0 1px 0 rgba(0, 0, 0, 0.12);
+     -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), -1px 0 0 rgba(0, 0, 0, 0.03), 1px 0 0 rgba(0, 0, 0, 0.03), 0 1px 0 rgba(0, 0, 0, 0.12);
+     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), -1px 0 0 rgba(0, 0, 0, 0.03), 1px 0 0 rgba(0, 0, 0, 0.03), 0 1px 0 rgba(0, 0, 0, 0.12);*/
+    display: block;
+    overflow: hidden;
+}
+
+.share_show_title {
+    width: 720px;
+    margin: 10px 0;
+    height: 30px;
+}
+
+.share_show_class {
+    width: 24px;
+    height: 30px;
+    float: left;
+    /*background: url("../images/course_sup_voice.png") center no-repeat;*/
+}
+
+.share_show_name {
+    width: 660px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    float: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.share_show_window {
+    width: 984px;
+    height: auto;
+}
+
+.see_show_window {
+    width: 984px;
+    /*padding: 20px 0;*/
+    height: auto;
+    /*background: #333;*/
+    text-align: center;
+    display: block;
+}
+
+#boful_video_player {
+    margin: 0 auto;
+    /*box-shadow: 0 0 5px rgba(0,0,0,0.6);*/
+}
+
+.share_show_infor {
+    width: 984px;
+    margin: 15px 0;
+    height: 20px;
+}
+
+.see_number,
+.see_download,
+.see_share {
+    width: 100px;
+    font-size: 12px;
+    text-align: left;
+    float: right;
+}
+
+.share_show_content_right {
+    width: 234px;
+    float: left;
+    height: auto;
+    margin-left: 10px;
+    background: #FFFFFF;
+    padding: 10px;
+    /*-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), -1px 0 0 rgba(0, 0, 0, 0.03), 1px 0 0 rgba(0, 0, 0, 0.03), 0 1px 0 rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), -1px 0 0 rgba(0, 0, 0, 0.03), 1px 0 0 rgba(0, 0, 0, 0.03), 0 1px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), -1px 0 0 rgba(0, 0, 0, 0.03), 1px 0 0 rgba(0, 0, 0, 0.03), 0 1px 0 rgba(0, 0, 0, 0.12);*/
+}
+
+.share_show_hot {
+    width: 234px;
+    height: 50px;
+    padding: 5px 0 10px 0;
+    border-bottom: 1px rgba(179, 187, 179, 0.43) dashed;
+}
+
+.posent_infor {
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+.posent_infor img {
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+}
+
+.posent_infor_other {
+    width: 180px;
+    height: 50px;
+    margin-left: 4px;
+    float: left;
+}
+
+.posent_infor_other h1 {
+    font-size: 14px;
+    margin: 0 0 5px 0;
+    text-align: left;
+    height: 20px;
+    font-weight: normal;
+    line-height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.posent_infor_other p {
+    font-size: 12px;
+    text-align: left;
+    color: #999999;
+    margin-top: 10px;
+}
+
+.share_rank {
+    margin-top: 10px;
+    min-height: 413px;
+}
+
+.share_rank h1 {
+    font-weight: normal;
+    font-size: 18px;
+    text-align: left;
+}
+
+.rank_list p {
+    margin-top: 5px;
+}
+
+.rank_list p a {
+    width: 230px;
+    font-size: 14px;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+    color: #333333;
+}
+
+.rank_list p a:hover {
+    color: #3C9F41;
+}
+
+/*-------2014-04-25-------------------*/
+.commubity_share_nav {
+    float: left;
+    padding-top: 20px;
+    width: 1024px;
+    margin: 0 auto;
+    line-height: 55px;
+}
+
+.commubity_share_nav a, .commubity_share_nav span {
+    float: left;
+    margin-right: 5px;
+}
+
+.commubity_share_nav a {
+    font-size: 14px;
+    color: #4F5F69;
+}
+
+.commubity_share_nav a:hover, .commubity_share_nav span:hover {
+    color: #39A53E;
+    text-decoration: underline;
+}
+
+.commubity_share_nav span {
+    font-size: 12px;
+    color: #4F5F69;
+}
+
+.community_see_s_tit h1 {
+    font-size: 18px;
+    text-align: left;
+    color: #333333;
+    height: 30px;
+    font-weight: normal;
+    line-height: 30px;
+}
+
+/*-------------------------------------------------------------------------------------*/
+.ou_share_upload {
+    width: 180px;
+    height: 40px;
+    background: #3baa40;
+    border-bottom: 3px #318c34 solid;
+    margin-left: 25px;
+}
+
+.ou_share_upload:hover {
+    background: #43c249;
+    border-bottom: 3px #379d3a solid;
+}
+
+.ou_share_upload a {
+    width: 100px;
+    height: 40px;
+    margin: 20px 40px 20px 40px;
+    padding-left: 30px;
+    color: #FFF;
+    line-height: 40px;
+    background: url("../images/ou_sharing_upload_icon.png") left no-repeat;
+    /* background: #3baa40;*/
+    display: block;
+    overflow: hidden;
+}
+
+.ou_share_upload_line {
+    height: 1px;
+    background: #eeeeee;
+    width: 243px;
+    margin: 20px 0;
+}
+
+.commubity_share_files_title {
+    height: 30px;
+    width: 984px;
+    line-height: 30px;
+    color: #333;
+    font-size: 18px;
+    text-align: left;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/*------------------------------------2014-07-08----------------------------------*/
+.community_share_other_files {
+    background: #FFF;
+    width: 1024px;
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+}
+
+.community_share_other_files_left {
+    width: 720px;
+    height: auto;
+    padding: 0 10px;
+    float: left;
+    background: #FFF;
+    border-right: 1px solid #eeeeee;
+}
+
+.community_share_other_files_right {
+    width: 263px;
+    padding: 0 10px;
+    float: left;
+    height: auto;
+    display: block;
+}
+
+.com_share_other_tab {
+    height: 50px;
+    width: 720px;
+    line-height: 50px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.com_share_other_tab span {
+    width: 120px;
+    height: 40px;
+    margin-top: 7px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+    cursor: pointer;
+    display: block;
+}
+
+.com_share_other_tab em {
+    display: block;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 5px;
+    font-size: 14px;
+    color: #bfbfbf;
+}
+
+.com_share_other_tab span:hover {
+    border-bottom: 3px solid #39a53e;
+    color: #39a53e;
+}
+
+.com_chose_meau {
+    border-bottom: 3px solid #39a53e;
+    color: #39a53e;
+}
+
+.com_share_other_infor {
+    width: 720px;
+    height: auto;
+    display: block;
+    overflow: hidden;
+}
+
+.com_files_introduction {
+    width: 720px;
+    height: auto;
+}
+
+.com_files_introduction p {
+    font-size: 14px;
+    color: #666;
+    text-indent: 2em;
+    padding: 20px 0;
+    letter-spacing: 0.5px;
+}
+
+.com_files_list {
+    display: block;
+}
+
+.com_files_list p {
+    height: 40px;
+    padding: 0 20px 0 16px;
+    line-height: 40px;
+    border-bottom: 1px solid #f6f6f6;
+}
+
+.com_files_list p:hover {
+    background: #FCFCFC left no-repeat;
+}
+
+.com_files_list p em {
+    float: left;
+    background: url("../images/ou_learnicon.png") left no-repeat;
+    height: 40px;
+    width: 30px;
+    line-height: 40px;
+    display: block;
+    overflow: hidden;
+}
+
+.com_files_list p a {
+    font-size: 14px;
+    color: #666;
+    width: 470px;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    float: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.com_files_list p a:hover {
+    color: #39a53e;
+    text-decoration: underline;
+}
+
+.com_files_list p span {
+    height: 40px;
+    font-size: 12px;
+    line-height: 40px;
+    display: block;
+    float: right;
+    color: #999;
+}
+
+.com_files_talk {
+    display: block;
+}
+
+.share_show_content_left_tit {
+    display: block;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+.community_share_other_files_right h1 {
+    font-size: 16px;
+    height: 50px;
+    font-weight: normal;
+    line-height: 50px;
+    color: #333;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.community_share_hot_files {
+    padding: 15px 0;
+    display: block;
+    height: auto;
+}
+
+.community_share_hot_files p {
+    height: 35px;
+    line-height: 35px;
+    margin: 0;
+}
+
+.community_share_hot_files p em {
+    display: block;
+    float: left;
+    margin-right: 10px;
+    height: 20px;
+    width: 25px;
+    margin-top: 8px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.share_other_files {
+    color: #5c5c5c;
+    background: #f4f4f4;
+}
+
+.share_hot_files {
+    color: #FFF;
+    background: #39a53e;
+}
+
+.community_share_hot_files p a {
+    height: 35px;
+    line-height: 35px;
+    display: block;
+    font-size: 12px;
+    float: left;
+    width: 150px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #5c5c5c;
+}
+
+.community_share_hot_files p a:hover {
+    color: #39a53e;
+}
+
+.community_share_hot_files p span {
+    float: right;
+    height: 35px;
+    line-height: 35px;
+    font-size: 12px;
+    color: #999;
+    display: block;
+}
+
+.community_share_hot_box,
+.community_share_recommend_box {
+    display: block;
+    overflow: hidden;
+}
+
+.b_bule {
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+}
+.community_share_images_name{
+    width: 700px;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.community_share_images_download{
+    width: 80px;
+    float: right;
+    height: 30px;
+    background: #39a53e;
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    line-height: 30px;
+    display: block;
+    overflow: hidden;
+}
+.community_share_images_download:hover{
+    color: #FFF;
+}

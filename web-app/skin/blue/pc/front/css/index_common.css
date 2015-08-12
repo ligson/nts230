@@ -1,0 +1,242 @@
+/* CSS Document */
+@import url("global.css");
+@import url("index_flash_style.css");
+
+body {
+    background: #FFF;
+}
+
+.w960 {
+    width: 970px; /*position:relative;*/
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.margtop {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*-------首页内容展示------*/
+.box_width {
+    width: 320px;
+}
+
+.box_width2 {
+    width: 650px;
+    clear: both
+}
+
+.box_kl {
+    background-color: #DDDDDD;
+    margin-bottom: 10px;
+}
+
+.box_kl h3, .box_kl h3 a {
+    color: #8F5387;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.box_kl dl {
+    padding: 0px 0px 150px 0px;
+}
+
+.box_kl dt {
+    width: 100%;
+    line-height: 38px;
+    height: 38px;
+    background-color: #A66DA0;
+    color: #FFF;
+    font-size: 14px;
+    text-align: left;
+    border-top: 1px solid #D2B6CF;
+    margin: 0px 0px 15px 0px;
+}
+
+.box_kl dt span a {
+    color: #FFF;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.box_kd1 dd {
+    width: 90%;
+    overflow: hidden;
+}
+
+.box_kd2 dd {
+    width: 45%;
+}
+
+.box_kd3 dd {
+    width: 60%;
+}
+
+.box_kl dd {
+    line-height: 26px;
+    display: block;
+    float: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.box_gg dd {
+    width: 98%;
+}
+
+.kl2 dd {
+    margin-left: 25px;
+}
+
+.box_kl dd a {
+    font-size: 14px;
+    line-height: 36px;
+}
+
+.jianju {
+    margin-right: 10px;
+}
+
+.jianju-bottom {
+    padding-bottom: 18px;
+}
+
+.jianju_top {
+    margin-top: 10px;
+}
+
+.txt_height {
+    line-height: 22px;
+}
+
+p.txt_height {
+    width: 98%;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+}
+
+.index_img {
+    margin: 20px 20px 10px 25px;
+    width: 170px;
+    height: 215px;
+    float: left;
+}
+
+.index_img img {
+    width: 168px;
+    height: 128px;
+    border: 0;
+}
+
+/*-------数字列表---------------*/
+.suzhi dd {
+    line-height: 28px;
+    margin-bottom: 5px;
+}
+
+.suzhi dd a {
+    line-height: 28px;
+}
+
+.suzhi dd span.shuzhi_span {
+    float: left;
+    border: 1px solid #A6C7E6;
+    padding: 0px 8px 0px 8px;
+    margin: 0px 10px 0px 0px;
+    width: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.suzhi dd span.zt_span {
+    float: left;
+    font-size: 12px;
+    border: 1px solid #A6C7E6;
+    padding: 0px 8px 0px 2px;
+    margin: 0px 5px 0px 0px;
+    width: 25px;
+    text-align: center;
+}
+
+.zt_color {
+    color: #F9288D;
+}
+
+.number_pic {
+    margin-bottom: 10px;
+    width: 98px;
+}
+
+.number_txtbox {
+    width: 170px;
+}
+
+.number_pic img {
+    margin-top: 2px;
+    width: 100px;
+    height: 80px;
+}
+
+.number_one {
+    position: absolute;
+    width: 24px;
+    height: 31px;
+    margin: 0 0 0 5px;
+    background: url(../../../../default/pc/css/skin/images/mumber_top.gif);
+    display: block;
+}
+
+.txt_height span {
+    background-color: #0173B9;
+    color: #FFF;
+    display: block;
+    width: 50px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.wrap {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.boful_news_show {
+    background: #f0f5f5;
+    width: 100%;
+    height: 100%;
+    min-height: 600px;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_news_show_titile {
+    width: 1012px;
+    height: 35px;
+    color: #786b60;
+    font-size: 16px;
+    text-align: left;
+    font-weight: bold;
+    padding: 15px 0 0 10px;
+    margin-top: 20px;
+    border: #d1cd8c 1px dashed;
+    background: #FFFDDB;
+}
+
+.boful_news_show_titile a:hover {
+    color: #db731b;
+}

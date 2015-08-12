@@ -1,0 +1,390 @@
+@charset "utf-8";
+
+.left {
+    FLOAT: left
+}
+
+.right {
+    FLOAT: right
+}
+
+.main {
+    MARGIN: 0px auto 10px;
+    WIDTH: 1000px
+}
+
+.position {
+    LINE-HEIGHT: 42px;
+    PADDING-LEFT: 5px;
+    BACKGROUND: #FAFAFA;
+    HEIGHT: 36px;
+    BORDER-TOP: #3FAFFB 2px solid
+}
+
+.position P A {
+    COLOR: #333333;
+    TEXT-DECORATION: none
+}
+
+.position P A:hover {
+    COLOR: #FF7800;
+    TEXT-DECORATION: underline
+}
+
+.hr4 {
+    LINE-HEIGHT: 1px;
+    HEIGHT: 4px;
+    CLEAR: both;
+    FONT-SIZE: 1px
+}
+
+.mconl {
+    BORDER-BOTTOM: #8A8A8A 1px solid;
+    BORDER-LEFT: #8A8A8A 1px solid;
+    WIDTH: 694px;
+    HEIGHT: 452px;
+    BORDER-TOP: #8A8A8A 1px solid;
+    BORDER-RIGHT: #8A8A8A 1px solid
+}
+
+.mconr {
+    BORDER-BOTTOM: #8A8A8A 1px solid;
+    BORDER-LEFT: #8A8A8A 1px;
+    WIDTH: 303px;
+    BACKGROUND: #FBFBFB;
+    HEIGHT: 452px;
+    BORDER-TOP: #8A8A8A 1px solid;
+    BORDER-RIGHT: #8A8A8A 1px solid
+}
+
+.zyxx DL {
+    PADDING-BOTTOM: 0px;
+    MARGIN: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-RIGHT: 0px;
+    PADDING-TOP: 0px
+}
+
+.zyxx DT {
+    BORDER-BOTTOM: #8A8A8A 1px solid;
+    LINE-HEIGHT: 28px;
+    MARGIN: 0px auto;
+    PADDING-LEFT: 8px;
+    WIDTH: 267px;
+    FONT-SIZE: 14px;
+    FONT-WEIGHT: bold;
+    PADDING-TOP: 4px
+}
+
+.zyxx DD {
+    LINE-HEIGHT: 24px;
+    MARGIN: 0px auto;
+    PADDING-LEFT: 9px;
+    WIDTH: 266px;
+    COLOR: #999999;
+    PADDING-TOP: 8px
+}
+
+.button1 {
+    BORDER-BOTTOM-STYLE: none;
+    LINE-HEIGHT: 24px;
+    BORDER-RIGHT-STYLE: none;
+    WIDTH: 80px;
+    BORDER-TOP-STYLE: none;
+    BACKGROUND: url(/images/skin/xiazai.gif) no-repeat;
+    HEIGHT: 23px;
+    COLOR: #FFFFFF;
+    FONT-SIZE: 12px;
+    BORDER-LEFT-STYLE: none;
+    CURSOR: pointer
+}
+
+.modulel {
+    BORDER-BOTTOM: #E4E4E4 1px solid;
+    BORDER-LEFT: #E4E4E4 1px solid;
+    WIDTH: 490px;
+    BORDER-TOP: #E4E4E4 1px solid;
+    BORDER-RIGHT: #E4E4E4 1px solid
+}
+
+.moduler {
+    padding: 20px;
+}
+
+.zyxx TABLE TD {
+    BORDER-BOTTOM: #E4E4E4 1px solid;
+    BORDER-LEFT: #E4E4E4 1px solid;
+    LINE-HEIGHT: 26px;
+    BORDER-TOP: #E4E4E4 1px solid;
+    BORDER-RIGHT: #E4E4E4 1px solid;
+    padding-left: 7px;
+}
+
+.zyxx .tabstya A {
+    COLOR: #44AEF8;
+    MARGIN-LEFT: 8px
+}
+
+.modulel .txtsty {
+    LINE-HEIGHT: 30px;
+    COLOR: #B2B2B2
+}
+
+.noborder {
+    BORDER-BOTTOM-STYLE: none;
+    BORDER-RIGHT-STYLE: none;
+    BORDER-TOP-STYLE: none;
+    COLOR: #B2B2B2;
+    BORDER-LEFT-STYLE: none
+}
+
+.modulel .lists DL {
+    MARGIN-TOP: 5px;
+    WIDTH: 100%;
+    FLOAT: left
+}
+
+.modulel .lists DL A {
+    COLOR: #9A9A9A
+}
+
+.modulel .lists DL DT {
+    TEXT-ALIGN: center;
+    LINE-HEIGHT: 23px;
+    WIDTH: 80px;
+    BACKGROUND: url(/images/skin/xiazai.gif) no-repeat;
+    FLOAT: left;
+    HEIGHT: 23px;
+    COLOR: #FFFFFF
+}
+
+.modulel .lists DL DD {
+    BORDER-BOTTOM: #E3E3E3 1px solid;
+    BORDER-LEFT: #E3E3E3 1px solid;
+    PADDING-BOTTOM: 2px;
+    MARGIN: 0px 5px;
+    PADDING-LEFT: 4px;
+    PADDING-RIGHT: 4px;
+    FLOAT: left;
+    BORDER-TOP: #E3E3E3 1px solid;
+    BORDER-RIGHT: #E3E3E3 1px solid;
+    PADDING-TOP: 2px
+}
+
+.modulel .lists DL DD .on {
+    COLOR: #49B1FA
+}
+
+.content {
+    LINE-HEIGHT: 20px;
+    TEXT-INDENT: 2em;
+    COLOR: #999999;
+    padding-left: 10px;
+    padding: 20px;
+}
+
+.conimg DL {
+    TEXT-ALIGN: center;
+    MARGIN: 0px
+}
+
+.conimg DL DD {
+    MARGIN: 17px;
+    FLOAT: left;
+    _margin: 15px
+}
+
+.conimg DL DD IMG {
+    BORDER-BOTTOM: #E3E3E3 1px solid;
+    BORDER-LEFT: #E3E3E3 1px solid;
+    PADDING-BOTTOM: 2px;
+    PADDING-LEFT: 2px;
+    PADDING-RIGHT: 2px;
+    FLOAT: left;
+    BORDER-TOP: #E3E3E3 1px solid;
+    BORDER-RIGHT: #E3E3E3 1px solid;
+    PADDING-TOP: 2px
+}
+
+.main {
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.position {
+    background: #FAFAFA;
+    height: 36px;
+    padding-left: 5px;;
+    line-height: 42px
+}
+
+.position p a {
+    color: #333333;
+    text-decoration: none
+}
+
+.position p a:hover {
+    color: #FF7800;
+    text-decoration: underline
+}
+
+.hr4 {
+    height: 4px;
+    clear: both;
+    font-size: 1px;
+    line-height: 1px
+}
+
+.mconl {
+    width: 694px;
+    height: 452px;
+    border: 1px solid #8A8A8A
+}
+
+.mconr {
+    width: 303px;
+    border: 1px solid #8A8A8A;
+    border-left: none;
+    height: 452px;
+    background: #FBFBFB
+}
+
+.zyxx {
+}
+
+.zyxx dl {
+    margin: 0px;
+    padding: 0px
+}
+
+.zyxx dt {
+    width: 267px;
+    margin: 0 auto;
+    border-bottom: 1px solid #8A8A8A;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 28px;
+    padding-top: 4px;
+    padding-left: 8px
+}
+
+.zyxx dd {
+    width: 266px;
+    margin: 0 auto;
+    padding-left: 9px;
+    padding-top: 8px;
+    color: #999999;
+    line-height: 24px
+}
+
+.button1 {
+    background: url(/images/skin/xiazai.gif) no-repeat;
+    width: 80px;
+    height: 23px;
+    border: none;
+    cursor: pointer;
+    line-height: 24px;
+    color: #FFFFFF;
+    font-size: 12px
+}
+
+/**评论*/
+.crt {
+    background-color: #F1F8FE;
+    width: 998px;
+    line-height: 25px;
+    padding-bottom: 10px;
+    border: 1px solid #EFEFEF;
+}
+
+.crt td {
+    color: #35A8F8
+}
+
+.crt td label {
+    line-height: 25px;
+    margin-right: 8px;
+}
+
+.crt tr label img {
+    margin-top: 9px;
+}
+
+.crt textarea {
+    width: 890px;
+    height: 100px;
+    line-height: 22px;
+}
+
+.crtinput {
+    width: 500px;
+    height: 30px;
+    line-height: 22px;
+    margin: 10px 0 10px 0;
+}
+
+.crtbt {
+    background: url(/images/skin/pl_bt.jpg) no-repeat;
+    width: 67px;
+    height: 21px;
+    line-height: 21px;
+    text-align: center;
+    border: none;
+    letter-spacing: 3px;
+    color: #FFFFFF;
+}
+
+/******评论列表********/
+.crtcon {
+    width: 900px;
+    float: left;
+}
+
+.crtlist {
+    margin-top: 8px;
+    overflow: hidden;
+    margin-bottom: 8px;
+    clear: both;
+}
+
+.crtpor img {
+    margin: 8px;
+    margin-top: 0;
+}
+
+.crtpor img {
+    float: left;
+    border: 1px solid #E3E3E3;
+    padding: 2px;
+    width: 70px;
+    height: 70px;
+}
+
+#crttxt {
+    text-indent: 2em;
+    color: #999999;
+    line-height: 22px;
+    height: auto;
+    overflow: hidden;
+}
+
+#player {
+    width: 995px;
+    height: 500px;
+    border: 4px solid #EFEFEF
+}
+
+#lineListDiv {
+    margin-top: 6px;
+    padding: 4px;
+    height: 30px;
+    border: 0px solid #EFEFEF;
+}
+
+.clearCss {
+    clear: both;
+    margin-top: 20px;
+}
+
+/*-------------------详细页结束--------------------*/

@@ -1,0 +1,76 @@
+.view {
+    width: 249px;
+    height: 160px;
+    float: left;
+    border: 1px solid #FFFFFF;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    -webkit-box-shadow: 1px 1px 2px #E6E6E6;
+    -moz-box-shadow: 1px 1px 2px #E6E6E6;
+    box-shadow: 1px 1px 2px #E6E6E6;
+    cursor: default;
+    background: #FFFFFF;
+}
+
+.view .mask, .view .content {
+    width: 249px;
+    height: 160px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+
+.view img {
+    display: block;
+    position: relative;
+}
+
+.view h2 {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    font-weight: normal;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 20px 0 0 0;
+}
+
+.view p {
+    font-family: "微软雅黑", serif;
+    font-style: normal;
+    font-size: 12px;
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+    color: #FFFFFF;
+    padding: 6px 15px;
+    text-align: center;
+}
+
+.view a.info {
+    text-align: center;
+    width: 60px;
+    margin: 0 auto;
+    height: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 4px 14px;
+    background: #000000;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    -webkit-box-shadow: 0 0 1px #000000;
+    -moz-box-shadow: 0 0 1px #000000;
+    box-shadow: 0 0 1px #000000;
+}
+
+.view a.info:hover {
+    -webkit-box-shadow: 0 0 5px #000000;
+    -moz-box-shadow: 0 0 5px #000000;
+    box-shadow: 0 0 5px #000000;
+}

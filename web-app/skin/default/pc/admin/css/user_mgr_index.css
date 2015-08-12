@@ -1,0 +1,12 @@
+#consumerGrid a {
+    color: rgba(55, 116, 199, 0.95);
+    cursor: pointer;
+}
+
+#consumerGrid a:hover {
+    color: rgba(55, 116, 199, 0.95);
+}
+
+#main .ui-widget-content .ui-state-hover {
+    background: rgba(0, 0, 0, 0.04);
+}

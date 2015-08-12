@@ -1,0 +1,71 @@
+.doc_search_header{
+    display: block;
+    overflow: hidden;
+   border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 20px;
+}
+.doc_search_header{
+    padding: 15px 0;
+}
+.doc_srearch_inp{
+    height: 20px;
+    float: left;
+    padding: 5px;
+    font-size: 14px;
+    width: 300px;
+    border-right: 0;
+    border-top: 1px solid #e5e5e5;
+    border-left: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+
+}
+.doc_srearch_but{
+    height: 32px;
+    border: 0;
+    color: #FFF;
+    width: 60px;
+    background: #39a53e;
+}
+.boful_content {
+    width: 1024px;
+    height: auto;
+    margin: 0 auto;
+}
+.doc_search_item h1{
+    font-size: 16px;
+    margin: 0 ;
+}
+.doc_search_des{
+    font-size: 12px;
+}
+.doc_search_item{
+    margin-bottom: 20px;
+}
+.doc_search_des span{
+    float: left;
+    margin-right: 20px;
+    display: block;
+}
+.reource_name{
+    color: #5C5C5C;
+}
+.doc_search_con{
+    width: 700px;
+    height: auto;
+}
+
+.doc_search_number{
+    height: 20px;
+    line-height: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #EEEEEE;
+    margin-bottom: 10px;
+}
+.doc_search_number .sea_time{
+   font-weight: bold;
+    color: #39a53e;
+}
+.doc_search_number .sea_num{
+    color: #39a53e;
+
+}

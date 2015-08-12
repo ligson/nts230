@@ -1,0 +1,67 @@
+body {
+    background: #F4F4F4;
+}
+
+.error_box {
+    width: 500px;
+    padding: 0 262px;
+    height: 170px;
+    margin: 30% auto 0;
+    display: block;
+    overflow: hidden;
+}
+
+.error_body {
+    width: 1024px;
+    min-height: 900px;
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+}
+
+.error_icon {
+    width: 150px;
+    height: 170px;
+    float: left;
+}
+
+.error_infor {
+    width: 330px;
+    padding: 35px 0 5px 0;
+    margin-left: 20px;
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+
+.error_infor h1 {
+    font-size: 20px;
+    height: 30px;
+    color: #3CA541;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+    text-shadow: 1px 1px #FFFFFF;
+    text-align: left;
+    font-weight: normal;
+}
+
+.error_infor p {
+    width: 330px;
+    height: 40px;
+    color: #999999;
+    text-shadow: 1px 1px #FFFFFF;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.error_infor p a {
+    color: #378F3C;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.error_infor p a:hover {
+    text-decoration: underline;
+}
+

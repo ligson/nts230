@@ -1,0 +1,111 @@
+.my_body_container {
+    height: 500px;
+    padding: 30px 20px;
+}
+
+.my_info_tabs {
+    height: 35px;
+    padding-left: 80px;
+    border-bottom: #E2E2E2 1px solid;
+}
+
+.my_info_tab {
+    width: 125px;
+    height: 35px;
+    text-align: center;
+    margin-left: 10px;
+    line-height: 35px;
+    background: #E2E2E2;
+    float: left;
+    cursor: pointer;
+}
+
+.my_info_tab:hover {
+    background: #F3F2F2;
+}
+
+.my_info_content td, .my_info_content th {
+    padding: 15px 10px;
+    vertical-align: top;
+    border-bottom: 1px solid #F4F4F4;
+}
+
+.my_info_contents {
+    margin-top: 20px;
+}
+
+.my_info_content img {
+    width: 160px;
+    height: 160px;
+    text-align: left;
+}
+
+.my_info_content form {
+    float: left;
+    padding-left: 80px;
+}
+
+.my_info_content_chose {
+    background: url("../images/chose_class_bg.png") repeat-x;
+    border: #ABADB3 1px solid;
+    border-radius: 4px;
+    line-height: 32px;
+    color: #5F5F5F;
+    width: 100px;
+    height: 32px;
+    line-height: 32px;
+}
+
+.my_info_content_chose:hover {
+    background: url("../images/chose_class_bg1.png") repeat-x;
+    border: #F3A45C 1px solid;
+    color: #E57D0D;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 12px;
+    line-height: 1.428571429;
+    color: #555555;
+    vertical-align: middle;
+    background-color: #FFFFFF;
+    background-image: none;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.form-control:focus {
+    border-color: #66AFE9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+.input-sm {
+    height: 20px;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+.my_info_content {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+.my_info_content form {
+    width: 70%;
+}
+
+.my_info_content table {
+    width: 100%;
+}

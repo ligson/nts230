@@ -1,0 +1,15 @@
+#tblist2 tr {
+    padding: 8px 0;
+    height: 50px;
+    line-height: 25px;
+    border-top: 1px solid #F4F4F4;
+}
+
+.local_box {
+    background: none;
+}
+
+.admin_default_inp {
+    /*  line-height: 25px;*/
+    padding: 5px;
+}

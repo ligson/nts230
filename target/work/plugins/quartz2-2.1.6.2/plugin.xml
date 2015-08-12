@@ -1,0 +1,30 @@
+<plugin name='quartz2' version='2.1.6.2' grailsVersion='1.3.7 &gt; *'>
+  <author>Joshua Burentt</author>
+  <authorEmail>Joshua@greenbill.com</authorEmail>
+  <title>Quartz 2.x Scheduler</title>
+  <description>\
+Uses the new Quartz 2 framework from quartz-scheduler.org. 
+The goal is to keep it as simple as possible while making it friendly for Groovy/Grails.
+</description>
+  <documentation>http://grails.org/plugin/quartz2</documentation>
+  <type>Quartz2GrailsPlugin</type>
+  <resources>
+    <resource>Quartz2DefaultConfig</resource>
+  </resources>
+  <repositories>
+    <repository name='grailsCentral' url='http://grails.org/plugins' />
+    <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
+  </repositories>
+  <dependencies>
+    <compile>
+      <dependency group='org.quartz-scheduler' name='quartz' version='2.1.6' />
+    </compile>
+  </dependencies>
+  <plugins>
+    <compile>
+      <plugin group='org.grails.plugins' name='plugin-config' version='0.1.5' />
+    </compile>
+  </plugins>
+  <runtimePluginRequirements />
+  <behavior />
+</plugin>

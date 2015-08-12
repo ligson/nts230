@@ -1,0 +1,173 @@
+@charset "utf-8";
+/******************************************************************
+* ID: 邦丰网络教学资源发布系统css规范及样式库
+* date created: 2013-11-21 gaoweizhong
+* latest changed :
+* Description: 用于全局控制，包括控制全局的CSS重设、滚动条样式、公用超链接样式及类属性等
+******************************************************************/
+/* CSS Document */
+/* scrollbar */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scrollbar-face-color: #F8F7EC;
+    scrollbar-shadow-color: #FFFFFF;
+    scrollbar-3dlight-color: #B8BAC9;
+    scrollbar-arrow-color: #0066FF;
+    scrollbar-track-color: #F4F4F1;
+    scrollbar-darkshadow-color: #B8BAC9;
+    overflow-y: scroll;
+}
+
+/* CSS重设(全局控制)*/
+body {
+    color: #555555;
+    font-family: "宋体", serif;
+    font-size: 12px;
+    text-align: left;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFFFF;
+}
+
+table, td, tr, th {
+    font-size: 12px;
+    margin: 0;
+    border-collapse: collapse;
+    /* line-height: 22px;*/
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    border: 0;
+}
+
+img {
+    padding: 0;
+    margin: 0;
+    border: none;
+    blr: expression(this.onFocus=this.blur());
+}
+
+textarea {
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+
+select {
+    margin-left: 2px;
+}
+
+ul li {
+    list-style: none;
+}
+
+* {
+    word-wrap: break-word
+}
+
+/* 公用超链 */
+a {
+    blr: expression(this.onFocus=this.blur());
+}
+
+a:link {
+    color: #005B8C;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #005B8C;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F47300;
+    text-decoration: none;
+}
+
+/* 间隔线 */
+.spl1 {
+    margin: 0;
+    padding: 1px;
+}
+
+.spl2 {
+    margin: 0;
+    padding: 2px;
+}
+
+.spl3 {
+    margin: 0;
+    padding: 3px;
+}
+
+.spl4 {
+    margin: 0;
+    padding: 4px;
+}
+
+.spl5 {
+    margin: 0;
+    padding: 5px;
+}
+
+/* 数据 */
+form {
+    margin: 0;
+    padding: 0;
+}
+
+/*---应用管理左侧列表---*/
+.app_list_bg {
+    width: auto;
+    line-height: 26px;
+    height: 32px;
+    background: url("../images/lise_down_bg.png") repeat-x;
+}
+
+.app_list_bg:hover {
+    background: url("../images/lise_down_bg1_.png") repeat-x;
+    width: auto;
+    line-height: 26px;
+    height: 32px;
+}
+
+.app_list_bg td {
+    padding-left: 30px;
+}
+
+.sidebar_title {
+    width: 195px;
+    height: 40px;
+}
+
+.even td {
+    height: 20px;
+}
+
+.edit_active_inp tr {
+    height: 40px;
+}
+
+.edit_active_inp tr td {
+    padding-left: 10px;
+}
+
+.edit_active_inp tr td input {
+    padding: 5px;
+}
+
+.program_rtree {
+    border-bottom: #96BEDD;
+}
+
+.ui-jqgrid-hbox {
+    padding: 0;
+}

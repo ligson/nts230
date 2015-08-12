@@ -1,0 +1,78 @@
+
+.boful_body_map_bg {
+    height: 40px;
+}
+
+.boful_body_map_sup a {
+    font-size: 14px;
+    text-align: center;
+    width: 90px;
+    color: #333333;
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_body_map_sup a:hover {
+    color: rgb(83, 169, 63);
+}
+
+.boful_body_map_sub {
+    background: #FFFFFF;
+    height: 40px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.12);
+}
+
+.boful_body_map_sup {
+    margin-top: 15px;
+}
+
+.boful_body_map_sup a span {
+    margin-left: 10px;
+    color: #C3C3C4;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.boful_body_map_second {
+    visibility: hidden;
+}
+
+.boful_body_map_more {
+    visibility: hidden;
+}
+
+.boful_body_map_list {
+    font-size: 16px;
+    text-align: center;
+    color: #333333;
+    line-height: 40px;
+    height: 40px;
+    float: left;
+    width: 110px;
+    cursor: pointer;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_body_map_list:hover {
+    color: rgb(83, 169, 63);
+    background: url("../images/boful_body_map_sub_bg.png") bottom no-repeat;
+}
+
+.item_mar {
+    margin-top: 15px;
+}
+
+.course_video_img_m {
+    width: 240px;
+    height: 130px;
+    display: block;
+    overflow: hidden;
+}
+
+.user_cla_res {
+    height: 36px;
+    display: block;
+    overflow: hidden;
+}

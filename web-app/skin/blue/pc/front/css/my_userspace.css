@@ -1,0 +1,381 @@
+p {
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    /*background: url("../images/userspace_background_imgs.jpg") #341E11 top no-repeat;*/
+    /*background: #F3F3F3;*/
+}
+
+.userspace_background {
+    /* background: url("../images/userspace_background_imgs.jpg") #341E11 top no-repeat;*/
+    /* background: url("../images/body_bg_img1.png") #F2F3F2 top no-repeat;*/
+    background-color: #fff;
+    -webkit-box-shadow: 0px 1px 2px #bbbbbb;
+    -moz-box-shadow: 0px 1px 2px #bbbbbb;
+    box-shadow: 0px 1px 2px #bbbbbb;
+    margin-top: 20px;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.userspace_background_head_img {
+    background: url("../images/userspace_background_imgs.jpg") #341E11 top no-repeat;
+    /* background: url("../images/body_bg_img1.png") #F2F3F2 top no-repeat;*/
+    display: block;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+/*.userspace_header{
+    height: 400px;
+}*/
+.userspace_header .users_portrait {
+    background: url("../images/userspace_face_bg.png") no-repeat;
+    height: 128px;
+    margin: 20px;
+    width: 128px;
+    text-align: center;
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+
+.userspace_header .users_portrait img {
+    margin-top: 3px;
+}
+
+/*.userspace_header .users_portrait .users_portrait_size{*/
+/*height: 147px;*/
+/*width: 147px;*/
+/*margin:4px 15px 9px 18px;*/
+/*display: block;*/
+/*overflow: hidden;*/
+/*}*/
+.userspace_header .userspace_infor {
+    width: 760px;
+    font-size: 14px;
+    margin-top: 20px;
+    height: 30px;
+    line-height: 25px;
+    float: left;
+}
+
+.userspace_header .userspace_infor .userspace_name {
+    height: 65px;
+    margin-top: 60px;
+}
+
+.userspace_header .userspace_infor .userspace_name span {
+    float: left;
+    margin-left: 5px;
+    /*width: 60px;*/
+    color: #666666;
+    text-align: left;
+    display: block;
+}
+
+.userspace_header .userspace_infor .userspace_title {
+    line-height: 40px;
+    height: 40px;
+    font-size: 24px;
+    text-align: left;
+    font-weight: bold;
+    font-family: '微软雅黑', serif;
+    color: #333333;
+}
+
+.userspace_header .userspace_infor .userspace_name_identity {
+    font-size: 12px;
+    color: #666666;
+    line-height: 25px;
+
+}
+
+.userspace_header .userspace_infor .userspace_datum {
+    float: left;
+}
+
+.userspace_header .userspace_infor .userspace_datum .edit_userspace {
+    margin: 0;
+    background: #FFFFFF;
+    border-radius: 3px;
+    border: #FFFFFF 1px solid;
+    color: #878987;
+}
+
+.userspace_header .userspace_infor .userspace_datum .edit_userspace:hover {
+    margin: 0;
+    border: #F4B57D 1px solid;
+    border-radius: 3px;
+
+}
+
+.userspace_header .userspace_infor .userspace_datum .edit_userspace span {
+    font-size: 12px;
+}
+
+.userspace_content {
+    background: #FFFFFF;
+    /*min-height:650px;*/
+    display: block;
+    overflow: hidden;
+}
+
+/*--------------头部-----*/
+.userspace_content .userspace_header_items {
+    font-size: 16px;
+    height: 50px;
+    border-bottom: 1px solid #999999;
+}
+
+.userspace_content .userspace_header_items .userspace_header_item {
+    /*background: url("../images/userspace_header_item_line.png") right no-repeat;*/
+    float: left;
+    text-align: center;
+    width: 147px;
+    color: #5C5C5C;
+    line-height: 48px;
+    display: block;
+    overflow: hidden;
+}
+
+/*.userspace_content .userspace_header_items {
+    background: url("../images/userspace_header_items_bg.png") repeat-x;
+    height: 48px;
+    border-bottom: #E2E2E2 1px solid;
+}*/
+
+.userspace_content .userspace_header_items li {
+    list-style: none;
+}
+
+.userspace_content .userspace_header_items .userspace_header_item1 {
+    float: left;
+    text-align: center;
+    width: 140px;
+}
+
+/*----内容-----*/
+.userspace_content_infor {
+    padding: 10px 15px;
+    /*height: 1000px;*/
+}
+
+.userspace_content_infor .userspace_groups {
+    width: 670px;
+    height: 160px;
+}
+
+.userspace_group {
+
+    height: 75px;
+    width: 220px;
+}
+
+/* .userspace_group a, . .userspace_group p{
+    float: left;
+}*/
+.userspace_group span {
+    font-size: 12px;
+    color: #319B98;
+}
+
+.userspace_group_img, .userspace_group_infor {
+    float: left;
+}
+
+.userspace_group_infor {
+    width: 100px;
+    padding: 0 10px;
+    height: 75px;
+    background: #F8F8F8;
+
+}
+
+.userspace_group_infor h1 {
+    margin: 3px 0 2px 0;
+    color: #319B98;
+}
+
+.userspace_group_infor p {
+    height: 50px;
+}
+
+.userspace_header_item a {
+    color: #333333;
+    width: 100px;
+    line-height: 40px;
+    margin: 12px 0 0 23px;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+
+/*.userspace_header_item a:hover {
+    border-bottom: #319B98 3px solid;
+    color: #319B98;
+
+}*/
+
+.userspace_header_item1 a {
+    color: #333333;
+    width: 100px;
+    line-height: 40px;
+    margin: 12px 0 0 23px;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+
+.userspace_header_item1 a:hover {
+    border-bottom: #319B98 3px solid;
+    color: #319B98;
+}
+
+.user_space_back {
+    margin-left: 15px;
+    background: url("../images/user_space_backicon1.png") left no-repeat;
+    color: #5C5C5C;
+    float: left;
+    padding-left: 30px;
+    font-size: 12px;
+    line-height: 35px;
+}
+
+.user_space_back:hover {
+    background: url("../images/user_space_backicon2.png") left no-repeat;
+    color: #319B98;
+}
+
+.boful_toolbar_flo {
+    width: 100%;
+    border-bottom: #EF9632 2px solid;
+    position: fixed;
+    background: url("../images/boful_toolbar_flo_bg.png");
+    z-index: 5;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 1px 3px 0px #333333;
+    display: block;
+}
+
+.on {
+    border-bottom: #319B98 3px solid;
+    color: #319B98;
+}
+
+.userspace_background_img {
+    height: 160px;
+    width: 1024px;
+}
+
+/*tab切换样式表*/
+
+.tabs {
+}
+
+.container {
+    width: 100%;
+    clear: both;
+    margin-top: 1px;
+    _margin-top: -1px;
+}
+
+.sub-con {
+    height: 600px;
+    width: 100%;
+    display: none;
+}
+
+.cur-sub-con {
+    display: block;
+}
+
+.tabs_nav {
+    width: 100%;
+    /*height: 28px;*/
+
+}
+
+.tabs_nav ul {
+    width: 100%;
+    margin: 0;
+}
+
+.tabs_nav ul li {
+    list-style: none;
+    display: inline-block;
+    width: 140px;
+    /*height: 28px;*/
+    /*line-height: 28px;*/
+    text-align: center;
+    margin-left: -29px;
+    *float: left;
+    *margin-left: -1px;
+}
+
+.tabs_nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    /*height: 28px;*/
+    display: block;
+}
+
+.tabs_nav ul li a:hover {
+    /*background: #CCEDFB*/
+}
+
+.tabs_nav ul li a.cur {
+    z-index: 9999;
+    background: url("../images/tabs_nav_line.png") bottom no-repeat;
+    /* border-bottom: 2px solid #319B98;
+     color: #319B98;*/
+}
+
+/*tab切换样式表*/
+
+/*个人资料*/
+.personal_data ul {
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.personal_data ul li {
+    float: left;
+    width: 98%;
+    line-height: 40px;
+    font-size: 14px;
+    list-style: none;
+    text-align: left;
+
+}
+
+.personal_data ul li span {
+    float: left;
+    width: 75px;
+    line-height: 40px;
+    font-size: 14px;
+    list-style: none;
+    text-align: right;
+    margin-right: 20px;
+    color: #5C5C5C;
+
+}
+
+/*个人资料*/
+
+/*2014-3-15*/
+.userspace_width {
+    width: 1004px;
+    margin: 20px 0 20px 20px;
+}
+
+.userspace_video_width {
+    margin: 10px 15px 0px 20px;
+}

@@ -1,0 +1,396 @@
+.boful_resources_search {
+    background: #FFFFFF;
+    margin: 20px 0 2px 0;
+}
+
+.wrap {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.boful_resources_search_body {
+    height: 46px;
+    background: #DDECDE;
+    border: #C2DBC3 1px solid;
+}
+
+.boful_resources_search_start {
+    background: #39A53E;
+    height: 32px;
+    margin: 7px 0 0 10px;
+    float: left;
+}
+
+.boful_resources_search_stat_name {
+    font-size: 14px;
+    color: #C9E5CA;
+    padding: 0 10px;
+    text-align: center;
+    line-height: 32px;
+    float: left;
+}
+
+.boful_resources_search_stat_name:hover {
+    color: #FFFFFF;
+}
+
+.boful_resources_search_stat_more {
+    width: 11px;
+    height: 32px;
+    float: left;
+}
+
+.boful_resources_search_stat_more .boful_resources_search_stat_more_mark {
+    background: url("../images/boful_resources_search_stat_more1.png") #39A53E left no-repeat;
+    width: 16px;
+    height: 32px;
+    display: block;
+    overflow: hidden;
+
+}
+
+.boful_resources_search_stat_more .boful_resources_search_stat_more_mark:hover {
+    background: url("../images/boful_resources_search_stat_more.png") #39A53E left no-repeat;
+}
+
+.boful_resources_search_second_left {
+    width: 11px;
+    height: 32px;
+    margin-top: 7px;
+    float: left;
+}
+
+.boful_resources_search_second_left img {
+    width: 11px;
+    height: 32px;
+}
+
+.boful_resources_search_second {
+    background: #39A53E;
+    height: 32px;
+    margin: 7px 0 0 0;
+    float: left;
+}
+
+.boful_resources_search_start_list {
+    width: 115px;
+    background: #FFFFFF;
+    height: auto;
+    border: #E2E2E2 1px solid;
+    position: absolute;
+    z-index: 1;
+    float: left;
+    box-shadow: 0px 2px 2px #CCCCCC;
+    margin-top: 30px;
+    display: none;
+}
+
+.boful_resources_search_start_list h4 {
+    text-align: left;
+    font-size: 16px;
+    font-weight: normal;
+    padding-left: 10px;
+    color: #333333;
+    margin: 10px 0 5px 0;
+}
+
+.boful_resources_search_start_list p {
+    padding: 0;
+    margin: 0;
+}
+
+.boful_resources_search_start_list p a {
+    font-size: 12px;
+    height: 30px;
+    width: 95px;
+    line-height: 30px;
+    color: #333333;
+    text-align: left;
+    border-bottom: 1px #F0F0F0;
+    float: left;
+    margin: 0 10px 0 0;
+    padding: 0 10px;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+
+.boful_resources_search_start_list p a:hover {
+    background: #39A53E;
+    color: #FFFFFF;
+}
+
+.boful_resources_search_sorting {
+    background: url("../images/boful_resources_search_sorting_bg.png") repeat-x;
+    height: 26px;
+    border: #E9E8E8 1px solid;
+    border-radius: 2px;
+
+}
+
+.boful_resources_search_sorting p {
+    height: 26px;
+    color: #B6B6B6;
+    margin: 0 0 0 10px;
+
+}
+
+.boful_resources_search_sorting p a {
+    font-size: 12px;
+    color: #5C5C5C;
+    line-height: 26px;
+    float: left;
+    margin: 0 20px;
+
+}
+
+.boful_resources_search_sorting p a:hover {
+    color: #39A53E;
+}
+
+.boful_resources_search_show {
+    margin-left: 400px;
+    background: #F3F3F3;
+}
+
+.boful_resources_search_show div {
+    float: left;
+    margin-left: 30px;
+}
+
+.boful_resources_search_show div a {
+    font-size: 14px;
+    padding: 0 10px;
+    color: #333333;
+}
+
+.boful_resources_search_show div a:hover {
+    background: #39A53E;
+    color: #FFFFFF;
+    border-radius: 4px;
+
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.boful_resources_search_program_show {
+    width: 1024px;
+    height: auto;
+    text-align: left;
+}
+
+.boful_resources_search_program_show div {
+    width: 160px;
+    height: 145px;
+    float: left;
+    margin: 25px 0 0 37px;
+}
+
+.boful_resources_search_program_show div img {
+    box-shadow: 1px 1px 3px #CFCFCF;
+    margin: 0 auto;
+    border: 1px solid rgb(226, 226, 226);
+    display: block;
+    overflow: hidden;
+}
+
+.boful_resources_search_program_show div .boful_resources_search_program_show_title {
+    font-size: 14px;
+    color: #333333;
+    width: 160px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+}
+
+.boful_resources_search_program_show div .boful_resources_search_program_show_title:hover {
+    color: #39A53E;
+}
+
+/*_---------------------*/
+.boful_resources_search_all {
+    width: 100%;
+    height: 225px;
+    background: url("../images/boful_resources_search_all_img.png");
+}
+
+.boful_resources_search_all_img {
+    width: 1024px;
+    height: 225px;
+}
+
+.boful_resources_search_all_img_box {
+    width: 475px;
+    height: 41px;
+    margin: 100px auto 0;
+}
+
+.boful_resources_search_all_left {
+    background: url("../images/boful_resources_search_all_left_bg.png") left no-repeat;
+    width: 4px;
+    height: 41px;
+    float: left;
+}
+
+.boful_resources_search_all_center {
+    background: url("../images/boful_resources_search_all_center_bg.png") repeat-x;
+    width: 383px;
+    height: 41px;
+    font-size: 14px;
+    line-height: 41px;
+    color: #5C5C5C;
+    padding-left: 10px;
+    float: left;
+    border: 0;
+    margin: 0;
+}
+
+.boful_resources_search_all_submit {
+    height: 41px;
+    width: 68px;
+    font-size: 14px;
+    float: left;
+    color: #FFFFFF;
+    line-height: 41px;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    background: url("../images/boful_resources_search_all_submit_bg.png") no-repeat;
+
+}
+
+.boful_resources_search_all_sumbit_right {
+    background: url("../images/boful_resources_search_all_sumbit_right_bg.png") left no-repeat;
+    height: 41px;
+    width: 5px;
+    float: left;
+}
+
+.boful_resources_search_program_show_all {
+    width: 1024px;
+    display: block;
+    overflow: hidden;
+}
+
+/*-----------------*/
+.boful_resources_search_other {
+    width: 1024px;
+    height: auto;
+    background: #FFFFFF;
+    margin-bottom: 10px;
+    border: 1px solid #E6E0D7;
+
+}
+
+.boful_resources_search_other p {
+    margin: 0;
+    font-size: 12px;
+}
+
+.boful_resources_search_other_classall,
+.boful_resources_search_other_media,
+.boful_resources_search_other_hotkeys {
+    width: 1024px;
+    height: 35px;
+    border-bottom: 1px dotted #D0D0CF;
+}
+
+.boful_resources_search_other_class {
+    width: 1024px;
+    min-height: 35px;
+    border-bottom: 1px dotted #D0D0CF;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_resources_search_other_class span,
+.boful_resources_search_other_classall span,
+.boful_resources_search_other_media span,
+.boful_resources_search_other_hotkeys span {
+    height: 35px;
+    width: 90px;
+    text-align: left;
+    padding-left: 30px;
+    line-height: 35px;
+    float: left;
+    color: #333333;
+    background: #FFFCF7;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_resources_search_other_classall p,
+.boful_resources_search_other_media p,
+.boful_resources_search_other_hotkeys p {
+    width: 850px;
+    height: 35px;
+    margin-left: 20px;
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_resources_search_other_class p {
+    width: 850px;
+    min-height: 35px;
+    margin-left: 20px;
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_resources_search_other_class p a,
+.boful_resources_search_other_classall p a,
+.boful_resources_search_other_media p a,
+.boful_resources_search_other_hotkeys p a {
+    font-size: 14px;
+    line-height: 35px;
+    color: #333333;
+    height: 35px;
+    border-radius: 16px;
+    padding: 0 5px 0 15px;
+    margin: 0 0 0 15px;
+    float: left;
+}
+
+.boful_resources_search_other_class p a:hover,
+.boful_resources_search_other_classall p a:hover,
+.boful_resources_search_other_media p a:hover,
+.boful_resources_search_other_hotkeys p a:hover {
+    color: #39A53E;
+}
+
+.boful_resources_search_other_hotkeys {
+    border: 0;
+}
+
+.boful_resources_search_other_classall_delete_box {
+    width: 15px;
+    height: 35px;
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_resources_search_other_classall_delete {
+    background: url("../images/boful_resources_search_other_classall_delete_icon.png") no-repeat;
+    width: 15px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_resources_search_other_classall_delete:hover {
+    background: url("../images/boful_resources_search_other_classall_delete_icon2.png") no-repeat;
+}

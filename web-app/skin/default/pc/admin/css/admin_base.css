@@ -1,0 +1,245 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#header {
+    clear: both;
+    width: 100%;
+    height: auto;
+    padding: 0;
+}
+
+#mainnav {
+    min-width: 1007px;
+    height: 60px;
+    background: url(../images/header_logobg.png) bottom repeat-x;
+}
+
+#sitelogo {
+    width: 305px;
+    height: 60px;
+    float: left;
+    background: url(../images/logo1.png) no-repeat center center;
+    display: block;
+    overflow: hidden;
+}
+
+#mainnavr {
+    /*width: 669px;*/
+    /*width: 100%;*/
+    width: 620px;
+    height: 60px;
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+
+#summaryr p {
+    margin: 0;
+    display: block;
+    width: 300px;
+    height: 25px;
+}
+
+#summaryr .super_user,
+#summaryr .quit,
+#summaryr .psw {
+    /*width: 80px;*/
+    height: 22px;
+    padding: 0 0 0 26px;
+    text-align: left;
+    line-height: 22px;
+    margin-right: 10px;
+    color: #5C5C5C;
+    float: left;
+    font-weight: normal;
+}
+
+#summaryr .super_user {
+    width: 86px;
+    background: url(../images/icon_header_user.png) no-repeat left;
+    color: #369A3B;
+    font-size: 12px;
+    font-family: "微软雅黑", serif;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#summaryr .psw {
+    background: url(../images/ico_header_psw.png) no-repeat left;
+}
+
+#summaryr .quit {
+    background: url(../images/icon_header_quit.png) no-repeat left;
+}
+
+#summaryr .psw:hover, #summaryr .quit:hover {
+    color: #DA7412;
+    text-decoration: none;
+}
+
+#mainnavr .mainnavr_bottom {
+    width: 669px;
+    height: 40px;
+    margin-top: 20px;
+    float: left;
+}
+
+#mainnavr .mainnavr_bottom .mainnav {
+    width: 650px;
+    height: 30px;
+    float: left;
+    padding-top: 10px;
+}
+
+#mainnavr .mainnavr_bottom .mainnav span, #mainnavr .mainnavr_bottom .mainnav span a {
+    width: 118px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    background: url(../images/headermenu_a.png) no-repeat;
+    text-align: center;
+    float: left;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: 'Microsoft YaHei', serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#mainnavr .mainnavr_bottom .mainnav span:hover, #mainnavr .mainnavr_bottom .mainnav span a:hover {
+    background: url(../images/headermenu_h.png) no-repeat;
+}
+
+#summary {
+    min-width: 1007px;
+    height: 31px;
+}
+
+#summaryl {
+    width: 400px;
+    height: 21px;
+    margin-left: 25px;
+    padding-top: 9px;
+    float: left;
+}
+
+#summaryr {
+    height: 21px;
+    padding-top: 4px;
+    float: right;
+}
+
+#summaryr span {
+    margin-left: 2px;
+    margin-right: 5px;
+}
+
+#summaryl .boful {
+    color: #369A3B;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+#summaryr .nb {
+    color: #369A3B;
+    font-family: verdana, arial, helvetica, sans-serif;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+/*--------页脚样式-----------*/
+#footer {
+    clear: both;
+    width: 100%;
+    min-width: 1007px;
+    padding: 0;
+    height: 81px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#copyrights {
+    color: #FFFFFF;
+    background-image: url(../images/bg_footer.png);
+    text-align: center;
+    width: 100%;
+    float: left;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+    font-family: 'Microsoft YaHei', serif;
+}
+
+#copyrights a {
+    color: #E2F48F;
+    margin-left: 3px;
+    margin-right: 3px;
+    font-family: 'Microsoft YaHei', serif;
+    font-size: 13px;
+}
+
+#sidebar .scrolling-content {
+    width: 200px;
+    padding: 0; /* extra paddingTop being added by scrollpane? */
+}
+
+#sidebar .jScrollPaneTrack, #sidebar .jScrollArrowUp, #sidebar .jScrollArrowDown {
+    z-index: 2;
+}
+
+#main .scrolling-content {
+    height: 100%;
+    padding: 0; /* extra paddingTop being added by scrollpane? */
+    padding-right: 0; /* for pseudo-scrollbar on right */
+}
+
+#boful_ui_shaded .ou_admin_loading {
+    width: 338px;
+    height: 108px;
+    padding-top: 40px;
+    background: url("../images/ou_admin_loading_bg.png") no-repeat;
+    margin: 0 auto;
+    margin-top: 20%;
+
+}
+
+#boful_ui_shaded .ou_admin_loading img {
+    width: 190px;
+    height: 14px;
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+}
+
+#boful_ui_shaded .ou_admin_loading p {
+    height: 30px;
+    width: 330px;
+    font-size: 14px;
+    margin-top: 5px;
+    text-shadow: 1px 1px 1px #000;
+    color: #FFF;
+    line-height: 30px;
+    text-align: center;
+}
+
+.ou_admin_loading_box {
+    background: url("../images/ou_admin_loading_box_bg.png");
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+.pro_warm {
+    font-size: 12px;
+    color: red;
+    float: left;
+    letter-spacing: 2px;
+    margin-left: 20px;
+    line-height: 35px;
+}

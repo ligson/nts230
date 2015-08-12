@@ -1,0 +1,103 @@
+.userspace_right {
+    width: 730px;
+    min-height: 500px;
+    float: left;
+    margin: 20px 0 20px 20px;
+}
+
+.userspace_communitymgr_title {
+    width: 730px;
+    padding: 10px;
+    height: 80px;
+    margin-bottom: 10px;
+    display: block;
+    background: #FFF;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), -1px 0 0 rgba(0, 0, 0, 0.03), 1px 0 0 rgba(0, 0, 0, 0.03), 0 1px 0 rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), -1px 0 0 rgba(0, 0, 0, 0.03), 1px 0 0 rgba(0, 0, 0, 0.03), 0 1px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), -1px 0 0 rgba(0, 0, 0, 0.03), 1px 0 0 rgba(0, 0, 0, 0.03), 0 1px 0 rgba(0, 0, 0, 0.12);
+}
+
+.userspace_communitymgr_img, .userspace_communitymgr_img a, .userspace_communitymgr_img a img {
+    width: 60px;
+    height: 60px;
+    display: block;
+    overflow: hidden;
+}
+
+.userspace_communitymgr_img {
+    float: left;
+    margin-right: 10px;
+}
+
+.userspace_communitymgr_infor {
+    width: 480px;
+    height: 60px;
+    float: left;
+    margin-right: 10px;
+    display: block;
+    overflow: hidden;
+}
+
+.userspace_communitymgr_infor h1 {
+    font-size: 14px;
+    color: #333;
+    height: 20px;
+    font-weight: bold;
+    line-height: 20px;
+    margin: 0;
+}
+
+.userspace_communitymgr_des {
+    margin: 0;
+    height: 18px;
+    width: 500px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #5c5c5c;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.userspace_communitymgr_introdution {
+    padding: 0;
+    margin: 0;
+    height: 16px;
+    line-height: 16px;
+}
+
+.userspace_communitymgr_introdution span {
+    float: left;
+    margin-right: 20px;
+    height: 16px;
+    color: #999;
+    line-height: 16px;
+    display: block;
+    overflow: hidden;
+}
+
+.userspace_communitymgr_introdution span em {
+    font-size: 12px;
+    font-style: normal;
+    color: #5c5c5c;
+}
+
+.userspace_communitymgr_back {
+    width: 150px;
+    height: 60px;
+    padding-top: 15px;
+    float: left;
+}
+
+.userspace_communitymgr_back a {
+    float: right;
+}
+
+.user_communitymgr_box {
+    padding: 10px;
+    display: block;
+    background: #FFF;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), -1px 0 0 rgba(0, 0, 0, 0.03), 1px 0 0 rgba(0, 0, 0, 0.03), 0 1px 0 rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), -1px 0 0 rgba(0, 0, 0, 0.03), 1px 0 0 rgba(0, 0, 0, 0.03), 0 1px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), -1px 0 0 rgba(0, 0, 0, 0.03), 1px 0 0 rgba(0, 0, 0, 0.03), 0 1px 0 rgba(0, 0, 0, 0.12);
+}

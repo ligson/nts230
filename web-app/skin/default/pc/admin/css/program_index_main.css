@@ -1,0 +1,70 @@
+/*---------------------------------------*/
+#main tr, #main td {
+    border: 1px solid #D0D0CF;
+}
+
+#main .ui-jqgrid .ui-jqgrid-htable th div {
+    height: 24px;
+}
+
+#main .ui-jqgrid .ui-paging-info {
+    margin: 0;
+}
+
+#main .jqgfirstrow_a_s {
+    margin-right: 10px;
+}
+
+#main .jqgfirstrow_a_s:hover {
+    color: #F47300;
+    text-decoration: underline;
+}
+
+/*.ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
+    color: #FFFFFF;
+    height: 16px;
+    border: none;
+}*/
+
+/*#sidebar .ui-state-hover {
+    color: #1F6AAE;
+    line-height: 21px;
+}*/
+
+/*#sideba .ui-widget-content .ui-state-hover {
+    padding: 4em 1em;;
+}*/
+
+#sidebar .ui-accordion .ui-accordion-icons {
+    padding-left: 10px;
+}
+
+#sidebar .ui-state-focus {
+    line-height: 21px;
+    height: 21px;
+    display: block;
+    overflow: hidden;
+}
+
+.searchTool_tital {
+    float: left;
+    width: 620px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    overflow: hidden;
+}
+
+.searchTool_up_res {
+    height: 30px;
+    width: 120px;
+    line-height: 30px;
+    display: block;
+    overflow: hidden;
+}
+
+.searchTool_tital_name {
+    height: 22px;
+    border: 1px solid #999999;
+}
+

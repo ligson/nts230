@@ -1,0 +1,130 @@
+.community_form_content {
+    width: 683px;
+    padding: 10px 50px;
+}
+
+.community_form_content_creat {
+    width: 543px;
+}
+
+.community_form_content_creat {
+    width: 543px;
+}
+
+.community_form_content_creat h1 {
+    font-size: 16px;
+    font-weight: normal;
+    text-align: left;
+    height: 30px;
+    margin: 0;
+    line-height: 30px;
+    color: #4DB652;
+}
+
+.form_creat_title {
+    /*border: #d2d2d2 1px solid;*/
+}
+
+.form_creat_chose {
+    height: 20px;
+    margin-top: 20px;
+}
+
+.form_creat_chose label {
+    width: 200px;
+    height: 20px;
+    float: left;
+}
+
+.form_creat_chose label input {
+    width: 200px;
+    height: 20px;
+
+}
+
+.form_creat_chose p {
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 150px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #DC4B1B;
+    text-align: left;
+}
+
+.form_creat_title label input {
+    width: 521px;
+    height: 35px;
+    padding: 0 10px;
+    margin: 0;
+    line-height: 35px;
+    text-align: left;
+    font-size: 14px;
+    color: #999999;
+    border: 0;
+    -webkit-writing-mode: horizontal-tb;
+}
+
+.form_creat_img {
+    height: 40px;
+    width: 523px;
+    margin: 20px 0;
+}
+
+.form_creat_describe label {
+    display: block;
+    overflow: hidden;
+}
+
+.form_creat_img label input {
+    background: #4DB652;
+    width: 100px;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid #44A549;
+    line-height: 30px;
+    float: left;
+    color: #FFFFFF;
+}
+
+.form_creat_img label input:hover {
+    background: #59BF5E;
+    border: 1px solid #59BF5E;
+}
+
+.form_creat_img label {
+    width: 110px;
+    float: left;
+    height: 30px;
+}
+
+.form_creat_img p {
+    line-height: 40px;
+    width: 220px;
+    color: #999999;
+    font-size: 12px;
+    margin: 0;
+    padding-left: 10px;
+
+}
+
+.form_creat_describe {
+    /*border: #d2d2d2 1px solid;*/
+    margin-top: 20px;
+}
+
+.form_creat_describe label textarea {
+    width: 521px;
+    height: 100px;
+    padding: 5px 10px;
+    margin: 0;
+    line-height: 35px;
+    text-align: left;
+    font-size: 14px;
+    color: #999999;
+    border: 0;
+    -webkit-writing-mode: horizontal-tb;
+    resize: none;
+}

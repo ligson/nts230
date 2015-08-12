@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="GBK"?>
+<metaData>
+  <metaDefines>
+    <metaDefine id='1' parentId='0' libraries='[]' name='title' cnName='名称' dataType='decorate' defaultValue='' isNecessary='1' showType='3' searchType='1' maxLength='0' showOrder='1' metaEnums='[]' dateCreated='2009-10-19 16:03:43.0' dateModified='2010-05-14 12:01:03.907' />
+    <metaDefine id='2' parentId='0' libraries='[]' name='creator' cnName='创建者' dataType='decorate' defaultValue='' isNecessary='1' showType='3' searchType='1' maxLength='0' showOrder='2' metaEnums='[]' dateCreated='2009-10-19 16:04:38.0' dateModified='2010-03-03 11:09:40.0' />
+    <metaDefine id='4' parentId='0' libraries='[]' name='contributor' cnName='其他责任者' dataType='decorate' defaultValue='' isNecessary='0' showType='3' searchType='1' maxLength='0' showOrder='3' metaEnums='[]' dateCreated='2009-10-19 16:13:39.0' dateModified='2010-02-04 09:22:55.0' />
+    <metaDefine id='18' parentId='0' libraries='[]' name='date' cnName='日期' dataType='decorate' defaultValue='' isNecessary='0' showType='1' searchType='1' maxLength='0' showOrder='4' metaEnums='[]' dateCreated='2009-10-20 14:14:45.0' dateModified='2009-11-05 17:18:05.0' />
+    <metaDefine id='41' parentId='2' libraries='[]' name='k_creator' cnName='主要责任者' dataType='string' defaultValue='' isNecessary='1' showType='3' searchType='1' maxLength='100' showOrder='8' metaEnums='[]' dateCreated='2009-11-03 14:43:26.0' dateModified='2010-03-01 12:33:27.0' />
+    <metaDefine id='42' parentId='2' libraries='[]' name='manner' cnName='责任方式' dataType='string' defaultValue='' isNecessary='0' showType='1' searchType='0' maxLength='150' showOrder='9' metaEnums='[]' dateCreated='2009-11-03 15:04:17.0' dateModified='2010-03-01 12:33:33.0' />
+    <metaDefine id='43' parentId='2' libraries='[]' name='Author' cnName='作者' dataType='string' defaultValue='' isNecessary='0' showType='1' searchType='1' maxLength='100' showOrder='10' metaEnums='[]' dateCreated='2009-11-03 15:05:57.0' dateModified='2010-03-01 12:39:53.0' />
+    <metaDefine id='83' parentId='4' libraries='[]' name='creator_o' cnName='其他责任者' dataType='string' defaultValue='' isNecessary='0' showType='1' searchType='1' maxLength='150' showOrder='11' metaEnums='[]' dateCreated='2009-11-05 15:59:37.0' dateModified='2009-11-05 16:00:01.0' />
+    <metaDefine id='44' parentId='4' libraries='[]' name='manner_o' cnName='责任方式' dataType='string' defaultValue='' isNecessary='0' showType='1' searchType='0' maxLength='150' showOrder='12' metaEnums='[]' dateCreated='2009-11-03 15:25:08.0' dateModified='2010-03-01 12:34:04.0' />
+    <metaDefine id='3' parentId='0' libraries='[]' name='discipline' cnName='学科' dataType='decorate' defaultValue='' isNecessary='0' showType='0' searchType='0' maxLength='0' showOrder='16' metaEnums='[]' dateCreated='2009-10-19 16:08:44.0' dateModified='2009-11-06 14:17:41.0' />
+    <metaDefine id='50' parentId='18' libraries='[]' name='l_make_date' cnName='制作日期' dataType='date' defaultValue='' isNecessary='0' showType='1' searchType='0' maxLength='50' showOrder='17' metaEnums='[]' dateCreated='2009-11-03 16:22:38.0' dateModified='2010-02-04 14:57:04.0' />
+    <metaDefine id='33' parentId='0' libraries='[]' name='publication' cnName='出版情况' dataType='string' defaultValue='出版国、出品公司、出版年' isNecessary='0' showType='1' searchType='0' maxLength='200' showOrder='19' metaEnums='[]' dateCreated='2009-10-20 15:28:41.0' dateModified='2009-11-05 17:19:57.0' />
+    <metaDefine id='21' parentId='0' libraries='[]' name='publisher' cnName='出版者' dataType='string' defaultValue='' isNecessary='0' showType='1' searchType='0' maxLength='200' showOrder='20' metaEnums='[]' dateCreated='2009-10-20 14:30:34.0' dateModified='2009-11-05 17:20:19.0' />
+    <metaDefine id='34' parentId='0' libraries='[]' name='edition' cnName='版本' dataType='string' defaultValue='' isNecessary='0' showType='1' searchType='0' maxLength='200' showOrder='22' metaEnums='[]' dateCreated='2009-10-20 15:29:15.0' dateModified='2010-02-04 09:38:53.0' />
+    <metaDefine id='26' parentId='0' libraries='[]' name='language' cnName='语种' dataType='enumeration' defaultValue='' isNecessary='1' showType='7' searchType='1' maxLength='10' showOrder='25' metaEnums='[汉语, 英语, 日语, 法语, 德语, 意大利语, 朝（韩）语, 西班牙语, 俄语, 阿拉伯语, 葡萄牙语, 越南语, 其他]' dateCreated='2009-10-20 14:50:06.0' dateModified='2009-12-02 15:32:47.0' />
+    <metaDefine id='93' parentId='0' libraries='[]' name='type' cnName='资源类型' dataType='decorate' defaultValue='' isNecessary='1' showType='5' searchType='1' maxLength='0' showOrder='33' metaEnums='[]' dateCreated='2009-11-18 17:02:16.0' dateModified='2009-11-19 09:48:30.0' />
+    <metaDefine id='38' parentId='1' libraries='[]' name='m_title' cnName='资源名称' dataType='string' defaultValue='' isNecessary='1' showType='3' searchType='1' maxLength='100' showOrder='34' metaEnums='[]' dateCreated='2009-11-03 14:33:01.0' dateModified='2010-03-01 12:04:22.0' />
+    <metaDefine id='39' parentId='1' libraries='[]' name='y_title' cnName='资源原名' dataType='string' defaultValue='' isNecessary='0' showType='1' searchType='1' maxLength='100' showOrder='36' metaEnums='[]' dateCreated='2009-11-03 14:37:05.0' dateModified='2010-03-02 04:08:35.0' />
+    <metaDefine id='40' parentId='1' libraries='[]' name='o_title' cnName='其他名称' dataType='string' defaultValue='' isNecessary='0' showType='1' searchType='1' maxLength='150' showOrder='36' metaEnums='[]' dateCreated='2009-11-03 14:37:05.0' dateModified='2010-02-04 10:19:11.0' />
+    <metaDefine id='10' parentId='2' libraries='[语言]' name='l_director' cnName='导演' dataType='string' defaultValue='' isNecessary='0' showType='3' searchType='1' maxLength='200' showOrder='37' metaEnums='[]' dateCreated='2009-10-19 16:29:36.0' dateModified='2010-02-04 10:20:09.0' />
+    <metaDefine id='11' parentId='2' libraries='[语言]' name='l_actor' cnName='演员' dataType='string' defaultValue='' isNecessary='0' showType='1' searchType='0' maxLength='200' showOrder='38' metaEnums='[]' dateCreated='2009-10-19 16:31:10.0' dateModified='2009-11-03 15:23:43.0' />
+    <metaDefine id='12' parentId='2' libraries='[语言]' name='l_dub' cnName='配音' dataType='string' defaultValue='' isNecessary='0' showType='3' searchType='1' maxLength='200' showOrder='39' metaEnums='[]' dateCreated='2009-10-19 16:33:03.0' dateModified='2010-02-04 10:02:48.0' />
+    <metaDefine id='13' parentId='4' libraries='[语言]' name='l_producer' cnName='制片' dataType='string' defaultValue='' isNecessary='0' showType='1' searchType='1' maxLength='200' showOrder='40' metaEnums='[]' dateCreated='2009-10-19 16:36:55.0' dateModified='2010-03-03 11:23:52.0' />
+    <metaDefine id='14' parentId='4' libraries='[语言]' name='l_photographer' cnName='摄影' dataType='string' defaultValue='' isNecessary='0' showType='1' searchType='1' maxLength='200' showOrder='41' metaEnums='[]' dateCreated='2009-10-19 16:40:12.0' dateModified='2010-02-04 09:19:49.0' />
+    <metaDefine id='19' parentId='18' libraries='[语言]' name='l_shoot_date' cnName='拍摄日期' dataType='date' defaultValue='' isNecessary='0' showType='1' searchType='0' maxLength='50' showOrder='44' metaEnums='[]' dateCreated='2009-10-20 14:23:00.0' dateModified='2009-11-03 16:36:46.0' />
+    <metaDefine id='52' parentId='18' libraries='[语言]' name='l_pub_date' cnName='公映日期' dataType='date' defaultValue='' isNecessary='0' showType='1' searchType='0' maxLength='50' showOrder='45' metaEnums='[]' dateCreated='2009-11-03 16:29:31.0' dateModified='2009-11-03 16:36:41.0' />
+    <metaDefine id='51' parentId='18' libraries='[]' name='publish_date' cnName='出版日期' dataType='date' defaultValue='' isNecessary='0' showType='1' searchType='0' maxLength='50' showOrder='46' metaEnums='[]' dateCreated='2009-11-03 16:23:37.0' dateModified='2009-11-03 16:29:51.0' />
+    <metaDefine id='53' parentId='18' libraries='[IPTV]' name='o_Broadcast' cnName='播出日期' dataType='date' defaultValue='' isNecessary='0' showType='1' searchType='0' maxLength='50' showOrder='47' metaEnums='[]' dateCreated='2009-11-03 16:32:03.0' dateModified='2009-11-03 16:34:26.0' />
+    <metaDefine id='54' parentId='18' libraries='[其他]' name='o_gain_date' cnName='创建日期' dataType='date' defaultValue='' isNecessary='0' showType='1' searchType='0' maxLength='50' showOrder='48' metaEnums='[]' dateCreated='2009-11-03 16:35:59.0' dateModified='2010-03-03 11:24:43.0' />
+    <metaDefine id='88' parentId='0' libraries='[]' name='dc_shiyong' cnName='适用专业' dataType='decorate' defaultValue='' isNecessary='1' showType='7' searchType='1' maxLength='0' showOrder='59' metaEnums='[]' dateCreated='2009-11-18 10:36:35.0' dateModified='2009-11-19 09:48:30.0' />
+    <metaDefine id='66' parentId='65' libraries='[IPTV]' name='i_source' cnName='频道名称' dataType='enumeration' defaultValue='' isNecessary='1' showType='3' searchType='1' maxLength='10' showOrder='60' metaEnums='[NHK, Discovery nts.broadcast.domain.Channel, NHK International, BBC, 凤凰资讯, 韩国ARILANG海外频道, 卡塔尔半岛英文台, 法国TV5电视台, 德国DW-TV电视台, 美国Bloomberg蓬勃经济台, 伊朗alalam电视台, 卡塔尔半岛电视台, 意大利RAI电视台, PTP俄罗斯广播电视台, CNN美国有线电视新闻网, National Geographic国家地理]' dateCreated='2009-11-04 09:59:58.0' dateModified='2010-02-04 09:55:17.0' />
+    <metaDefine id='68' parentId='67' libraries='[]' name='identifier_d' cnName='标识符（URI）' dataType='string' defaultValue='' isNecessary='0' showType='1' searchType='0' maxLength='100' showOrder='62' metaEnums='[]' dateCreated='2009-11-04 10:06:27.0' dateModified='2009-11-05 16:10:28.0' />
+    <metaDefine id='69' parentId='67' libraries='[]' name='ISRC' cnName='国际标准音像制品编码' dataType='string' defaultValue='' isNecessary='0' showType='1' searchType='0' maxLength='100' showOrder='63' metaEnums='[]' dateCreated='2009-11-04 10:07:31.0' dateModified='2010-02-04 09:21:52.0' />
+    <metaDefine id='70' parentId='67' libraries='[]' name='URL' cnName='资源定位符（URL）' dataType='textarea' defaultValue='' isNecessary='0' showType='1' searchType='0' maxLength='200' showOrder='64' metaEnums='[]' dateCreated='2009-11-04 10:08:08.0' dateModified='2009-11-05 16:11:20.0' />
+    <metaDefine id='79' parentId='85' libraries='[]' name='department' cnName='部门' dataType='enumeration' defaultValue='' isNecessary='1' showType='5' searchType='1' maxLength='10' showOrder='72' metaEnums='[国际经济贸易学院, 国际商学院, 英语学院, 法学院, 公共管理学院, 信息学院, 金融学院, 外语学院, 保险学院, 人文与社会科学学院, 中国语言文学学院, 网络与教育技术中心, 图书馆, 体育部, 其他]' dateCreated='2009-11-04 14:51:15.0' dateModified='2009-11-16 11:56:12.0' />
+    <metaDefine id='65' parentId='0' libraries='[]' name='source' cnName='来源' dataType='decorate' defaultValue='' isNecessary='1' showType='7' searchType='1' maxLength='0' showOrder='73' metaEnums='[]' dateCreated='2009-11-04 09:53:40.0' dateModified='2009-11-19 09:48:11.0' />
+    <metaDefine id='82' parentId='81' libraries='[]' name='object' cnName='适用对象' dataType='enumeration' defaultValue='' isNecessary='1' showType='1' searchType='1' maxLength='10' showOrder='76' metaEnums='[本科生, 研究生, 博士生, 留学生, 其他]' dateCreated='2009-11-04 16:04:51.0' dateModified='2010-02-04 09:21:42.0' />
+    <metaDefine id='46' parentId='4' libraries='[语言]' name='Original' cnName='原著' dataType='string' defaultValue='' isNecessary='0' showType='1' searchType='1' maxLength='150' showOrder='77' metaEnums='[]' dateCreated='2009-11-03 15:28:12.0' dateModified='2009-11-05 15:59:45.0' />
+    <metaDefine id='84' parentId='67' libraries='[]' name='DOI' cnName='数字对象标识符（DOI）' dataType='string' defaultValue='' isNecessary='0' showType='1' searchType='0' maxLength='200' showOrder='78' metaEnums='[]' dateCreated='2009-11-05 16:12:36.0' dateModified='2010-02-03 17:54:25.0' />
+    <metaDefine id='85' parentId='0' libraries='[]' name='upload' cnName='上传者' dataType='decorate' defaultValue='' isNecessary='1' showType='5' searchType='1' maxLength='0' showOrder='79' metaEnums='[]' dateCreated='2009-11-12 16:50:06.0' dateModified='2009-11-19 09:47:52.0' />
+    <metaDefine id='81' parentId='0' libraries='[]' name='audience' cnName='受众' dataType='decorate' defaultValue='' isNecessary='1' showType='1' searchType='1' maxLength='0' showOrder='82' metaEnums='[]' dateCreated='2009-11-04 16:01:33.0' dateModified='2009-12-29 18:05:49.0' />
+    <metaDefine id='89' parentId='88' libraries='[学校记录, 其他, 经管, 校际资源, IPTV]' name='dcpline' cnName='经管类' dataType='enumeration' defaultValue='' isNecessary='1' showType='1' searchType='1' maxLength='10' showOrder='83' metaEnums='[国际经济与贸易, 金融学, 经济学, 工商管理, 会计学, 市场营销, 人力资源管理, 财务管理, 投资学, 保险, 劳动与社会保障, 其他]' dateCreated='2009-11-18 11:01:10.0' dateModified='2010-02-04 09:29:34.0' />
+    <metaDefine id='90' parentId='88' libraries='[其他, 语言, 校际资源, IPTV]' name='l_dcpline' cnName='语言类' dataType='enumeration' defaultValue='' isNecessary='1' showType='1' searchType='1' maxLength='10' showOrder='84' metaEnums='[英语(翻译), 英语(商务英语), 英语(新闻与传播), 英语(传媒方向), 翻译(英语经贸方向), 翻译, 日语, 俄语, 法语, 意大利语, 阿拉伯语, 朝鲜语, 西班牙语, 越南语, 德语, 德语(企业管理), 阿拉伯语(经贸方向), 法语(经贸方向), 德语(经贸方向), 意大利语(经贸方向), 日语(经贸方向), 朝鲜(韩)语(经贸方向), 俄语(经贸方向), 西班牙语(经贸方向), 葡萄牙语(经贸方向)]' dateCreated='2009-11-18 12:14:28.0' dateModified='2009-11-24 10:30:33.0' />
+    <metaDefine id='91' parentId='88' libraries='[人文, 学校记录, 其他, 语言, 校际资源, IPTV]' name='h_dcpline' cnName='人文类' dataType='enumeration' defaultValue='' isNecessary='1' showType='1' searchType='1' maxLength='10' showOrder='85' metaEnums='[法学, 国际政治, 汉语言文学(跨文化交流), 汉语言文学(对外汉语教学), 汉语言文学, 对外汉语]' dateCreated='2009-11-18 12:21:36.0' dateModified='2010-02-04 09:27:52.0' />
+    <metaDefine id='92' parentId='88' libraries='[工程, 学校记录, 其他, 校际资源, IPTV]' name='e_dcpline' cnName='工程类' dataType='enumeration' defaultValue='' isNecessary='1' showType='1' searchType='0' maxLength='10' showOrder='86' metaEnums='[信息管理与信息系统, 电子商务, 其他]' dateCreated='2009-11-18 12:26:49.0' dateModified='2009-11-18 12:27:54.0' />
+    <metaDefine id='67' parentId='0' libraries='[]' name='identifier' cnName='资源标识符' dataType='decorate' defaultValue='' isNecessary='0' showType='1' searchType='0' maxLength='0' showOrder='87' metaEnums='[]' dateCreated='2009-11-04 10:05:45.0' dateModified='2009-11-19 09:47:29.0' />
+    <metaDefine id='94' parentId='93' libraries='[]' name='l_video' cnName='视频' dataType='enumeration' defaultValue='' isNecessary='0' showType='1' searchType='1' maxLength='10' showOrder='88' metaEnums='[教学, 学习, 文史, 讲座, 新闻, 影片, 其他]' dateCreated='2009-11-18 17:04:08.0' dateModified='2009-12-02 15:29:35.0' />
+    <metaDefine id='95' parentId='93' libraries='[]' name='l_radio' cnName='音频' dataType='enumeration' defaultValue='' isNecessary='0' showType='1' searchType='1' maxLength='10' showOrder='89' metaEnums='[教学, 学习, 文史, 讲座, 新闻, 歌曲, 电影录音, 其他]' dateCreated='2009-11-18 17:06:15.0' dateModified='2009-12-07 14:27:28.0' />
+    <metaDefine id='96' parentId='93' libraries='[]' name='l_schema' cnName='题库' dataType='enumeration' defaultValue='' isNecessary='0' showType='1' searchType='1' maxLength='10' showOrder='90' metaEnums='[TOFEL, GMAT, IELTS, OTHER]' dateCreated='2009-11-18 17:08:18.0' dateModified='2009-11-18 17:08:18.0' />
+    <metaDefine id='101' parentId='93' libraries='[]' name='example' cnName='案例' dataType='enumeration' defaultValue='' isNecessary='0' showType='1' searchType='0' maxLength='10' showOrder='91' metaEnums='[教学案例, 教案, 学生学习作品]' dateCreated='2009-11-18 17:15:34.0' dateModified='2009-11-18 17:23:05.0' />
+    <metaDefine id='97' parentId='93' libraries='[]' name='l_kejian' cnName='课件' dataType='string' defaultValue='' isNecessary='0' showType='1' searchType='0' maxLength='10' showOrder='92' metaEnums='[]' dateCreated='2009-11-18 17:10:00.0' dateModified='2009-11-18 17:23:05.0' />
+    <metaDefine id='98' parentId='93' libraries='[]' name='l_picture' cnName='图片' dataType='string' defaultValue='' isNecessary='0' showType='1' searchType='0' maxLength='10' showOrder='93' metaEnums='[]' dateCreated='2009-11-18 17:10:25.0' dateModified='2010-02-04 09:32:00.0' />
+    <metaDefine id='99' parentId='93' libraries='[]' name='doc' cnName='文本' dataType='string' defaultValue='' isNecessary='0' showType='1' searchType='0' maxLength='10' showOrder='94' metaEnums='[]' dateCreated='2009-11-18 17:13:38.0' dateModified='2009-11-18 17:22:31.0' />
+    <metaDefine id='100' parentId='93' libraries='[]' name='flash' cnName='动画' dataType='string' defaultValue='' isNecessary='0' showType='1' searchType='0' maxLength='10' showOrder='95' metaEnums='[]' dateCreated='2009-11-18 17:14:43.0' dateModified='2009-11-18 17:22:24.0' />
+    <metaDefine id='102' parentId='93' libraries='[]' name='course' cnName='课程' dataType='string' defaultValue='' isNecessary='0' showType='1' searchType='0' maxLength='20' showOrder='96' metaEnums='[]' dateCreated='2009-11-18 17:16:16.0' dateModified='2009-11-18 17:16:16.0' />
+    <metaDefine id='105' parentId='93' libraries='[]' name='iptv' cnName='IPTV' dataType='string' defaultValue='' isNecessary='0' showType='1' searchType='0' maxLength='10' showOrder='97' metaEnums='[]' dateCreated='2009-11-18 17:18:35.0' dateModified='2009-11-18 17:23:28.0' />
+    <metaDefine id='106' parentId='93' libraries='[]' name='html' cnName='网页' dataType='string' defaultValue='' isNecessary='0' showType='1' searchType='0' maxLength='10' showOrder='98' metaEnums='[]' dateCreated='2009-11-18 17:21:28.0' dateModified='2009-11-18 17:23:32.0' />
+    <metaDefine id='103' parentId='93' libraries='[]' name='ziliao' cnName='文献资料' dataType='enumeration' defaultValue='' isNecessary='0' showType='1' searchType='0' maxLength='10' showOrder='99' metaEnums='[论文, 报告, 常见问题解答]' dateCreated='2009-11-18 17:17:34.0' dateModified='2010-02-03 17:57:55.0' />
+    <metaDefine id='104' parentId='93' libraries='[]' name='index' cnName='索引目录' dataType='link' defaultValue='' isNecessary='0' showType='1' searchType='0' maxLength='600' showOrder='100' metaEnums='[]' dateCreated='2009-11-18 17:18:08.0' dateModified='2009-11-18 17:23:23.0' />
+    <metaDefine id='107' parentId='93' libraries='[]' name='other' cnName='其他' dataType='string' defaultValue='' isNecessary='0' showType='1' searchType='0' maxLength='10' showOrder='101' metaEnums='[]' dateCreated='2009-11-19 09:33:42.0' dateModified='2009-11-19 09:33:42.0' />
+  </metaDefines>
+  <metaEnums>
+    <metaEnum id='628' enumId='10' metaDefineId='26' name='汉语' />
+    <metaEnum id='629' enumId='20' metaDefineId='26' name='英语' />
+    <metaEnum id='630' enumId='30' metaDefineId='26' name='日语' />
+    <metaEnum id='631' enumId='40' metaDefineId='26' name='法语' />
+    <metaEnum id='632' enumId='45' metaDefineId='26' name='德语' />
+    <metaEnum id='633' enumId='50' metaDefineId='26' name='意大利语' />
+    <metaEnum id='634' enumId='60' metaDefineId='26' name='朝（韩）语' />
+    <metaEnum id='635' enumId='70' metaDefineId='26' name='西班牙语' />
+    <metaEnum id='636' enumId='80' metaDefineId='26' name='俄语' />
+    <metaEnum id='637' enumId='90' metaDefineId='26' name='阿拉伯语' />
+    <metaEnum id='638' enumId='100' metaDefineId='26' name='葡萄牙语' />
+    <metaEnum id='639' enumId='120' metaDefineId='26' name='越南语' />
+    <metaEnum id='640' enumId='140' metaDefineId='26' name='其他' />
+    <metaEnum id='687' enumId='10' metaDefineId='66' name='NHK' />
+    <metaEnum id='688' enumId='20' metaDefineId='66' name='Discovery nts.broadcast.domain.Channel' />
+    <metaEnum id='689' enumId='30' metaDefineId='66' name='NHK International' />
+    <metaEnum id='690' enumId='40' metaDefineId='66' name='BBC' />
+    <metaEnum id='691' enumId='50' metaDefineId='66' name='凤凰资讯' />
+    <metaEnum id='692' enumId='60' metaDefineId='66' name='韩国ARILANG海外频道' />
+    <metaEnum id='693' enumId='70' metaDefineId='66' name='卡塔尔半岛英文台' />
+    <metaEnum id='694' enumId='80' metaDefineId='66' name='法国TV5电视台' />
+    <metaEnum id='695' enumId='90' metaDefineId='66' name='德国DW-TV电视台' />
+    <metaEnum id='696' enumId='100' metaDefineId='66' name='美国Bloomberg蓬勃经济台' />
+    <metaEnum id='697' enumId='110' metaDefineId='66' name='伊朗alalam电视台' />
+    <metaEnum id='698' enumId='120' metaDefineId='66' name='卡塔尔半岛电视台' />
+    <metaEnum id='699' enumId='130' metaDefineId='66' name='意大利RAI电视台' />
+    <metaEnum id='700' enumId='140' metaDefineId='66' name='PTP俄罗斯广播电视台' />
+    <metaEnum id='701' enumId='150' metaDefineId='66' name='CNN美国有线电视新闻网' />
+    <metaEnum id='702' enumId='160' metaDefineId='66' name='National Geographic国家地理' />
+    <metaEnum id='321' enumId='10' metaDefineId='79' name='国际经济贸易学院' />
+    <metaEnum id='322' enumId='20' metaDefineId='79' name='国际商学院' />
+    <metaEnum id='323' enumId='30' metaDefineId='79' name='英语学院' />
+    <metaEnum id='324' enumId='40' metaDefineId='79' name='法学院' />
+    <metaEnum id='325' enumId='50' metaDefineId='79' name='公共管理学院' />
+    <metaEnum id='326' enumId='60' metaDefineId='79' name='信息学院' />
+    <metaEnum id='327' enumId='70' metaDefineId='79' name='金融学院' />
+    <metaEnum id='328' enumId='80' metaDefineId='79' name='外语学院' />
+    <metaEnum id='329' enumId='90' metaDefineId='79' name='保险学院' />
+    <metaEnum id='330' enumId='100' metaDefineId='79' name='人文与社会科学学院' />
+    <metaEnum id='331' enumId='110' metaDefineId='79' name='中国语言文学学院' />
+    <metaEnum id='332' enumId='120' metaDefineId='79' name='网络与教育技术中心' />
+    <metaEnum id='333' enumId='130' metaDefineId='79' name='图书馆' />
+    <metaEnum id='334' enumId='140' metaDefineId='79' name='体育部' />
+    <metaEnum id='335' enumId='150' metaDefineId='79' name='其他' />
+    <metaEnum id='664' enumId='10' metaDefineId='82' name='本科生' />
+    <metaEnum id='665' enumId='20' metaDefineId='82' name='研究生' />
+    <metaEnum id='666' enumId='30' metaDefineId='82' name='博士生' />
+    <metaEnum id='667' enumId='40' metaDefineId='82' name='留学生' />
+    <metaEnum id='668' enumId='50' metaDefineId='82' name='其他' />
+    <metaEnum id='278' enumId='10' metaDefineId='82' name='本科生' />
+    <metaEnum id='279' enumId='20' metaDefineId='82' name='研究生' />
+    <metaEnum id='280' enumId='30' metaDefineId='82' name='博士生' />
+    <metaEnum id='281' enumId='40' metaDefineId='82' name='留学生' />
+    <metaEnum id='282' enumId='50' metaDefineId='82' name='其他' />
+    <metaEnum id='675' enumId='10' metaDefineId='89' name='国际经济与贸易' />
+    <metaEnum id='676' enumId='20' metaDefineId='89' name='金融学' />
+    <metaEnum id='677' enumId='30' metaDefineId='89' name='经济学' />
+    <metaEnum id='678' enumId='40' metaDefineId='89' name='工商管理' />
+    <metaEnum id='679' enumId='50' metaDefineId='89' name='会计学' />
+    <metaEnum id='680' enumId='60' metaDefineId='89' name='市场营销' />
+    <metaEnum id='681' enumId='70' metaDefineId='89' name='人力资源管理' />
+    <metaEnum id='682' enumId='80' metaDefineId='89' name='财务管理' />
+    <metaEnum id='683' enumId='170' metaDefineId='89' name='投资学' />
+    <metaEnum id='684' enumId='180' metaDefineId='89' name='保险' />
+    <metaEnum id='685' enumId='190' metaDefineId='89' name='劳动与社会保障' />
+    <metaEnum id='686' enumId='200' metaDefineId='89' name='其他' />
+    <metaEnum id='596' enumId='2' metaDefineId='90' name='英语(翻译)' />
+    <metaEnum id='597' enumId='4' metaDefineId='90' name='英语(商务英语)' />
+    <metaEnum id='598' enumId='5' metaDefineId='90' name='英语(新闻与传播)' />
+    <metaEnum id='599' enumId='6' metaDefineId='90' name='英语(传媒方向)' />
+    <metaEnum id='600' enumId='7' metaDefineId='90' name='翻译(英语经贸方向)' />
+    <metaEnum id='601' enumId='8' metaDefineId='90' name='翻译' />
+    <metaEnum id='602' enumId='10' metaDefineId='90' name='日语' />
+    <metaEnum id='603' enumId='20' metaDefineId='90' name='俄语' />
+    <metaEnum id='604' enumId='30' metaDefineId='90' name='法语' />
+    <metaEnum id='605' enumId='40' metaDefineId='90' name='意大利语' />
+    <metaEnum id='606' enumId='50' metaDefineId='90' name='阿拉伯语' />
+    <metaEnum id='607' enumId='60' metaDefineId='90' name='朝鲜语' />
+    <metaEnum id='608' enumId='70' metaDefineId='90' name='西班牙语' />
+    <metaEnum id='609' enumId='80' metaDefineId='90' name='越南语' />
+    <metaEnum id='610' enumId='90' metaDefineId='90' name='德语' />
+    <metaEnum id='611' enumId='100' metaDefineId='90' name='德语(企业管理)' />
+    <metaEnum id='612' enumId='110' metaDefineId='90' name='阿拉伯语(经贸方向)' />
+    <metaEnum id='613' enumId='120' metaDefineId='90' name='法语(经贸方向)' />
+    <metaEnum id='614' enumId='130' metaDefineId='90' name='德语(经贸方向)' />
+    <metaEnum id='615' enumId='140' metaDefineId='90' name='意大利语(经贸方向)' />
+    <metaEnum id='616' enumId='150' metaDefineId='90' name='日语(经贸方向)' />
+    <metaEnum id='617' enumId='160' metaDefineId='90' name='朝鲜(韩)语(经贸方向)' />
+    <metaEnum id='618' enumId='170' metaDefineId='90' name='俄语(经贸方向)' />
+    <metaEnum id='619' enumId='180' metaDefineId='90' name='西班牙语(经贸方向)' />
+    <metaEnum id='620' enumId='190' metaDefineId='90' name='葡萄牙语(经贸方向)' />
+    <metaEnum id='669' enumId='10' metaDefineId='91' name='法学' />
+    <metaEnum id='670' enumId='20' metaDefineId='91' name='国际政治' />
+    <metaEnum id='671' enumId='30' metaDefineId='91' name='汉语言文学(跨文化交流)' />
+    <metaEnum id='672' enumId='40' metaDefineId='91' name='汉语言文学(对外汉语教学)' />
+    <metaEnum id='673' enumId='50' metaDefineId='91' name='汉语言文学' />
+    <metaEnum id='674' enumId='60' metaDefineId='91' name='对外汉语' />
+    <metaEnum id='538' enumId='10' metaDefineId='92' name='信息管理与信息系统' />
+    <metaEnum id='539' enumId='20' metaDefineId='92' name='电子商务' />
+    <metaEnum id='540' enumId='30' metaDefineId='92' name='其他' />
+    <metaEnum id='621' enumId='10' metaDefineId='94' name='教学' />
+    <metaEnum id='622' enumId='20' metaDefineId='94' name='学习' />
+    <metaEnum id='623' enumId='25' metaDefineId='94' name='文史' />
+    <metaEnum id='624' enumId='30' metaDefineId='94' name='讲座' />
+    <metaEnum id='625' enumId='40' metaDefineId='94' name='新闻' />
+    <metaEnum id='626' enumId='50' metaDefineId='94' name='影片' />
+    <metaEnum id='627' enumId='60' metaDefineId='94' name='其他' />
+    <metaEnum id='641' enumId='10' metaDefineId='95' name='教学' />
+    <metaEnum id='642' enumId='20' metaDefineId='95' name='学习' />
+    <metaEnum id='643' enumId='23' metaDefineId='95' name='文史' />
+    <metaEnum id='644' enumId='30' metaDefineId='95' name='讲座' />
+    <metaEnum id='645' enumId='40' metaDefineId='95' name='新闻' />
+    <metaEnum id='646' enumId='43' metaDefineId='95' name='歌曲' />
+    <metaEnum id='647' enumId='50' metaDefineId='95' name='电影录音' />
+    <metaEnum id='648' enumId='60' metaDefineId='95' name='其他' />
+    <metaEnum id='574' enumId='10' metaDefineId='96' name='TOFEL' />
+    <metaEnum id='575' enumId='20' metaDefineId='96' name='GMAT' />
+    <metaEnum id='576' enumId='30' metaDefineId='96' name='IELTS' />
+    <metaEnum id='577' enumId='40' metaDefineId='96' name='OTHER' />
+    <metaEnum id='578' enumId='10' metaDefineId='101' name='教学案例' />
+    <metaEnum id='579' enumId='20' metaDefineId='101' name='教案' />
+    <metaEnum id='580' enumId='30' metaDefineId='101' name='学生学习作品' />
+    <metaEnum id='649' enumId='10' metaDefineId='103' name='论文' />
+    <metaEnum id='650' enumId='20' metaDefineId='103' name='报告' />
+    <metaEnum id='651' enumId='30' metaDefineId='103' name='常见问题解答' />
+  </metaEnums>
+</metaData>

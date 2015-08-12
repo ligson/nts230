@@ -1,0 +1,249 @@
+.activity_show_wid {
+    width: 740px;
+    float: left;
+    margin-top: 20px;
+}
+
+.list_hd {
+    float: left;
+    width: 994px;
+    height: 165px;
+    padding: 10px 0;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.list_hd h3 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.list_hd dd {
+    float: left;
+    text-align: left;
+    width: 40%;
+    line-height: 26px;
+}
+
+.hd_nv {
+    padding: 20px 0;
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+
+.hd_nv dt {
+    float: left;
+    text-align: left;
+    width: 994px;
+    height: 29px;
+    border-bottom: 1px #DDDDDD solid;
+    line-height: 26px;
+    overflow: hidden;
+}
+
+.hd_nv dd {
+    float: left;
+    text-align: left;
+    width: 994px;
+    padding: 5px 0;
+    line-height: 26px;
+}
+
+.activity_img {
+    width: 994px;
+    height: 300px;
+    float: left;
+}
+
+.list_hd h3 {
+    font-size: 18px;
+    font-weight: bold;
+    height: 30px;
+    text-align: left;
+    line-height: 30px;
+
+}
+
+.ou_hd_tit {
+    height: 27px;
+    line-height: 27px;
+    width: 100px;
+    border-bottom: 2px solid #39a53e;
+    display: block;
+    overflow: hidden;
+}
+
+.list_hd dd {
+    font-size: 14px;
+}
+
+.list_hd_smail {
+    height: 75px;
+    width: 964px;
+}
+
+.list_left {
+    padding: 10px 0;
+    display: block;
+    overflow: hidden;
+}
+
+.vInfo {
+    width: 125px;
+    height: 145px;
+    margin: 10px;
+    float: left;
+}
+
+.vData {
+    padding: 10px 0;
+    /*width: 740px;*/
+    display: block;
+    overflow: hidden;
+}
+
+.vTxt h4 {
+    font-size: 14px;
+}
+
+.vTxt em {
+    color: #999999;
+}
+
+.vTxt p {
+    margin: 3px 0;
+}
+
+.vPic {
+    width: 125px;
+    height: 85px;
+}
+
+.vPic a {
+    width: 125px;
+    height: 84px;
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+
+.label {
+    margin-top: 65px;
+    display: block;
+    overflow: hidden;
+}
+
+.label i {
+    width: 124px;
+    height: 20px;
+}
+
+.label em {
+    width: 119px;
+    height: 20px;
+    display: block;
+    overflow: hidden;
+}
+
+.vTxt {
+    width: 125px;
+    height: 40px;
+}
+
+.vPic a img {
+    width: 124px;
+    height: 84px;
+}
+
+.vTxt {
+    width: 125px;
+    float: left;
+    height: 60px;
+}
+
+.vTxt p, .vTxt p em, .vTxt p a {
+    text-align: left;
+}
+
+.areabg {
+    min-height: 650px;
+}
+
+.p_name {
+    width: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.p_fan {
+    width: 40px;
+    float: right;
+    text-align: right;
+}
+
+/*---------------------------item-----------------------*/
+.hd_other_work_con {
+    width: 984px;
+    padding: 15px 0;
+    height: auto;
+    display: block;
+    overflow: hidden;
+}
+
+.hd_other_work_item {
+    width: 220px;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    display: block;
+    overflow: hidden;
+}
+
+.hd_other_work_item_img, .hd_other_work_item_img img {
+    width: 220px;
+    height: 160px;
+    display: block;
+    overflow: hidden;
+}
+
+.hd_other_work_item_infor {
+    width: 220px;
+    padding: 5px 0;
+}
+
+.hd_other_work_item_infor h4 {
+    font-size: 16px;
+    color: #333;
+    font-weight: normal;
+    height: 25px;
+    text-align: left;
+    line-height: 25px;
+}
+
+.hd_other_work_item_infor h4 a {
+    color: #333;
+}
+
+.hd_other_work_item_infor h4 a:hover {
+    color: #39a53e;
+}
+
+.work_operat, .work_itme {
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    text-align: left;
+    color: #5c5c5c;
+}
+
+em {
+    font-style: normal;
+}
+
+.work_operat span, .work_itme span {
+    margin-right: 10px;
+    text-align: left;
+}

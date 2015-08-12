@@ -1,0 +1,108 @@
+.program_list{
+    width:905px;
+    padding:10px;
+    height:auto;
+    padding-left:65px;
+}
+.program_list .list_content{
+    width:280px;
+    height:120px;
+    float: left;
+    /*border:1px #c0c0c0 solid;*/
+    padding:5px;
+}
+.program_list .list_content img{
+    width:90px;
+    height:90px;
+    float:left;
+}
+.list_desc{
+    width: 185px;
+    height:120px;
+    float:left;
+    line-height:30px;
+}
+.list_desc span{
+    width:185px;
+    height:21px;
+    text-align:left;
+    padding-left:10px;
+    float:left;
+
+}
+
+.page {
+    width:980px;
+    padding:30px 0 20px 0;
+    line-height: 18px;
+    text-align: right;
+    float:left;
+    display: block;
+    overflow: hidden;
+}
+
+.page .step {
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    margin-left: 8px;
+    background: #FFF;
+    border: #d2d2d2 1px solid;
+    display: inline-block;
+    color: #333;
+}
+
+
+
+/*.page .step {
+    background: #f4f4f4;
+    display: inline-block;
+    width: 53px;
+    vertical-align: bottom;
+    text-align: center;
+    padding: 2px 0 0;
+}*/
+
+.page a:hover {
+    text-decoration: none;
+}
+
+.page .prevLink, .page .nextLink ,#turnPageBtn{
+    display: inline-block;
+    width: 65px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    border: #d2d2d2 1px solid;
+    margin-left: 8px;
+    color: #333;
+    background: #FFF;
+}
+#turnPageBtn{
+    padding:0;
+}
+.page .prevLink:hover, .page .nextLink:hover ,#turnPageBtn:hover, .page .step:hover{
+    border: #39a53e 1px solid;
+}
+
+.page .currentStep {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #39a53e;
+    border: #39a53e 1px solid;
+    margin-left: 8px;
+    display: inline-block;
+    color: #fff;
+}
+
+.page .btnNextOver {
+    margin-left: 5px;
+}
+
+.page input{
+    width: 20px;
+    height: 20px;
+}

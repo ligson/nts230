@@ -1,0 +1,559 @@
+.boful_activity {
+    /*background: url("../images/boful_activity_bg.png");*/
+    background: #f4f4f4;
+    padding-top: 20px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+.wrap {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.boful_activity_bananr {
+    background: #000000;
+    width: 100%;
+    height: 400px;
+}
+
+.boful_activity_bananr_img {
+    width: 1024px;
+    height: 400px;
+}
+
+.boful_activity_nav {
+    background: url("../images/boful_activity_nav_bg.png") repeat-x;
+    width: 1022px;
+    margin: 0 auto;
+    height: 50px;
+    border: #E7E8E7 1px solid;
+}
+
+.boful_activity_nav_class p {
+    height: 50px;
+    width: 850px;
+    text-align: left;
+    float: left;
+}
+
+.boful_activity_nav_class p a {
+    font-size: 14px;
+    color: #333333;
+    line-height: 50px;
+    padding: 0 15px;
+    margin: 0 10px;
+    border: #F8F8F8 1px solid;
+}
+
+.boful_activity_nav_class p a:hover {
+    border-radius: 10px;
+    border: #39a53e 1px solid;
+    color: #39a53e;
+
+}
+
+.boful_activity_content h1 {
+    font-size: 22px;
+    color: #333333;
+    text-align: left;
+    margin: 70px 0 15px 0;
+    font-weight: normal;
+}
+
+.boful_activity_items {
+    width: 1024px;
+    height: auto;
+    display: block;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+.boful_activity_items .boful_activity_item {
+    height: 245px;
+    width: 240px;
+    margin: 15px 15px 0 0;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 3px #CFCFCF;
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_activity_item_img {
+    width: 240px;
+    height: 150px;
+}
+
+.boful_activity_item p {
+    font-size: 14px;
+    color: #333333;
+    padding: 6px 10px;
+    height: 55px;
+    line-height: 18px;
+    margin: 0;
+    border-bottom: #EFEFEF 1px solid;
+    text-align: left;
+}
+
+.boful_activity_item p a {
+    color: #5C5C5C;
+}
+
+.boful_activity_item_infor {
+    width: 240px;
+    height: 25px;
+}
+
+.boful_activity_item_infor .boful_activity_item_works {
+    background: url("../images/boful_activity_item_works_icon.png") left no-repeat;
+    width: 45px;
+    font-size: 12px;
+    color: #949DA3;
+    height: 25px;
+    margin-left: 10px;
+    line-height: 25px;
+    text-align: left;
+    padding-left: 18px;
+    float: left;
+}
+
+.boful_activity_item_infor .boful_activity_item_timer {
+    background: url("../images/boful_activity_item_timer_icon.png") left no-repeat;
+    width: 145px;
+    margin-left: -10px;
+    font-size: 12px;
+    color: #949DA3;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 18px;
+    float: left;
+}
+
+.boful_activity_item_img_title {
+    width: 240px;
+    height: 55px;
+    background: url("../images/boful_activity_item_img_title_bg.png");
+    position: absolute;
+    z-index: 1;
+    margin-top: 90px;
+}
+
+.boful_activity_item_img_title:hover {
+    background: #EF7B1D;
+}
+
+.boful_activity_item_img_title a {
+    width: 240px;
+    height: 55px;
+}
+
+.boful_activity_item_img_title h1 {
+    font-size: 16px;
+    color: #FFFFFF;
+    height: 20px;
+    text-align: left;
+    margin: 5px 0 3px 0;
+    padding-left: 10px;
+}
+
+.boful_activity_item_img_title p {
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: left;
+    height: 18px;
+    padding: 0 5px 0 5px;
+    margin: 0 0 5px 0;
+    padding-left: 10px;
+    border: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.boful_activity_content_search {
+    border-radius: 16px 0 0 16px;
+    height: 24px;
+    width: 200px;
+    padding-left: 10px;
+    margin: 0;
+    border: #D2D2D2 1px solid;
+    border-right: 0;
+    float: right;
+}
+
+.boful_activity_content_search_submit {
+    height: 28px;
+    background: url("../images/boful_activity_content_search_submit_icon.png") #EF7B1D center no-repeat;
+    width: 40px;
+    border-radius: 0 16px 16px 0;
+    border: 0;
+    margin: 0;
+    float: right;
+}
+
+.boful_activity_content_search_submit:hover {
+    background: url("../images/boful_activity_content_search_submit_icon.png") #EF9632 center no-repeat;
+}
+
+.boful_activity_subnav {
+    height: 35px;
+    width: 1022px;
+    margin-top: 50px;
+    background: #FFFFFF;
+    border: #EEEBEB 1px solid;
+    position: absolute;
+    z-index: 1;
+}
+
+.boful_activity_subnav p {
+    height: 32px;
+}
+
+.boful_activity_subnav p a {
+    font-size: 12px;
+    height: 18px;
+    color: #5C5C5C;
+    border: #FFFFFF 1px solid;
+    float: left;
+    line-height: 18px;
+    margin: 7px 0 0 18px;
+    padding: 0 15px;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_activity_subnav p a:hover {
+    color: #39a53e;
+    border: #39a53e 1px solid;
+    border-radius: 16px;
+}
+
+.boful_activity_footer_page {
+    width: 1024px;
+    height: 34px;
+    margin-bottom: 30px;
+}
+
+.boful_activity_footer_page p {
+    width: 500px;
+    text-align: right;
+    float: right;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_activity_footer_page a {
+    background: #FFFFFF;
+    font-size: 14px;
+    height: 32px;
+    width: 32px;
+    color: #333333;
+    margin-left: 10px;
+    border: #D2D2D2 1px solid;
+    text-align: center;
+    border-radius: 4px;
+    line-height: 32px;
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_activity_footer_page a:hover {
+    border: #39a53e 1px solid;
+    color: #39a53e;
+}
+
+.boful_activity_footer_prasent {
+    background: #39a53e;
+    border: #329B98 1px solid;
+    height: 32px;
+    width: 32px;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 32px;
+    text-align: center;
+    float: left;
+    border-radius: 4px;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_activity_nav_class_new {
+    height: 30px;
+    width: 150px;
+    font-size: 14px;
+    color: #39a53e;
+    text-align: center;
+    float: left;
+    margin: 10px 0 0 20px;
+}
+
+.boful_activity_nav_class_new a {
+    height: 30px;
+    width: 100px;
+    color: #39a53e;
+    line-height: 30px;
+    padding: 0 20px 3px;
+    border-radius: 16px;
+    border: #39a53e 1px solid;
+}
+
+.boful_activity_nav_class_new a:hover {
+    border: #EF7B1D 1px solid;
+    color: #EF7B1D;
+}
+
+.boful_activity_footer_page {
+    width: 1024px;
+    height: 34px;
+}
+
+.boful_activity_footer_page p {
+    width: 500px;
+    height: 34px;
+    float: right;
+    text-align: center;
+}
+
+.boful_activity_footer_page input {
+    margin-left: 10px;
+}
+
+#turnPage {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 0;
+    margin: 0 0 0 10px;
+    line-height: 32px;
+    border: #E2E2E2 1px solid;
+}
+
+#turnPageBtn {
+    background: #FFFFFF;
+    font-size: 14px;
+    height: 34px;
+    color: #333333;
+    margin-left: 10px;
+    padding: 0 8px;
+    border: #D2D2D2 1px solid;
+    text-align: center;
+    border-radius: 4px;
+    line-height: 32px;
+}
+
+#turnPageBtn:hover {
+    border: #39a53e 1px solid;
+    color: #39a53e;
+}
+
+/*---------2014-06-14------------*/
+
+.ou_activity_box {
+    background: #FFF;
+    width: 1024px;
+    margin: 0 auto;
+    height: auto;
+    display: block;
+}
+
+.ou_activity_box_body {
+    padding: 0 30px;
+    width: 964px;
+    height: auto;
+    display: block;
+    overflow: hidden;
+}
+
+.ou_activity_items, .ou_activity_item {
+    width: 964px;
+    height: auto;
+    display: block;
+    overflow: hidden;
+}
+
+.o_b_nav {
+    background: #fcfcfc;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.o_b_nav, .o_b_nav p {
+    height: 50px;
+    line-height: 50px;
+    width: 1024px;
+
+}
+
+.o_b_nav span {
+    width: 100px;
+    height: 50px;
+    font-size: 14px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    border-right: 1px solid #ededed;
+    border-top: 2px solid #fcfcfc;
+    color: #5c5c5c;
+    padding: 0 15px;
+    display: block;
+    cursor: pointer;
+}
+
+.o_b_nav span:hover {
+    background: #FFF;
+    color: #39a53e;
+    font-weight: bold;
+    border-right: 1px solid #ededed;
+    border-top: 2px solid #39a53e;
+}
+
+.o_b_nav .active {
+    background: #FFF;
+    color: #39a53e;
+    font-weight: bold;
+    border-right: 1px solid #ededed;
+    border-top: 2px solid #39a53e;
+}
+
+.ou_activity_item h1 {
+    font-size: 18px;
+    color: #5c5c5c;
+    font-weight: normal;
+    margin: 0 0 5px 0;
+}
+
+.ou_activity_item h1 a {
+    color: #767676;
+}
+
+.ou_activity_item h1 a:hover {
+    color: #5c5c5c;
+    text-decoration: underline;
+}
+
+.ou_activity_items {
+    padding-top: 20px;
+}
+
+.ou_a_time {
+    color: #999;
+    margin-bottom: 10px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.ou_a_time span {
+    color: #f89704;
+}
+
+.ou_a_cont {
+    padding: 10px 0;
+    color: #5c5c5c;
+}
+
+.ou_activity_item h1 span {
+    font-weight: bold;
+    font-size: 14px;
+    color: #39a53e;
+}
+
+.ou_activity_items, .ou_activity_item {
+    display: block;
+    overflow: hidden;
+}
+
+.ou_activity_item {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.ou_a_t_img, .ou_a_t_img img {
+    width: 964px;
+    height: 300px;
+}
+
+/*-----------------------------分页-----------------------------*/
+.f_page {
+    color: #999;
+    width: 500px;
+    height: 31px;
+    float: right;
+    margin: 15px 50px;
+}
+
+.f_page .num {
+    background-color: #FFF;
+    color: #999;
+    display: inline-block;
+    margin-left: 5px;
+    width: 29px;
+    font-size: 12px;
+    height: 29px;
+    padding: 0;
+    float: left;
+    line-height: 31px;
+    text-align: center;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.f_page .guinum {
+    height: 29px;
+    border: 1px solid #ddd;
+    line-height: 29px;
+    color: #999;
+    width: 50px;
+    padding: 0 3px;
+    float: left;
+    font-size: 12px;
+    margin: 0 0 0 5px;
+}
+
+.guipa {
+    background-color: #FFF;
+    color: #999;
+    border: 1px solid #ddd;
+    line-height: 31px;
+    height: 29px;
+    padding: 0 5px;
+    font-size: 12px;
+    float: left;
+    margin-left: 5px;
+    display: block;
+    overflow: hidden;
+}
+
+.f_page .currentStep {
+    background: #4aa563;
+    width: 31px;
+    height: 31px;
+    margin-left: 5px;
+    float: left;
+    color: #FFF;
+    font-size: 12px;
+    line-height: 31px;
+    display: block;
+    text-align: center;
+}
+
+#turnPageBtn {
+    background-color: #FFF;
+    color: #999;
+    border: 1px solid #ddd;
+    line-height: 29px;
+    height: 29px;
+    padding: 0 5px;
+    font-size: 12px;
+    margin-left: 5px;
+    border-radius: 0;
+}
+
+.f_page .num:hover, .f_page .guipa:hover {
+    border: 1px solid #4aa563;
+    color: #4aa563;
+}
+

@@ -1,0 +1,197 @@
+.TD01 {
+    font-size: 12px;
+    font-style: normal;
+    line-height: 14px;
+    color: #2474B2;
+    text-decoration: none
+}
+
+.TD01:active {
+    test-decoration: none;
+    COLOR: #FF6600
+}
+
+.TD01:hover {
+    color: #FF6600;
+    text-decoration: none
+}
+
+.TD02 {
+    font-size: 12px;
+    font-style: normal;
+    line-height: 14px;
+    color: #747474;
+    text-decoration: none
+}
+
+.TD02:active {
+    test-decoration: none;
+    COLOR: #FF6600
+}
+
+.TD02:hover {
+    color: #FF6600;
+    text-decoration: none
+}
+
+.TD03 {
+    font-size: 12px;
+    font-style: normal;
+    line-height: 14px;
+    color: #333333;
+    text-decoration: none
+}
+
+.TD03:active {
+    test-decoration: none;
+    COLOR: #FF6600
+}
+
+.TD03:hover {
+    color: #FF6600;
+    text-decoration: none
+}
+
+.TD04 {
+    font-size: 12px;
+    font-style: normal;
+    line-height: 14px;
+    color: #333333;
+    text-decoration: underline
+}
+
+.TD05 {
+    font-size: 12px;
+    font-style: normal;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-decoration: none
+}
+
+.TD06 {
+    font-size: 12px;
+    font-style: normal;
+    line-height: 19px;
+    color: #37546A;
+    text-decoration: none
+}
+
+.TD07 {
+    font-size: 12px;
+    font-style: normal;
+    line-height: 21px;
+    color: #747474;
+    text-decoration: none
+}
+
+.TD08 {
+    BORDER-RIGHT: #000000 0 solid;
+    BORDER-TOP: #FFFFFF 0 solid;
+    PADDING-BOTTOM: 1px;
+    BORDER-LEFT: #FFFFFF 1px solid;
+    BORDER-BOTTOM: #808080 1px solid;
+    font-size: 12px;
+    line-height: 20px;
+    color: #333333;
+    background-color: #FFFFFF;
+}
+
+.TD09 {
+    font-size: 12px;
+    font-style: normal;
+    line-height: 22px;
+    color: #FF6600;
+    text-decoration: none;
+}
+
+.box1 {
+    BORDER-RIGHT: #CCCCCC 1px solid;
+    BORDER-TOP: #CCCCCC 1px solid;
+    PADDING-BOTTOM: 1px;
+    BORDER-LEFT: #CCCCCC 1px solid;
+    BORDER-BOTTOM: #CCCCCC 1px solid;
+    font-size: 12px;
+    color: #333333;
+    background-color: #EEEEEE;
+}
+
+.button1 {
+    BORDER-RIGHT: #333333 1px solid;
+    BORDER-TOP: #F1F9FD 1px solid;
+    FONT-SIZE: 12px;
+    BACKGROUND: #5FA0DA;
+    BORDER-LEFT: #F1F9FD 1px solid;
+    COLOR: #FFFFFF;
+    PADDING-TOP: 3px;
+    BORDER-BOTTOM: #333333 1px solid;
+    HEIGHT: 21px
+}
+
+.input01 {
+    BORDER-RIGHT: #B4B4B4 1px double;
+    BORDER-TOP: #B4B4B4 1px double;
+    BORDER-LEFT: #B4B4B4 1px double;
+    COLOR: #333333;
+    BORDER-BOTTOM: #B4B4B4 1px double;
+    FONT-FAMILY: verdana, serif;
+    BACKGROUND-COLOR: #F2F8FF
+}
+
+.input07 {
+    font-size: 12px;
+    font-style: normal;
+    line-height: 14px;
+    color: #747474;
+}
+
+.TD17 {
+    font-size: 12px;
+    font-style: normal;
+    line-height: 19px;
+    color: #37546A;
+    text-decoration: underline
+}
+
+.textNoPrint {
+    height: 0px;
+}
+
+@media print {
+    .textNoPrint {
+        height: 0px;
+        display: none;
+    }
+
+    input.showTextHidden {
+        border: none;
+        height: 18px;
+        FONT-SIZE: 12pt;
+        color: #000000;
+        display: none;
+    }
+
+    input.showTextUnderLineHidden {
+        FONT-SIZE: 12pt;
+        border-left: 1px;
+        border-right: 1px;
+        border-top: 1px;
+        border-top: 0 none;
+        border-left: 0 none;
+        border-bottom: 1px solid;
+        color: #FF0000
+        /*display:none;*/
+    }
+
+    input.button {
+        height: 0;
+        display: none;
+    }
+}
+
+.TD100 {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;
+    color: #006699;
+    text-decoration: none
+}

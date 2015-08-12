@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    font-family: "微软雅黑";
+}
+
+.boful_video_banner {
+    width: 1024px;
+    min-height: 768px;
+    overflow: auto;
+    background: url("../images/reas_paly_bg.png");
+}
+
+.boful_video_banner_main {
+    width: 664px;
+    min-height: 768px;
+    float: left;
+    text-align: center;
+}
+
+.boful_video_player_title {
+    width: 664px;
+    height: 50px;
+    text-align: left;
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_video_player_title a {
+    background: url("../images/res_back_bg1.png") left no-repeat;
+    height: 40px;
+    margin-top: 10px;
+    padding-left: 20px;
+    line-height: 40px;
+    width: 115px;
+    color: #757575;
+    text-decoration: none;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_video_player_title a:hover {
+    background: url("../images/res_back_bg.png") left no-repeat;
+    color: #868686;
+}
+
+.boful_video_player_player {
+    width: 500px;
+    height: 320px;
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_video_banner_right {
+    width: 360px;
+    min-height: 768px;
+    float: left;
+    background: #CDCCCC;
+}
+
+.boful_video_desc {
+    width: 360px;
+    height: 100px;
+    background: #ADACAC;
+}
+
+.boful_video_tabs {
+    width: 360px;
+    background: url("../images/cut_talbe_bg.png") repeat-x;
+    height: 45px;
+}
+
+.video_directory_icon {
+    background: url("../images/on_reas_list_no.png") no-repeat left;
+}
+
+.video_directory_icon:hover {
+    background: url("../images/on_reas_list.png") left no-repeat;
+    color: #E7E7E7;
+    text-shadow: 0 1px 1px #767676;
+}
+
+.rea_infor_icon {
+    background: url("../images/reaso_icon.png") left no-repeat;
+}
+
+.rea_infor_icon:hover {
+    background: url("../images/on_reaso_icon.png") left no-repeat;
+    color: #E7E7E7;
+    text-shadow: 0 1px 1px #767676;
+
+}
+
+.res_talk_icon {
+    background: url("../images/no_talk_icon.png") left no-repeat;
+}
+
+.res_talk_icon:hover {
+    background: url("../images/on_talk_icon_no.png") left no-repeat;
+    color: #E7E7E7;
+    text-shadow: 0 1px 1px #767676;
+}
+
+.boful_video_tabs span {
+    display: block;
+    padding-left: 20px;
+    width: 88px;
+    margin-left: 5px;
+    color: #2F2F2F;
+    margin-top: 8px;
+    line-height: 25px;
+    float: left;
+    cursor: pointer;
+}
+
+.boful_video_list {
+    padding: 15px 20px;
+}
+
+.boful_video_list p {
+    font-size: 14px;
+    width: 320px;
+    height: 35px;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-left: 10px;
+    text-overflow: ellipsis;
+}
+
+.boful_video_content {
+    width: 360px;
+    height: auto;
+}
+
+.video_desc_name {
+    font-size: 18px;
+    padding: 30px 0 0 20px;
+}
+
+.video_desc_score {
+    padding: 10px 0 0 20px;
+    font-size: 14px;
+}
+
+.boful_photo_lists_icon {
+    background: url("../images/play_rea_text_icon.png") left no-repeat;
+    height: 22px;
+    width: 22px;
+    margin-right: 5px;
+    margin-top: 7px;
+    float: left;
+}
+
+.boful_video_list p a {
+    color: #333333;
+    line-height: 35px;
+}
+
+.boful_video_list p:hover {
+    background: #F0F0F0;
+}
+
+.boful_video_info {
+    padding: 20px 15px;
+
+}
+
+.boful_video_info td {
+    font-size: 14px;
+    color: #333333;
+}
+
+.boful_video_remark {
+    padding: 20px 15px;
+    color: #333333;
+}
+
+.photo_remark_create_but {
+    background: url("../images/photo_remark_create_but_.png") repeat-x;
+    height: 28px;
+    width: 60px;
+    margin-top: 5px;
+    border: #CCCBCB 1px solid;
+    display: block;
+    overflow: hidden;
+}
+
+.photo_remark_create_but:hover {
+    background: url("../images/photo_remark_create_but_1.png") repeat-x;
+    color: #C26D0A;
+    border: #E4B17A 1px solid;
+}
+
+.photo_remark_create1 {
+    width: 330px;
+    padding: 5px;
+    color: #5C5C5C;
+    background: #FAFAFA;
+    border: #CCCBCB 1px solid;
+    height: 120px;
+}
+
+.video_remark {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #333333;
+    border-bottom: #D4D4D4 1px solid;
+}

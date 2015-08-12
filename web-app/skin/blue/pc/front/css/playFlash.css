@@ -1,0 +1,144 @@
+* {
+    font-family: "微软雅黑,新宋体", serif;
+}
+
+.playFlash-win {
+    width: 100%;
+    height: 650px;
+    background: #333;
+    display: block;
+    overflow: hidden;
+}
+
+.wrap {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.flash-tit {
+    height: 30px;
+    margin: 20px 0 10px 0;
+    text-align: left;
+    color: #FFF;
+}
+
+.flash-tit a {
+    font-size: 18px;
+    height: 30px;
+    color: #FFF;
+    font-weight: normal;
+    line-height: 30px;
+    float: left;
+}
+
+.flash-tit a:hover {
+    text-decoration: underline;
+}
+
+.flash-tit span {
+    float: left;
+    font-size: 14px;
+    height: 30px;
+    color: #FFF;
+    line-height: 30px;
+    font-weight: normal;
+    margin-left: 10px;
+}
+
+.flash-win {
+    height: 560px;
+    width: 1024px;
+    margin: 0 auto;
+    background: #000000;
+}
+
+.playFlash-content {
+    width: 100%;
+    height: auto;
+    display: block;
+    overflow: hidden;
+    background: #f4f4f4;
+}
+
+.flash-tit a,
+.flash-tit span {
+    color: #999;
+}
+
+.infor-list {
+    padding: 0;
+    height: 45px;
+    margin: 20px 0;
+}
+
+.flash-botm {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+}
+
+.flash-list {
+    width: 100%;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    padding: 30px 0;
+    background: #f4f4f4;
+}
+
+.flash-infor {
+    width: 100%;
+    height: auto;
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+
+.video_item a {
+    font-size: 12px;
+    line-height: 40px;
+    display: block;
+}
+
+.list-item {
+    height: 43px;
+    line-height: 43px;
+    font-size: 16px;
+    text-align: center;
+    float: left;
+    width: 110px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.list-item:hover {
+    color: #39a53e;
+    border-bottom: 2px solid #39a53e;
+}
+
+.l-c {
+    color: #39a53e;
+    border-bottom: 2px solid #39a53e;
+}
+
+.infor-list {
+    border-bottom: 1px solid #EEEBEB;
+}
+
+.bot-item table tr td {
+    font-size: 14px;
+    padding: 5px 0;
+}
+
+.infor-bot {
+    padding: 40px 0;
+    min-height: 300px;
+}
+
+.bot-item table tr td input {
+    padding: 2px 5px;
+    height: 20px;
+    line-height: 20px;
+    width: 300px;
+}

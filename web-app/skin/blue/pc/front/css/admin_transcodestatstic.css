@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+
+.transcodecat {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.transcodecat_left {
+    float: left;
+    width: 19%;
+    border-right: 1px #DDDDDD solid;
+    min-height: 505px;
+    display: block;
+    margin-bottom: 0px;
+    overflow: hidden;
+}
+
+.transcodecat_left h2 {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 28px;
+    margin: 20px 0 30px 0;
+}
+
+.transcodecat_left ul {
+    margin: 10px 10px 10px 20px;
+    padding: 0;
+}
+
+.transcodecat_left ul li {
+    float: left;
+    line-height: 25px;
+    text-align: left;
+    width: 100%;
+    margin-left: 5px;
+}
+
+.transcodecat_right {
+    float: left;
+    width: 78%;
+    margin: 10px;
+}
+
+.codecat {
+    width: 100%;
+    margin-top: 15px;
+    height: 400px;
+    float: left;
+    text-align: center;
+    padding: 2px;
+    overflow: hidden;
+}
+
+.codecat_title {
+    float: left;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 40px;
+    width: 100%;
+}

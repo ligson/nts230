@@ -1,0 +1,59 @@
+#sidebar .ui-state-active .ui-icon,
+#sidebar .ui-state-default .ui-icon,
+#sidebar .ui-state-hover .ui-icon {
+    background: none;
+}
+
+.program_teach, .program_back, .program_save, .program_come, .program_number,
+.program_talk, .promgram_class_m, .program_new_m, .program_resource_cla {
+    background: url("../images/zy_ui-accordion-icons.png");
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin-right: 3px;
+    margin-top: 2px;
+    display: block;
+    overflow: hidden;
+}
+
+.program_teach {
+
+    background-position: 0 0;
+}
+
+.program_back {
+    background-position: 0 -17px;
+}
+
+.program_save {
+    background-position: 0 -34px;
+}
+
+.program_number {
+    background-position: 0 -51px;
+}
+
+.program_come {
+    background-position: 0 -68px;
+}
+
+.program_talk {
+    background-position: 0 -85px;
+}
+
+.promgram_class_m {
+    background-position: 0 -102px;
+}
+
+.program_new_m {
+    background-position: 0 -119px;
+}
+
+.program_resource_cla {
+    background-position: 0 -136px;
+}
+
+.program_teach_body {
+    max-height: 327px;
+    overflow: auto;
+}

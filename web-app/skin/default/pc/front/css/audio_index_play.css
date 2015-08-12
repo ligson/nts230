@@ -1,0 +1,558 @@
+.audio_play_content {
+    width: 1024px;
+    padding: 20px 0;
+    height: auto;
+}
+
+.wrap {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.audio_left {
+    width: 710px;
+    float: left;
+    height: auto;
+}
+
+.audio_right {
+    width: 280px;
+    float: left;
+    height: auto;
+    margin-left: 34px;
+}
+
+.audio_album {
+    width: 1024px;
+    height: 260px;
+    padding-top: 40px;
+}
+
+.audio_album_poster {
+    width: 710px;
+    height: 260px;
+    float: left;
+}
+
+.audio_album_poster img {
+    width: 710px;
+    height: 260px;
+}
+
+.audio_album_infor {
+    width: 254px;
+    height: 260px;
+    float: left;
+    background: #F4F4F4;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.audio_album_infor h1 {
+    font-size: 24px;
+    height: 60px;
+    line-height: 60px;
+    margin: 15px 0 5px 0;
+    color: #5C5C5C;
+    font-weight: normal;
+    text-align: left;
+}
+
+.audio_album_infor p {
+    font-size: 12px;
+    color: #999999;
+
+}
+
+.audio_album_icon {
+    height: 30px;
+    float: right;
+    width: 228px;
+    margin-top: 20px;
+    line-height: 30px;
+    background: #FFFFFF;
+    border-left: 1px solid #E6E6E6;
+    border-bottom: 1px solid #E6E6E6;
+    border-top: 1px solid #E6E6E6;
+}
+
+.audio_album_icon p {
+    height: 30px;
+    line-height: 30px;
+    width: 55px;
+    padding: 0 10px;
+    border-right: 1px solid #E6E6E6;
+    margin: 0;
+    float: left;
+    cursor: pointer;
+}
+
+.audio_album_icon p:hover {
+    background: #0DAD51;
+    color: #FFFFFF;
+}
+
+.al_recommend, .al_play, .al_save {
+    background: url("../images/hot_item_operate_icon.png") center no-repeat;
+    width: 16px;
+    margin-top: 8px;
+    height: 15px;
+    margin-right: 3px;
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+
+.al_play {
+    background-position: 0 0;
+}
+
+.al_recommend {
+    background-position: 0 -34px;
+}
+
+.al_save {
+    background-position: 0 -68px;
+}
+
+.audio_infor_word {
+    padding: 15px 10px;
+    margin: 25px 0;
+    border: 1px dashed #D3D3D3;
+    background: #F7F7F7;
+    text-indent: 2em;
+    font-size: 12px;
+}
+
+.audio_album_items {
+    width: 710px;
+    height: auto;
+}
+
+.audio_album_items h1 {
+    width: 710px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 30px;
+    margin: 10px 0 10px 0;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #BBBBBB;
+    text-align: left;
+    color: #5C5C5C;
+}
+
+.audio_album_items h1 span {
+    display: block;
+    border-bottom: 3px solid #0DAD51;
+    width: 140px;
+    float: left;
+    margin: 0;
+    text-align: left;
+    line-height: 30px;
+    height: 30px;
+}
+
+.audio_album_list {
+    width: 710px;
+    height: auto;
+}
+
+.alum_tit {
+    color: #0DA04E;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.audio_album_list table tr {
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.audio_album_list table tr:hover {
+    border-bottom: 1px solid #0DA04E;
+}
+
+.alum_upload_user {
+    color: #5C5C5C;
+    font-size: 12px;
+}
+
+.alum_tem_sup {
+    padding-top: 50px;
+    /*background: #EFEFEF;*/
+    /*height: 30px;*/
+}
+
+.alum_time {
+    color: #999999;
+    font-size: 12px;
+}
+
+.aulm_item_operate {
+    width: 80px;
+    font-size: 12px;
+    text-align: right;
+    float: right;
+    line-height: 30px;
+}
+
+.alum_tit a {
+    color: #0DA04E;
+}
+
+.alum_tit a:hover {
+    color: #0DBB55;
+}
+
+.r_box {
+    width: 280px;
+    height: auto;
+    display: block;
+    overflow: hidden;
+}
+
+.r_box h1 {
+    height: 30px;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 30px;
+    margin: 10px 0 10px 0;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #D2D2D2;
+    text-align: left;
+    color: #5C5C5C;
+}
+
+.r_box h1 span {
+    display: block;
+    /* border-bottom: 3px solid #0DAD51;*/
+    width: 75px;
+    float: left;
+    margin: 0;
+    text-align: left;
+    line-height: 30px;
+    height: 30px;
+}
+
+.r_box h1 a {
+    color: #0DAD51;
+    font-size: 12px;
+    float: left;
+    width: 50px;
+    height: 15px;
+    line-height: 15px;
+    margin-top: 10px;
+    display: block;
+    overflow: hidden;
+}
+
+.audio_same_items {
+    width: 280px;
+    height: auto;
+}
+
+.audio_same_item {
+    width: 130px;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.audio_same_item p {
+    height: 20px;
+    line-height: 20px;
+}
+
+.audio_same_item img {
+    width: 130px;
+    height: 90px;
+    display: block;
+    overflow: hidden;
+}
+
+.same_item_title {
+    color: #0DAD51;
+    font-size: 12px;
+    text-align: left;
+}
+
+.same_play {
+    height: 20px;
+    line-height: 20px;
+    float: left;
+    color: #999999;
+}
+
+.same_time {
+    float: right;
+    color: #999999;
+}
+
+.album_infor_des {
+    padding: 10px 0;
+    height: 80px;
+    /*border-top: 1px dashed #E1E1E1;
+    border-bottom: 1px dashed #E1E1E1;*/
+    display: block;
+    overflow: hidden;
+}
+
+/*----------评论-------*/
+.audio_album_talk,
+.album_talk_inp_box,
+.album_talk_inp,
+.album_talk_inp_but,
+.album_talk_content,
+.album_talk_item {
+    width: 710px;
+    display: block;
+    overflow: hidden;
+}
+
+.audio_album_talk {
+    margin: 10px 0;
+}
+
+.album_talk_inp_but {
+    margin-bottom: 5px;
+}
+
+.audio_album_talk h1 {
+    height: 30px;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 30px;
+    margin: 10px 0 10px 0;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #D2D2D2;
+    text-align: left;
+    color: #5C5C5C;
+}
+
+.audio_album_talk h1 span {
+    display: block;
+    border-bottom: 3px solid #0DAD51;
+    width: 120px;
+    float: left;
+    margin: 0;
+    text-align: left;
+    line-height: 30px;
+    height: 30px;
+}
+
+.album_talk_inp textarea {
+    width: 695px;
+    padding: 5px;
+    height: 90px;
+    resize: none;
+    margin: 5px 0;
+    border: 1px solid #E4E4E4;
+}
+
+.album_talk_inp_star {
+    width: 120px;
+    float: left;
+    height: 25px;
+}
+
+.album_talk_inp_sum {
+    height: 25px;
+    width: 70px;
+    float: right;
+}
+
+.album_talk_inp_sum input, .album_talk_back_but input {
+    background: #EF9632;
+    height: 25px;
+    width: 70px;
+    border: 0;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.album_talk_inp_sum input:hover, .album_talk_back_but input:hover {
+    background: #F79D32;
+}
+
+.album_talk_back_but {
+    float: right;
+    display: block;
+    overflow: hidden;
+}
+
+.album_talk_item_pom {
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+.album_talk_item img {
+    width: 50px;
+    height: 50px;
+}
+
+.album_talk_item_infor {
+    width: 640px;
+    height: auto;
+    float: left;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #BBBBBB;
+    margin-left: 20px;
+}
+
+.album_talk_item_des,
+.album_talk_back {
+    width: 640px;
+    height: auto;
+}
+
+.album_talk_user {
+    height: 30px;
+    line-height: 30px;
+    margin: 0;
+}
+
+.tl_user,
+.tl_time {
+    display: block;
+    width: 120px;
+    height: 30px;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.tl_time {
+    text-align: right;
+}
+
+.tl_user {
+    float: left;
+    color: #006B9C;
+}
+
+.tl_time {
+    float: right;
+    color: #BBBBBB;
+}
+
+.album_user_back {
+    font-size: 12px;
+    color: #5C5C5C;
+}
+
+.album_talk_back_items {
+    padding: 5px;
+    background: #F9F9F9;
+    margin: 5px 0;
+    border: 1px solid #E8E8E8;
+}
+
+.aum_back_word span {
+    display: block;
+    width: 60px;
+    height: 20px;
+    line-height: 20px;
+    float: right;
+    text-align: right;
+    font-size: 12px;
+    cursor: pointer;
+    color: #006B9C;
+}
+
+.aum_back_word span:hover {
+    text-decoration: underline;
+}
+
+.aum_back_word {
+    height: 20px;
+    margin: 5px 0;
+}
+
+.aum_back_word:hover {
+    text-decoration: underline;
+}
+
+.album_talk_back_inp textarea {
+    width: 625px;
+    padding: 5px;
+    height: 80px;
+    margin: 0;
+    resize: none;
+    background: #FFFFFF;
+    border: 1px solid #CFCFCF;
+}
+
+.tl_user a {
+    color: #006B9C;
+}
+
+.tl_user a:hover {
+    color: #0083BB;
+    text-decoration: underline;
+}
+
+.album_talk_back_inp {
+    width: 640px;
+    margin: 5px 0;
+    display: block;
+    overflow: hidden;
+}
+
+.album_talk_back {
+    margin: 5px 0;
+    display: block;
+    overflow: hidden;
+}
+
+.al_in_ds {
+    height: 22px;
+    line-height: 22px;
+}
+
+.album_resource_download_icon {
+    width: 16px;
+    height: 16px;
+    background: url("../images/download_icon.png") center no-repeat;
+    background-position: 0 0;
+    display: block;
+    overflow: hidden;
+    float: right;
+}
+
+.album_resource_download_icon:hover {
+    background: url("../images/download_icon.png") center no-repeat;
+    background-position: 0 -18px;
+}
+
+.dis-block {
+    display: block;
+}
+
+.playdocumment_left_column_talk_input_star {
+    width: 400px;
+    height: 25px;
+    float: left;
+    margin: 0;
+    line-height: 25px;
+}
+
+.playdocumment_left_column_talk_input_star p {
+    color: #EF9632;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 15px;
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+
+.playdocumment_left_column_talk_input_star_number {
+    float: left;
+}
+
+.playdocumment_left_column_talk_input_star {
+    line-height: 25px;
+}

@@ -1,0 +1,247 @@
+
+body {
+    font-family: "微软雅黑", cursive;
+}
+
+/*
+div {
+    display: block;
+    overflow: hidden;
+}
+*/
+
+.program_statistics_content {
+    height: auto;
+    padding: 10px;
+    display: block;
+    overflow: hidden;
+}
+
+.statistics_time {
+    width: 99.33%;
+    height: 35px;
+    background-color: #C7DEED;
+    background: -webkit-linear-gradient(#EDF7FE, #D2E4EF);
+    background: linear-gradient(#EDF7FE, #D2E4EF);
+    border-bottom: 1px solid #CADAE6;
+    border-left: 1px solid #D3E3EF;
+    border-right: 1px solid #D3E3EF;
+    border-top: 1px solid #D8E2EA;
+}
+
+.t_present {
+    width: 200px;
+    height: 35px;
+    float: left;
+    padding-right: 10px;
+    margin: 0 10px;
+    border-right: 1px solid #BECEDA;
+}
+
+.t_chose {
+     float: left;
+     height: 35px;
+     line-height: 35px;
+ }
+.t_chose a {
+    float: left;
+    line-height: 35px;
+    margin: 0 5px 0 15px;
+}
+.t_chose a.corr {
+    background-color: #369A3B;
+    color: #fff;
+    display: block;
+    padding: 0 10px;
+}
+
+.t_present span {
+    height: 35px;
+    width: 35px;
+    font-size: 14px;
+    text-align: center;
+    margin: 0 5px;
+    padding: 0 10px;
+    /*border-right: #EDF7FE 1px solid;
+    border-left: #EDF7FE 1px solid;*/
+    color: #186CB0;
+    line-height: 35px;
+    float: left;
+    cursor: pointer;
+    display: block;
+    overflow: hidden;
+}
+
+.t_present span:hover {
+    /*background: #186cb0;
+    color: #FFFFFF;
+    border-left: 1px solid #185f98;
+    border-right: 1px solid #185f98;*/
+    background-color: #C7DEED;
+    background: -webkit-linear-gradient(#D2E4EF, #EDF7FE);
+    background: linear-gradient(#D2E4EF, #EDF7FE);
+    /*border-left: 1px solid #D3E3EF;
+    border-right: 1px solid #D3E3EF;*/
+}
+
+.t_chose_star {
+    width: 100px;
+    padding: 3px;
+    margin: 0 5px;
+    color: #999999;
+    border: #D8E2EA 1px solid;
+}
+
+.t_chose_end {
+    width: 100px;
+    color: #999999;
+    padding: 3px;
+    margin: 0 5px;
+    border: #D8E2EA 1px solid;
+}
+
+.t_but {
+    width: 50px;
+    height: 35px;
+    float: left;
+}
+
+.t_but_sear {
+    background: #F2A14B;
+    height: 22px;
+    margin-top: 6px;
+    font-size: 12px;
+    line-height: 20px;
+    font-family: "微软雅黑", cursive;
+    padding: 0 10px;
+    color: #FFFFFF;
+    border: 1px solid #D28745;
+    cursor: pointer;
+}
+
+.t_but_sea:hover {
+    background: #FBB101;
+    border: 1px solid #D29913;
+}
+
+.statistics_title {
+    height: 30px;
+    margin-top: 15px;
+}
+
+.statistics_title p {
+    margin: 0;
+    height: 30px;
+}
+
+.statistics_title p span {
+    width: 50px;
+    height: 30px;
+    padding: 0 10px;
+    line-height: 30px;
+    color: #186CB0;
+    background: #D8E2EA;
+    text-align: center;
+    float: left;
+    margin-right: 6px;
+    cursor: pointer;
+    display: block;
+    overflow: hidden;
+}
+
+.statistics_title p span:hover {
+    background: #186CB0;
+    color: #FFFFFF;
+}
+
+.statistics_title_infor {
+    background: #FFFFFF;
+    height: 36px;
+    padding: 5px 10px;
+}
+
+.statistics_title_infor p {
+    margin: 5px 0;
+    height: 30px;
+    left: 30px;
+    padding-left: 10px;
+    color: #836642;
+    line-height: 30px;
+    background: #FEF3CE;
+    border: 1px solid #F1D0AE;
+    text-align: left;
+    display: block;
+    overflow: hidden;
+}
+
+.statistics_title_infor p a {
+    margin-left: 20px;
+    color: #DD7921;
+    cursor: pointer;
+}
+
+.statistics_math {
+    height: 300px;
+    padding: 5px 10px;
+    background: #FFFFFF;
+}
+
+.statistics_math_mark {
+    height: 300px;
+    background: #E2ECF4;
+    border: 1px solid #DEE8F0;
+}
+
+.statistics_math_tab {
+    padding: 5px 10px;
+    background: #FFFFFF;
+}
+
+/*-------------------------*/
+.statistics_math_tab table tr {
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.statistics_math_tab table td {
+    font-size: 12px;
+    padding: 10px;
+    color: #5C5C5C;
+}
+
+.statistics_math_tab table th {
+    font-size: 14px;
+    padding: 5px;
+    font-weight: bold;
+    color: #5C5C5C;
+    /* background-color: #C7DEED;
+     background: -webkit-linear-gradient(#EDF7FE, #D2E4EF);
+     background: linear-gradient(#EDF7FE, #D2E4EF);
+     border-bottom: 1px solid #CADAE6;
+     border-left: 1px solid #D3E3EF;
+     border-right: 1px solid #D3E3EF;
+     border-top: 1px solid #D8E2EA;*/
+    background-color: #C7DEED;
+    background: -webkit-linear-gradient(#EDF7FE, #D2E4EF);
+    background: linear-gradient(#EDF7FE, #D2E4EF);
+    /*border-bottom-color: #A2AAB2;*/
+}
+
+.statitics_cadmin_page {
+    height: 35px;
+    margin-top: 10px;
+}
+
+.st_mgr {
+    margin: 10px 0;
+}
+
+.histogram_res {
+    margin-top: 10px;
+    display: block;
+    overflow: hidden;
+}
+.accpan {
+    padding: 1em 0.5em;
+    border-top: 0px none;
+    overflow: auto;
+}

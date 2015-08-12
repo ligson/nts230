@@ -1,0 +1,16 @@
+# main .ui-button {
+    color: rgba(55, 116, 199, 0.95);
+}
+
+# main .ui-button:hover {
+    text-decoration: underline;
+}
+
+.dropdown-menu > li > a {
+    font-size: 12px;
+}
+
+.dropdown-menu > li > a:hover {
+    background: #3276B1;
+    color: #FFFFFF;
+}

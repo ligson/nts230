@@ -1,0 +1,41 @@
+.body_wrapper {
+    width: 970px;
+    margin: 0 auto;
+}
+
+#edit_table {
+    width: 800px;
+    border: 2px lightgray solid;
+}
+
+#edit_table tr {
+    border: 2px lightgray solid;
+    height: 50px;
+}
+
+#edit_table .txt_input {
+    width: 200px;
+}
+
+#edit_table thead {
+    background: #c0c0c0;
+}
+
+#startUploadBtn {
+    width: 65px;
+    height: 29px;
+    background: url("../../../images/button_bg.png");
+    border: 0;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#startUploadBtn:hover {
+    background-position: 0 58px;
+}
+
+.btn {
+    width: 75px;
+    height: 30px;
+}

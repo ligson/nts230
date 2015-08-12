@@ -1,0 +1,33 @@
+#floatDiv {
+    position: fixed;
+    width: 100px;
+    height: 140px;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+}
+
+#floatDiv h1, #floatDiv p {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    height: 20px;
+    width: 100px;
+    line-height: 20px;
+    cursor: pointer;
+    background: #F0F0F0;
+}
+
+#floatDiv .float_div_title a {
+    font-size: 12px;
+}
+
+#floatDiv .float_div_title img {
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+
+#floatDiv p {
+    background: url("../images/up.png") no-repeat #F0F0F0;
+}

@@ -1,0 +1,100 @@
+@import url('reset.css');
+
+/* General Codrops Demo Style */
+body {
+    /*background: #1F1F1F url('../images/pattern.png') repeat top left;*/
+    color: #FFFFFF;
+    /*font-family: 'microsoft yahei ui', Arial, sans-serif;*/
+    font-size: 14px;
+}
+
+a {
+    color: #DDDDDD;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00C6E3;
+}
+
+p.sub {
+    padding: 25px 10px 10px 10px;
+    text-align: left;
+    color: #AAAAAA;
+}
+
+.clr {
+    clear: both;
+}
+
+h1 {
+    margin: 5px;
+    font-size: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "Pacifico", Georgia, "Times New Roman", serif;
+    text-shadow: 1px 1px 1px #000000;
+    padding-bottom: 10px;
+    line-height: 40px;
+}
+
+h1 span {
+    font-size: 10px;
+    display: block;
+    letter-spacing: 2px;
+    font-family: 'Trebuchet MS', 'Myriad Pro', Arial, sans-serif;
+    color: #00C6E3;
+    line-height: 14px;
+    padding-top: 10px;
+    text-shadow: none;
+    text-transform: uppercase;
+}
+
+/* Header Style */
+.header {
+    font-size: 13px;
+    background: #000000;
+    opacity: 0.9;
+    text-transform: uppercase;
+    -moz-box-shadow: 1px 0px 2px #000000;
+    -webkit-box-shadow: 1px 0px 2px #000000;
+    box-shadow: 1px 0px 2px #000000;
+}
+
+.header a {
+    line-height: 18px;
+    padding: 0 4px;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 1px #000000;
+    color: #DDDDDD;
+}
+
+.header a:hover {
+    color: #FFFFFF;
+}
+
+.header a span {
+    font-weight: bold;
+}
+
+.header span.right_ab {
+    float: right;
+}
+
+.content {
+    margin: 0px 25px 30px 25px;
+    /* width: 90%;*/
+}
+
+@media screen and (max-width: 640px) {
+    .header a {
+        display: block;
+        text-align: center;
+        font-size: 10px;
+        text-shadow: none;
+    }
+
+    .header span.right_ab {
+        float: none;
+    }
+}

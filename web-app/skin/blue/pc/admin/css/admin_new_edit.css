@@ -1,0 +1,20 @@
+.infor_fix {
+    font-size: 16px;
+    margin-left: 20px;
+    border-bottom: 1px solid #D4D4D4;
+}
+
+.infor_fix_title {
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+textarea {
+    vertical-align: top;
+    width: 400px;
+    height: 150px;
+    margin: 1px 0;
+    padding: 1px 2px;
+}

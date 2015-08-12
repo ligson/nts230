@@ -1,0 +1,521 @@
+.resource_download_content {
+    width: 1004px;
+    margin: 30px auto;
+    background: #FFFFFF;
+    padding: 0 0 0 10px;
+    border-right: 1px solid #D6D5D5;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), -1px 0 0 rgba(0, 0, 0, 0.03), 1px 0 0 rgba(0, 0, 0, 0.03), 0 1px 0 rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), -1px 0 0 rgba(0, 0, 0, 0.03), 1px 0 0 rgba(0, 0, 0, 0.03), 0 1px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), -1px 0 0 rgba(0, 0, 0, 0.03), 1px 0 0 rgba(0, 0, 0, 0.03), 0 1px 0 rgba(0, 0, 0, 0.12);
+    display: block;
+    overflow: hidden;
+}
+
+.resource_top {
+    height: 30px;
+    width: 100%;
+}
+
+body {
+    background: url("../images/community_groups_user_bg.png");
+}
+div {
+    display: block;
+    overflow: hidden;
+}
+
+.resource_download_list {
+    width: 690px;
+    height: auto;
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+
+.resource_download_list h1, .resource_talk h1 {
+    font-size: 18px;
+    height: 30px;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+    border-bottom: 2px #252B33 solid;
+    line-height: 25px;
+    color: #5C5C5C;
+}
+
+.resource_download {
+    width: 1024px;
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+}
+
+.resource_download_left {
+    width: 670px;
+    height: auto;
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+
+.resource_download_right {
+    width: 291px;
+    height: 500px;
+    padding: 10px;
+    min-height: 900px;
+    float: left;
+    background: #F8F8F8;
+    margin-left: 12px;
+}
+
+.resource_talk_inp label {
+    width: 100%;
+}
+
+.resource_talk_bot {
+    height: 30px;
+}
+
+.resource_talk_stars, .resource_talk_but {
+    height: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.resource_talk_stars {
+    width: 160px;
+    float: left;
+}
+
+.resource_talk_but {
+    width: 70px;
+    text-align: center;
+    float: right;
+}
+
+.resource_talk_but input {
+    background: #39A53E;
+    border: 0;
+    color: #FFFFFF;
+    height: 30px;
+    width: 70px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.resource_talk_but input:hover {
+    background: #3EB844;
+}
+
+.star_title {
+    font-size: 14px;
+    color: #333333;
+    width: 40px;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    overflow: hidden;
+}
+
+.star_box {
+    width: 120px;
+    height: 30px;
+    float: left;
+    background: #D4D4D4;
+    display: block;
+    overflow: hidden;
+}
+
+/*------------评论----------*/
+.boful_video_banner_main {
+    width: 664px;
+    min-height: 768px;
+    float: left;
+    text-align: center;
+}
+
+.boful_video_player_title {
+    width: 664px;
+    height: 50px;
+    text-align: left;
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_video_player_title a {
+    background: url("../images/res_back_bg1.png") left no-repeat;
+    height: 40px;
+    margin-top: 10px;
+    padding-left: 20px;
+    line-height: 40px;
+    width: 115px;
+    color: #757575;
+    text-decoration: none;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_video_player_title a:hover {
+    background: url("../images/res_back_bg.png") left no-repeat;
+    color: #868686;
+}
+
+.boful_video_player_player {
+    width: 500px;
+    height: 320px;
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_video_banner_right {
+    width: 360px;
+    min-height: 768px;
+    float: left;
+    background: #CDCCCC;
+}
+
+.boful_video_desc {
+    width: 360px;
+    height: 100px;
+    background: #ADACAC;
+}
+
+.boful_video_tabs {
+    width: 360px;
+    background: url("../images/cut_talbe_bg.png") repeat-x;
+    height: 45px;
+}
+
+.video_directory_icon {
+    background: url("../images/on_reas_list_no.png") no-repeat left;
+}
+
+.video_directory_icon:hover {
+    background: url("../images/on_reas_list.png") left no-repeat;
+    color: #E7E7E7;
+    text-shadow: 0 1px 1px #767676;
+}
+
+.rea_infor_icon {
+    background: url("../images/reaso_icon.png") left no-repeat;
+}
+
+.rea_infor_icon:hover {
+    background: url("../images/on_reaso_icon.png") left no-repeat;
+    color: #E7E7E7;
+    text-shadow: 0 1px 1px #767676;
+
+}
+
+.res_talk_icon {
+    background: url("../images/no_talk_icon.png") left no-repeat;
+}
+
+.res_talk_icon:hover {
+    background: url("../images/on_talk_icon_no.png") left no-repeat;
+    color: #E7E7E7;
+    text-shadow: 0 1px 1px #767676;
+}
+
+.boful_video_tabs span {
+    display: block;
+    padding-left: 20px;
+    width: 88px;
+    margin-left: 5px;
+    color: #2F2F2F;
+    margin-top: 8px;
+    line-height: 25px;
+    float: left;
+    cursor: pointer;
+}
+
+.boful_video_list {
+    padding: 15px 20px;
+}
+
+.boful_video_list p {
+    font-size: 14px;
+    width: 320px;
+    height: 35px;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-left: 10px;
+    text-overflow: ellipsis;
+}
+
+.boful_video_content {
+    width: 360px;
+    height: auto;
+}
+
+.video_desc_name {
+    font-size: 18px;
+    padding: 30px 0 0 20px;
+}
+
+.video_desc_score {
+    padding: 10px 0 0 20px;
+    font-size: 14px;
+}
+
+.boful_photo_lists_icon {
+    background: url("../images/play_rea_text_icon.png") left no-repeat;
+    height: 22px;
+    width: 22px;
+    margin-right: 5px;
+    margin-top: 7px;
+    float: left;
+}
+
+.boful_video_list p a {
+    color: #333333;
+    line-height: 35px;
+}
+
+.boful_video_list p:hover {
+    background: #F0F0F0;
+}
+
+.boful_video_info {
+    padding: 20px 15px;
+
+}
+
+.boful_video_info td {
+    font-size: 14px;
+    color: #333333;
+}
+
+.boful_video_remark {
+    width: 690px;
+    height: auto;
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+
+.photo_remark_create_but {
+    background: url("../images/photo_remark_create_but_.png") repeat-x;
+    height: 28px;
+    width: 60px;
+    float: right;
+    border: #CCCBCB 1px solid;
+    display: block;
+    overflow: hidden;
+}
+
+.remark_bot {
+    margin-top: 5px;
+    height: 28px;
+    width: 100%;
+}
+
+.remark_bot label {
+    float: right;
+}
+
+.remark_bot_star {
+    width: 150px;
+    height: 28px;
+    float: left;
+}
+
+.photo_remark_create_but:hover {
+    background: url("../images/photo_remark_create_but_1.png") repeat-x;
+    color: #C26D0A;
+    border: #E4B17A 1px solid;
+}
+
+.photo_remark_create1 {
+    width: 688px;
+    padding: 5px;
+    color: #5C5C5C;
+    background: #FAFAFA;
+    border: #CCCBCB 1px solid;
+    height: 120px;
+}
+
+.video_remarks {
+    border-top: #D4D4D4 1px solid;
+    margin-top: 6px;
+}
+
+.video_remark {
+    padding-top: 10px;
+    font-size: 12px;
+    color: #333333;
+    /*  border-top: #D4D4D4 1px solid;*/
+    border-bottom: 1px dashed #D4D4D4;
+
+}
+
+.video_remark_user {
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+
+.video_remark_user img {
+    width: 40px;
+    height: 40px;
+}
+
+.video_remark_content {
+    width: 635px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 15px;
+    height: auto;
+
+}
+
+.resource_talk_user {
+    width: 635px;
+    height: 20px;
+    margin: 0 0 8px 0;
+}
+
+.resource_user_name {
+    width: 300px;
+    height: 20px;
+    color: #38973E;
+    text-align: left;
+    line-height: 20px;
+    float: left;
+    cursor: pointer;
+    display: block;
+    overflow: hidden;
+}
+
+.resource_user_name:hover {
+    text-decoration: underline;
+}
+
+.resource_user_time {
+    width: 120px;
+    height: 20px;
+    text-align: right;
+    float: right;
+    color: #999999;
+    line-height: 20px;
+    display: block;
+    overflow: hidden;
+}
+
+.resource_talk_user_word {
+    font-size: 12px;
+    color: #5C5C5C;
+}
+
+.resource_talk_back {
+    height: 20px;
+    text-align: right;
+}
+
+.resource_talk_back span {
+    float: right;
+    height: 20px;
+    color: #006B9C;
+    cursor: pointer;
+    line-height: 20px;
+}
+
+.resource_talk_back span:hover {
+    text-decoration: underline;
+}
+
+.resource_talk_back_box {
+    width: 635px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.back_input_word {
+    width: 633px;
+    padding: 5px;
+    color: #5C5C5C;
+    background: #FAFAFA;
+    border: #CCCBCB 1px solid;
+    height: 60px;
+}
+
+.back_bot label {
+    float: right;
+}
+
+.download_title {
+    background: #F0F6F3;
+    padding: 30px 0 20px 0;
+}
+
+.download_title h1 {
+    color: #333333;
+    font-size: 18px;
+    height: 30px;
+    line-height: 30px;
+    width: 1024px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+/*.resource_list {
+    padding-top: 20px;
+}*/
+
+.save_icon, .recommend_icon, .download_icon {
+    background: url("../images/resourcedown_load_icon.png") center no-repeat;
+    width: 16px;
+    height: 16px;
+    border: 0;
+}
+
+.save_icon {
+    background-position: 0 0;
+    margin-right: 10px;
+}
+
+.save_icon:hover {
+    background-position: 0 -17px;
+}
+
+.recommend_icon {
+    background-position: 0 -34px;
+    margin-right: 10px;
+}
+
+.recommend_icon:hover {
+    background-position: 0 -51px;
+}
+
+.download_icon {
+    background-position: 0 -68px;
+    margin-right: 10px;
+}
+
+.download_icon:hover {
+    background-position: 0 -85px;
+}
+
+.resource_list_tab {
+    border-bottom: 1px solid #D4D4D4;
+}
+
+.resource_download_right h1 {
+    font-size: 18px;
+    height: 35px;
+    padding-left: 5px;
+    line-height: 35px;
+    background: #EBEBEB;
+    margin: 0 0 5px 0;
+    text-align: left;
+}
+
+.back_input {
+    width: 635px;
+}
+
+.resource_download_right table {
+    margin-top: 20px;
+}

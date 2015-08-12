@@ -1,0 +1,167 @@
+body {
+    font-family: "微软雅黑", serif;
+}
+
+.ztree {
+    height: auto;
+}
+
+.ztree_title {
+    font-size: 14px;
+    color: #333333;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 10px;
+    border-bottom: 1px #F2F0F0 solid;
+    height: 25px;
+    background: #F8F8F8;
+}
+
+.ztree_box {
+    width: 200px;
+    background: #F8F8F8;
+    height: 490px;
+    float: left;
+    margin: 5px 5px 0 5px;
+    padding-top: 10px;
+    display: block;
+    overflow: hidden;
+}
+
+.ztree_input {
+    font-size: 14px;
+    height: 25px;
+    text-align: left;
+    line-height: 20px;
+    margin: 10px 0;
+    padding: 10px 0;
+    display: block;
+}
+
+.ztree_input span {
+    margin-right: 10px;
+    float: left;
+    width: 60px;
+    text-align: right;
+    display: block;
+    overflow: hidden;
+    font-size: 12px; line-height: 26px;
+}
+
+.ztree_input input {
+    margin-right: 10px;
+    width: 100px;
+    float: left;
+}
+
+.tree_list td {
+    background: url("../images/th_bg.png") repeat-x;
+    border-right: #E2E2E2 1px solid;
+    border-bottom: #E2E2E2 1px solid;
+    height: 25px;
+}
+
+.ztree_box_intu {
+    display: block;
+    text-align: center;
+    height: auto;
+    float: left;
+}
+
+.zTree_local_infor {
+    border: #DBDBDB 1px solid;
+    border-radius: 4px;
+}
+
+.zTree_local_infor td {
+    text-indent: 1em;
+    height: 20px;
+    text-align: left;
+    line-height: 20px;
+    padding: 3px 0;
+}
+
+.zTree_local_infor div {
+    background: #F8F8F8;
+    display: block;
+    overflow: hidden;
+}
+
+.zTree_send {
+    olor: #333333;
+    border-radius: 3px;
+    background: url("../images/th_bg.png") repeat-x;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+    width: 70px;
+    border: 1px solid #BAB9B9;
+    overflow: visible;
+    cursor: hand;
+}
+
+.zTree_send:hover {
+    background-image: url("../images/but1.png");
+    height: 25px;
+    border: #DC8241 1px solid;
+    width: 70px;
+    color: #BD611E;
+}
+
+.tree_page a {
+
+}
+
+.tr_list1 {
+    background: #FFFFFF;
+}
+
+.tr_list2 {
+    background: #F9F9F9;
+}
+
+/*----------页脚样式-----*/
+/*
+.tree_page{
+    height: 30px;
+    margin-top: 10px;
+    text-align: left;
+}
+.tree_page .step,
+.nextLink,
+#turnPageBtn{
+    background: #FFF;
+    border: #dbdada 1px solid;
+    margin: 0 3px;
+    color: #303030;
+    text-align: left;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 3px 8px;
+    border-radius: 2px;
+}
+.tree_page .step:hover,
+.nextLink:hover,
+#turnPageBtn:hover{
+    background: #c3e7fb;
+    border: #85c0df 1px solid;
+    color: #095686;
+}
+.currentStep{
+    background: #095686;
+    border: #095686 1px solid;
+    margin: 0 2px;
+    padding: 3px 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    color: #FFF;
+    font-weight: bold;
+}
+#turnPage{
+    width: 15px;
+    height: 25px;
+}
+*/
+.tree_page {
+    padding-top: 10px;
+}

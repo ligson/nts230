@@ -1,0 +1,14 @@
+.dropdown-menu > li > a:hover {
+    background: #3276B1;
+    color: #FFFFFF;
+}
+
+.rec_mr {
+    margin-right: 10px;
+    float: left;
+}
+
+.res_dieer {
+    border-bottom: 1px solid #DBDBDB;
+    margin-bottom: 5px;
+}

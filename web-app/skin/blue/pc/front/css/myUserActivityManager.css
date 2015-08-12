@@ -1,0 +1,74 @@
+.boful_activity_footer_page {
+    width: 740px;
+    height: 34px;
+}
+
+.boful_activity_footer_page p {
+    width: 500px;
+    height: 34px;
+    float: right;
+    text-align: center;
+}
+
+.currentStep {
+    height: 32px;
+    width: 32px;
+    line-height: 32px;
+    font-size: 14px;
+    text-align: center;
+    background: #39a53e;
+    border: #39a53e 1px solid;
+    float: left;
+    color: #FFFFFF;
+    margin-left: 10px;
+    border-radius: 4px;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_activity_footer_page input {
+    margin-left: 10px;
+}
+
+#turnPage {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 0;
+    margin: 0 0 0 10px;
+    line-height: 32px;
+    border: #E2E2E2 1px solid;
+}
+
+#turnPageBtn {
+    background: #FFFFFF;
+    font-size: 14px;
+    height: 34px;
+    color: #333333;
+    margin-left: 10px;
+    padding: 0 8px;
+    border: #D2D2D2 1px solid;
+    text-align: center;
+    border-radius: 4px;
+    line-height: 32px;
+}
+
+#turnPageBtn:hover {
+    border: #39a53e 1px solid;
+    color: #39a53e;
+}
+
+.step {
+    background: #FFFFFF;
+    font-size: 14px;
+    height: 34px;
+    color: #333333;
+    margin-left: 10px;
+    padding: 0 8px;
+    border: #D2D2D2 1px solid;
+    text-align: center;
+    border-radius: 4px;
+    line-height: 32px;
+    display: inline-block;
+    width: 34px;
+}

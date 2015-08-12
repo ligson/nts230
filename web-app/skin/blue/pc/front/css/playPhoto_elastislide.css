@@ -1,0 +1,95 @@
+/* Elastislide Style */
+.es-carousel-wrapper {
+    /* background: #101010;*/
+    padding: 20px 40px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    position: relative;
+    /*  -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.9);
+      -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.9);
+      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.9);*/
+    position: relative;
+}
+
+.boful_photo_player_player {
+    margin-top: 30px;
+}
+
+.rg-thumbs {
+    border-bottom: 1px solid #cccccc;
+    /*    -moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+      -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+      box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);*/
+}
+
+.es-carousel {
+    overflow: hidden;
+    /*   background: #000000;*/
+    height: 69px;
+}
+
+.es-carousel ul {
+    display: none;
+}
+
+.es-carousel ul li {
+    height: 100%;
+    float: left;
+    display: block;
+}
+
+.es-carousel ul li a {
+    display: block;
+    border-style: solid;
+    border-color: #222222;
+    opacity: 0.8;
+    -webkit-touch-callout: none;
+    /* option */
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.es-carousel ul li.selected a {
+    border-color: #FFFFFF;
+    opacity: 1.0;
+}
+
+.es-carousel ul li.selected a:hover {
+    border: 2px solid #39a53e;
+}
+
+.es-carousel ul li a img {
+    display: block;
+    border: none;
+    width: 69px;
+    height: 69px;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.es-nav span {
+    position: absolute;
+    top: 50%;
+    left: 8px;
+    background: #cccccc url('../images/p_nav_thumbs.png') no-repeat top left;
+    width: 14px;
+    height: 26px;
+    margin-top: -13px;
+    text-indent: -9000px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.es-nav span.es-nav-next {
+    right: 8px;
+    left: auto;
+    background-position: top right;
+}
+
+.es-nav span:hover {
+    opacity: 1.0;
+}

@@ -1,0 +1,335 @@
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.resources_upload_infor {
+    padding: 15px 10px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.resources_upload_infor td, .resources_upload_infor th {
+    padding: 15px 10px;
+    vertical-align: top;
+    border-bottom: 1px solid #F4F4F4;
+}
+
+.resources_upload_infor th {
+    font-size: 16px;
+    text-align: right;
+    font-weight: normal;
+}
+
+.resources_upload_infor td {
+    float: left;
+}
+
+.widt {
+    width: 300px;
+    float: left;
+}
+
+.name_warning {
+    color: #E35804;
+}
+
+.warning_size {
+    font-size: 12px;
+    width: 145px;
+    float: left;
+}
+
+.hidt {
+    height: 100px;
+}
+
+.resources_upload_infor .resources_upload_title,
+.resources_upload_infor .resources_upload_key {
+    height: 36px;
+    line-height: 36px;
+    border: 1px solid #ABADB3;
+    font-size: 14px;
+    padding: 0 5px;
+}
+
+.resources_upload_infor .resources_describe {
+    line-height: 20px;
+    border: 1px solid #ABADB3;
+    font-size: 14px;
+    padding: 0 5px;
+}
+
+.resources_upload_infor .resources_upload_chose {
+    padding: 5px 8px;
+}
+
+.resources_upload_infor .resources_upload_chose_but,
+.resources_upload_infor .resources_upload_buttom {
+    background: url("../images/chose_class_bg.png") repeat-x;
+    border: #ABADB3 1px solid;
+    border-radius: 4px;
+    line-height: 32px;
+    color: #5F5F5F;
+    width: 100px;
+    height: 32px;
+    float: left;
+    line-height: 32px;
+}
+
+.resources_upload_infor .resources_upload_chose_but:hover,
+.resources_upload_infor .resources_upload_buttom:hover {
+    background: url("../images/chose_class_bg1.png") repeat-x;
+    border: #F3A45C 1px solid;
+    color: #E57D0D;
+}
+
+.resources_upload_infor .resources_upload_key {
+}
+
+.resources_upload_infor .resources_keywors {
+    font-size: 14px;
+    margin-right: 15px;
+    border-radius: 12px;
+    color: #FFFFFF;
+    padding: 2px 8px;
+    background: #319B98;
+}
+
+.resources_upload_list {
+    width: 650px;
+    margin-top: 15px;
+    background: #EEFBFB;
+    float: left;
+    border: #D4E8E7 1px solid;
+}
+
+.resources_upload_keywords {
+    width: 120px;
+}
+
+.resources_upload_continue {
+    background: url("../images/resources_upload_continue-bg.png") repeat-x;
+    height: 32px;
+    margin: 20px 10px 0 0;
+    width: 100px;
+    float: right;
+    border: #319B98 1px solid;
+    color: #FFFFFF;
+    border-radius: 4px;
+}
+
+.resources_upload_save {
+    background: url("../images/resources_upload_continue-bg.png") repeat-x;
+    height: 32px;
+    margin: 20px 10px 10px 0;
+    width: 100px;
+    border: #319B98 1px solid;
+    color: #FFFFFF;
+    border-radius: 4px;
+}
+
+.resources_upload_continue:hover {
+    margin: 20px 10px 0 0;
+    background: url("../images/resources_upload_continue-bg1.png") repeat-x;
+    border: #47B8B5 1px solid;
+
+}
+
+.resources_upload_list h1 {
+    font-size: 14px;
+    color: #319B98;
+    width: 500px;
+    text-align: left;
+    margin: 6px 0 0 15px;
+    float: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+
+.upload_suc_icon1 {
+    /*background: url("../images/upload_suc_icon.png") no-repeat left;*/
+    height: 16px;
+    margin: 2px 4px 0 5px;
+    width: 16px;
+    display: block;
+    overflow: hidden;
+    float: left;
+}
+
+.resources_upload_progress {
+    height: 40px;
+    margin-left: 5px;
+    background: #FFFFFF;
+    width: 300px;
+    float: left;
+}
+
+.resources_upload_progress span {
+    float: right;
+    line-height: 40px;
+}
+
+.resources_upload_list1 {
+    width: 650px;
+    margin-top: 15px;
+    height: 260px;
+    background: #F1F1F1;
+    float: left;
+    border: #E6E5E5 1px solid;
+}
+
+.resources_upload_list1 .resources_upload_list1_title {
+    display: block;
+    overflow: hidden;
+}
+
+.resources_upload_list1 .resources_upload_list1_title h1 {
+    font-size: 14px;
+    color: #333333;
+    width: 470px;
+    float: left;
+    margin-top: 15px;
+    padding-left: 30px;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.resources_upload_list1 .resources_upload_list1_title p {
+    float: left;
+    color: #EB7913;
+    margin-top: 15px;
+}
+
+.resources_upload_list1 .resources_upload_list1_title .upload_suc_icon2 {
+    /*background: url("../images/upload_suc_icon3.png") no-repeat left;*/
+    height: 16px;
+    width: 16px;
+    display: block;
+    overflow: hidden;
+    float: left;
+
+}
+
+.resources_upload_lists {
+    padding-left: 150px;
+    float: left;
+    width: 870px;
+    display: block;
+    overflow: hidden;
+}
+
+.upload_suc_title, .upload_suc_describe {
+    margin-top: 15px;
+    padding: 0 30px;
+    text-align: left;
+}
+
+.upload_suc_title h2, .upload_suc_describe h2 {
+    font-size: 14px;
+    margin: 5px 0;
+    text-align: left;
+}
+
+.upload_suc_title .upload_suc_title_text {
+    background: #FFFFFF;
+    border: #EDEDED 1px solid;
+    height: 30px;
+    padding: 0 10px;
+    width: 565px
+}
+
+.upload_suc_title_describe {
+    background: #FFFFFF;
+    border: #EDEDED 1px solid;
+    height: 60px;
+    width: 585px;
+    margin: 0;
+
+}
+
+/*****进度条*****/
+.boful_ui_processbar {
+    width: 500px;
+    height: 25px;
+    background: #E2EEEE;
+    margin-left: 15px;
+    padding: 2px;
+    float: left;
+}
+
+.boful_ui_processbar_label {
+    width: 500px;
+    height: 25px;
+    float: left;
+    background: #319B98;
+}
+
+.boful_ui_processbar_text {
+    font-size: 14px;
+    width: 635px;
+    margin-left: 15px;
+    color: #5C5C5C;
+    text-align: left;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_ui_processbar_text span {
+    font-size: 12px;
+    color: #EF7B1D;
+}
+
+.file_save_icon {
+    width: 26px;
+    height: 90px;
+    margin-left: 1px;
+    background: #FFFFFF;
+    padding-top: 5px;
+
+    color: #5C5C5C;
+    display: block;
+    overflow: hidden;
+}
+
+.file_save_icon a {
+    width: 20px;
+    margin: 0 auto;
+    font-size: 12px;
+    height: 70px;
+    background: url("../images/save_icon.png") top no-repeat;
+    color: #5C5C5C;
+    line-height: 13px;
+    padding-top: 20px;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+
+.file_save_icon a:hover {
+    background: url("../images/save_icon1.png") top no-repeat;
+    color: #EA8717;
+}
+
+/*---------------2014-03-28-------------*/
+
+
+/*---------------2014-11-19, 资源分类多选样式引用-------------*/
+.boful_resources_classall_delete {
+    background: url("../images/boful_resources_classall_delete_icon.png") no-repeat;
+    width: 15px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    float: right;
+    display: block;
+    overflow: hidden;
+}

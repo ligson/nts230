@@ -1,0 +1,10 @@
+.tools_message {
+    display: block;
+    overflow: hidden;
+}
+
+.tools_message p {
+    height: 30px;
+    display: block;
+    overflow: hidden;
+}

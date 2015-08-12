@@ -1,0 +1,840 @@
+
+.userspace_group {
+    width: 670px;
+    height: 210px;
+    margin-bottom: 10px;
+}
+
+.userspace_title {
+    height: 30px;
+    text-align: left;
+}
+
+.userspace_title a {
+    font-size: 14px;
+    line-height: 30px;
+    border-left: #53A93F 5px solid;
+    padding-left: 7px;
+    text-align: left;
+    color: #333333;
+}
+
+.userspace_group_list {
+    width: 100%;
+    background: #F9F9F9;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.userspace_group_item {
+    width: 210px;
+    height: 75px;
+    float: left;
+    background: #F8F8F8;
+    margin: 10px 10px 0 0;
+}
+
+.userspace_group_item img {
+    width: 95px;
+    height: 75px;
+    border: 0;
+    float: left;
+}
+
+.group_item_content {
+    width: 107px;
+    margin-left: 4px;
+    height: 75px;
+    float: left;
+}
+
+.group_item_content span {
+    width: 107px;
+}
+
+.group_item_content span a {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: #53A93F;
+}
+
+.group_item_content p {
+    width: 107px;
+    height: 50px;
+    color: #333333;
+    overflow: hidden;
+}
+
+.userspace_history {
+    width: 670px;
+    height: auto;
+}
+
+.userspace_history_list_video, .userspace_history_list_doc {
+    width: 760px;
+    height: auto;
+    float: left;
+}
+
+.boful_video_item a:hover, {
+    color: #53A93F;
+}
+
+.boful_doc_item a:hover {
+    color: #53A93F;
+}
+
+.userspace_history_list_doc {
+    margin-top: 15px;
+}
+
+.boful_video_item {
+    margin: 18px 8px 10px 18px;
+    width: 160px;
+    height: 170px;
+    float: left;
+}
+
+.boful_video_item a {
+    font-size: 14px;
+    text-align: left;
+    color: #333333;
+    width: 160px;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_video_item img {
+    width: 160px;
+    height: 100px;
+    border: 0;
+}
+
+.boful_video_item p {
+    width: 160px;
+    line-height: 22px;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.boful_doc_item {
+    width: 160px;
+    height: 170px;
+    float: left;
+    margin: 10px 10px 0 0;
+}
+
+.userspace_history_list_doc .boful_doc_item p a {
+    font-size: 14px;
+    color: #333333;
+    width: 160px;
+    line-height: 30px;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_doc_item img {
+    width: 95px;
+    height: 127px;
+    margin: 0 auto;
+    border: #E2E2E2 1px solid;
+    box-shadow: 1px 1px 3px #CFCFCF;
+    display: block;
+}
+
+.boful_doc_item p {
+    width: 160px;
+    height: 45px;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+/*------------*/
+.userspace_community_item {
+    width: 300px;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.userspace_community_item img {
+    width: 120px;
+    height: 90px;
+    float: left;
+
+}
+
+.commitity_content {
+    width: 180px;
+    height: 90px;
+    float: left;
+    background: #F9F9F9;
+}
+
+.commitity_content .commitity_content_name {
+    text-align: left;
+    margin: 5px 0;
+    font-size: 16px;
+    color: #53A93F;
+    width: 180px;
+    padding-left: 10px;
+    display: block;
+    overflow: hidden;
+}
+
+.commitity_content_name a {
+    color: #53A93F;
+}
+
+.commitity_content p {
+    width: 180px;
+    padding-left: 10px;
+    height: 30px;
+    color: #A2A2A2;
+}
+
+.commitity_content_infor {
+    font-size: 12px;
+    color: #5C5C5C;
+    width: 180px;
+    height: 30px;
+}
+
+.commitity_content_infor .commitity_content_name1 {
+    font-size: 12px;
+    text-align: left;
+    padding-left: 10px;
+    display: block;
+    color: #E96A0D;
+    overflow: hidden;
+    width: 180px;
+}
+
+.boful_recommond_video_item_date {
+    background: url("../images/boful_recommond_video_item_date_bg.png");
+    height: 20px;
+    width: 160px;
+    position: absolute;
+    z-index: 2;
+    line-height: 20px;
+    text-align: right;
+    padding-right: 15px;
+    margin-top: 80px;
+    color: #EFEFEF;
+    font-size: 12px;
+}
+
+.boful_recommond_video_item_play a {
+    width: 160px;
+    height: 100px;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_recommond_video_item_play a img {
+    width: 32px;
+    height: 32px;
+    margin: 34px 0 0 64px;
+}
+
+.boful_recommond_doc_item_infor {
+    background: url("../images/boful_recommond_video_item_date_bg.png");
+    height: 20px;
+    width: 87px;
+    position: absolute;
+    z-index: 1;
+    line-height: 20px;
+    text-align: right;
+    padding-right: 10px;
+    margin: 109px 0 0 32px;
+    color: #EFEFEF;
+    font-size: 12px;
+}
+
+.boful_recommond_doc_reading {
+    background: url("../images/boful_recommond_video_item_date_bg.png");
+    width: 97px;
+    height: 129px;
+    position: absolute;
+    margin-left: 32px;
+    visibility: hidden;
+}
+
+.boful_recommond_doc_reading a img {
+    margin: 36px 0 0 20px;
+    border: 0;
+    float: left;
+    text-align: center;
+    box-shadow: none;
+    height: 30px;
+    width: 56px;
+}
+
+.boful_recommond_doc_reading a span {
+    text-align: center;
+    width: 56px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    height: 20px;
+    display: block;
+    overflow: hidden;
+}
+
+.userspace_group_list_none {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.userspace_group_list_none span {
+    font-size: 14px;
+    background: url("../images/userspace_group_list_none.png") left no-repeat;
+    width: 200px;
+    text-align: left;
+    color: #5C5C5C;
+    margin: 0 auto;
+    line-height: 32px;
+    padding-left: 35px;
+    height: 32px;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_recommond_video_item_play_p {
+    background: url("../images/boful_recommond_video_item_play_bg.png");
+    width: 160px;
+    height: 100px;
+    position: absolute;
+    z-index: 3;
+    visibility: hidden;
+    box-shadow: none;
+}
+
+.boful_recommond_video_item_play_p a {
+    width: 160px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #E35804;
+    margin-top: 35px;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_recommond_video_item_play_p a:hover {
+    color: #E35804;
+}
+
+.boful_recommond_video_item_see {
+    position: absolute;
+    z-index: 1;
+    width: 160px;
+    height: 20px;
+    margin-top: 80px;
+    text-align: left;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_recommond_video_item_see p {
+    height: 20px;
+    width: 160px;
+    margin: 0;
+    float: left;
+    background: #FE7800;
+    padding: 0;
+    text-align: left;
+    display: block;
+}
+
+.boful_recommond_video_item_see_icon {
+    background: url("../images/boful_recommond_video_item_see_icon.png") left no-repeat;
+    width: 140px;
+    height: 20px;
+    color: #7D7D7D;
+    line-height: 20px;
+    text-align: left;
+    float: left;
+    padding-left: 20px;
+    display: block;
+    overflow: hidden;
+}
+
+/*课程右侧导航菜单样式*/
+.course_right_nav {
+    list-style: none;
+    width: 100%;
+}
+
+.course_right_nav ul {
+    list-style: none;
+    /*margin: 0 10px 0 10px;*/
+}
+
+.course_right_nav ul li {
+    float: left;
+    padding: 8px;
+    width: 100%;
+    display: block;
+    border-bottom: 1px #DDDDDD solid;
+}
+
+.course_right_nav ul li a {
+    color: #22272E;
+    font-size: 14px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.course_right_nav ul li a:hover {
+    width: 100%;
+    display: block;
+    background-color: #53A93F;
+    text-align: center;
+    padding: 5px;
+    color: #FFFFFF;
+}
+
+.courcrr {
+    width: 100%;
+    display: block;
+    color: #FFFFFF;
+    background-color: #53A93F;
+    text-align: center;
+    padding: 5px;
+    color: #FFFFFF;
+}
+
+.course_right_nav ul li .courcrr {
+    color: #FFFFFF;
+}
+
+/*课程右侧导航菜单样式*/
+
+/*tab切换样式表*/
+
+.tabs {
+}
+
+.container {
+    width: 100%;
+    clear: both;
+    margin-top: 1px;
+    _margin-top: -1px;
+
+}
+
+.sub-con {
+    min-height: 600px;
+    width: 100%;
+    display: none;
+}
+
+.cur-sub-con {
+    display: block;
+
+}
+
+.tabs_nav {
+    width: 100%;
+    /*height: 28px;*/
+    border-bottom: 2px solid #53A93F;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.tabs_nav ul {
+    width: 100%;
+    margin: 0;
+}
+
+.tabs_nav ul li {
+    list-style: none;
+    display: inline-block;
+    width: 110px;
+    float: left;
+    margin-left: 5px;
+    /*height: 28px;*/
+    /*line-height: 28px;*/
+    text-align: center;
+    margin-bottom: 5px;
+    /*margin-left: -29px;*/
+    /**float: left;*/
+    /**margin-left: -1px;*/
+}
+
+.tabs_nav ul li a {
+    text-decoration: none;
+    color: #22272E;
+    /*height: 28px;*/
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.tabs_nav ul li a:hover {
+    /*background: #CCEDFB*/
+}
+
+.tabs_nav ul li a.cur {
+    z-index: 9999;
+    /*border-bottom: 2px solid #fff;*/
+    color: #53A93F;
+    /*margin-bottom: -2px;*/
+}
+
+/*tab切换样式表*/
+.course_p a {
+    line-height: 22px;
+    width: 160px;
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+/*空间课程视频样式*/
+.course_video_item {
+    height: 280px;
+    width: 240px;
+    background: none repeat scroll 0% 0% #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-shadow: 1px 1px 3px #CFCFCF;
+    float: left;
+    margin: 10px 4px 0px 5px;
+}
+
+.course_video_item img {
+    width: 240px;
+    height: 130px;
+    display: block;
+    overflow: hidden;
+}
+
+.course_video_item_head {
+    width: 240px;
+    height: 130px;
+    display: block;
+    overflow: hidden;
+}
+
+.course_video_item_head_see {
+    background: url('../images/boful_recommond_video_item_play_bg.png') repeat scroll 0% 0% transparent;
+    width: 240px;
+    height: 130px;
+    position: absolute;
+    z-index: 2;
+    visibility: hidden;
+}
+
+.course_video_item_head_see p {
+    width: 225px;
+    height: 30px;
+    margin: 55px 0px 0px;
+    text-align: center;
+}
+
+.course_video_item_head_see p a {
+    font-size: 14px;
+    color: #FFFFFF;
+    padding: 0px 10px;
+    text-align: center;
+    height: 30px;
+    width: 65px;
+    margin: 0px auto;
+    line-height: 30px;
+    background: none repeat scroll 0% 0% #53A93F;
+    border-radius: 4px;
+    display: block;
+    overflow: hidden;
+}
+
+.course_video_item_user {
+    width: 240px;
+    height: 30px;
+    position: absolute;
+    z-index: 3;
+    margin-top: 130px;
+}
+
+.course_video_item_user_img {
+    width: 59px;
+    height: 59px;
+    margin-left: 10px;
+    padding: 1px;
+    background: none repeat scroll 0% 0% #FFFFFF;
+    border-radius: 50%;
+    border: 1px solid #EBEBEB;
+    float: left;
+    box-shadow: 0px 1px 0px #B8B7B7;
+}
+
+.course_video_item_user_img img {
+    width: 59px;
+    height: 59px;
+    border-radius: 50%;
+}
+
+.course_video_item_user_name {
+    height: 25px;
+    width: 120px;
+    padding-left: 15px;
+    line-height: 25px;
+    font-size: 14px;
+    text-align: left;
+    color: #333333;
+    float: left;
+}
+
+.course_video_item_content {
+    width: 240px;
+    margin-top: 68px;
+    height: auto;
+}
+
+.course_video_item_head_title {
+    padding: 0px 10px;
+}
+
+.course_video_item_head_title h2 {
+    height: 25px;
+    width: 230px;
+    line-height: 25px;
+    margin: 0px;
+}
+
+.course_video_item_head_title h2 a {
+    font-size: 16px;
+    width: 210px;
+    height: 25px;
+    color: #333333;
+    font-weight: normal;
+    text-align: left;
+    display: block;
+    overflow: hidden;
+}
+
+.course_video_item_head_title_infor {
+    margin: 5px 0px;
+    height: 15px;
+    line-height: 15px;
+    font-size: 12px;
+    color: #999999;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.course_video_item_content p {
+    width: 232px;
+    height: 20px;
+    padding: 0px 0px 0px 8px;
+    border-bottom: 1px solid #E4EBEE;
+}
+
+.course_video_item_content_stars {
+    width: 100px;
+    height: 20px;
+    float: left;
+}
+
+.course_video_item_content_stars a {
+    background: url('../images/course_video_item_content_stars_1.png') no-repeat scroll 0% 0% transparent;
+    width: 16px;
+    margin-top: 2px;
+    height: 16px;
+    float: left;
+    margin-left: 1px;
+}
+
+.course_video_item_content_talk {
+    font-size: 12px;
+    color: #7D7D7D;
+    line-height: 20px;
+    float: left;
+}
+
+.course_video_item_content_study {
+    height: 30px;
+    margin-top: 22px;
+    padding-left: 5px;
+    line-height: 50px;
+    font-size: 12px;
+    text-align: left;
+    color: #7D7D7D;
+    float: right;
+    display: block;
+    overflow: hidden;
+}
+
+.course_video_item_content_study a {
+    font-size: 12px;
+    float: right;
+    margin-right: 10px
+}
+
+.course_video_item_mgr {
+    padding: 0 10px;
+    width: 236px;
+    background: none repeat scroll 0 0 #ECF2F4;
+}
+
+.course_video_item_content_users {
+    height: 30px;
+    width: 200px;
+    background: url('../images/course_video_item_content_users.png') no-repeat scroll left center transparent;
+    padding-left: 20px;
+    color: #7D7D7D;
+    font-size: 12px;
+    line-height: 30px;
+    text-align: left;
+    display: block;
+    overflow: hidden;
+}
+
+.course_video_item_content_users {
+    color: #7D7D7D;
+    font-size: 12px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.course_video_item_content_users .users {
+    float: left;
+}
+
+.users1 {
+    width: 60px;
+    float: left;
+}
+
+.course_video_item_content_number {
+    font-size: 12px;
+    color: #7D7D7D;
+    float: right;
+}
+
+.course_video_item_content_users {
+    color: #7D7D7D;
+    font-size: 12px;
+    line-height: 30px;
+    text-align: left;
+}
+
+/*空间课程视频样式*/
+
+/*社区管理*/
+.ouknow_forum_right_item {
+    width: 355px;
+    height: 100px;
+    margin-left: 20px;
+    float: left;
+    margin-top: 20px;
+}
+
+.ouknow_forum_icon {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.ouknow_forum_icon img {
+    width: 100px;
+    height: 100px;
+}
+
+.ouknow_forum_plate_cont {
+    width: 220px;
+    height: 100px;
+    margin-left: 10px;
+
+    float: left;
+}
+
+.ouknow_forum_plate_cont h2 {
+    font-size: 16px;
+    text-align: left;
+    background: url('../images/ouknow_forum_plate_cont_h.png') no-repeat scroll left center transparent;
+    line-height: 20px;
+    margin: 0px 0px 5px;
+    padding-left: 20px;
+    height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.ouknow_forum_plate_cont_tt a {
+    color: #333333;
+    font-weight: normal;
+}
+
+.ouknow_forum_plate_cont_des {
+    width: 220px;
+    height: 50px;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+    overflow: hidden;
+}
+
+.ouknow_forum_plate_bot {
+    height: 20px;
+    width: 220px;
+    margin-top: 5px;
+}
+
+.ouknow_forum_plate_bot {
+    height: 20px;
+    width: 220px;
+}
+
+.ouknow_forum_plate_post, .ouknow_forum_plate_post_back {
+    color: #5C5C5C;
+    height: 20px;
+    width: 65px;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: left;
+    float: left;
+    margin-right: 5px;
+    overflow: hidden;
+}
+
+.ouknow_forum_plate_post span, .ouknow_forum_plate_post_back span {
+    font-size: 12px;
+    text-align: left;
+    width: 30px;
+}
+
+.ouknow_forum_plate_post, .ouknow_forum_plate_post_back {
+    color: #5C5C5C;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: left;
+}
+
+p, .user_name {
+    font-size: 12px;
+    color: #333333;
+}
+
+.ouknow_forum_plate_post_back {
+    margin: 0px;
+}
+
+.ouknow_forum_plate_post, .ouknow_forum_plate_post_back {
+    color: #5C5C5C;
+    height: 20px;
+    width: 65px;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: left;
+    float: left;
+    margin-right: 5px;
+    overflow: hidden;
+}

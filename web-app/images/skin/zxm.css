@@ -1,0 +1,13 @@
+#Layer1 {
+	position:absolute;
+	width:819px;
+	height:112px;
+	z-index:1;
+	left: 5px;
+	top: 8px;
+}
+td {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666;
+}

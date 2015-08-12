@@ -1,0 +1,933 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #333333;
+}
+
+.boful_course {
+    background: #F0F0F0;
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+.course_describe_infor table tr td {
+    color: #AEB1B8;
+    font-size: 12px;
+}
+
+p {
+    font-size: 14px;
+}
+
+.warp {
+    width: 1024px;
+    margin: 0 auto;
+    height: auto;
+    display: block;
+    overflow: hidden;
+}
+
+/*.boful_course_detail,
+.boful_course_content_directory,
+.boful_course_content_describe,
+.boful_course_detail_content_about,
+.boful_course_detail_content_evaluation,
+.boful_course_detail_content_users {
+    box-shadow: 0px 1px 3px #C2C2C2;
+}*/
+.boful_course_mgr {
+    padding-top: 30px;
+}
+
+.boful_course_detail {
+    width: 1024px;
+    height: 345px;
+    background: #FFFFFF;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_course_detail_img {
+    width: 600px;
+    height: 345px;
+    float: left;
+}
+
+.boful_course_detail_img img {
+    width: 600px;
+    height: 345px;
+}
+
+.boful_course_detail_infor {
+    width: 424px;
+    height: 270px;
+    float: left;
+}
+
+.boful_course_content_class_all {
+    font-size: 14px;
+    width: 707px;
+    position: absolute;
+    z-index: 2;
+    /*  border-top: #D2D3D3 1px solid;*/
+}
+
+.boful_course_detail_infor h1 {
+    font-size: 18px;
+    line-height: 30px;
+    text-align: left;
+    font-weight: normal;
+}
+
+.boful_course_detail_start_size {
+    font-size: 14px;
+    float: left;
+}
+
+.boful_course_detail_starts {
+    float: left;
+}
+
+.boful_course_detail_start {
+    height: 30px;
+    color: #AEB1B8;
+}
+
+.boful_course_detail_name {
+    color: #319B98;
+}
+
+.boful_course_detail_name a {
+    color: #39A53E;
+}
+
+.boful_course_detail_name a:hover {
+    text-decoration: underline;
+}
+
+.container_play_save {
+    font-size: 14px;
+    width: 50px;
+    text-align: center;
+    float: right;
+    padding: 0 5px;
+    background: #484F52;
+    line-height: 21px;
+    display: block;
+    cursor: pointer;
+}
+
+.container_play_save:hover {
+    color: #FFFFFF;
+    background: #39A53E;
+}
+
+.boful_course_jion {
+    height: 40px;
+    margin-top: 5px;
+}
+
+.course_describe {
+    width: 440px;
+    height: 85px;
+    margin-top: 5px;
+}
+
+.course_describe h3 {
+    font-size: 14px;
+    text-align: left;
+    margin: 0 0 5px 0;
+    font-weight: normal;
+}
+
+.course_describe_infor {
+    font-size: 14px;
+    height: 213px;
+    display: block;
+    overflow: auto;
+}
+
+.course_describe_infor table th td {
+    font-size: 14px;
+    color: #AEB1B8;
+    text-align: left;
+}
+
+.course_describe_infor table th td .key {
+    width: 70px;
+    text-align: left;
+}
+
+.boful_course_jion_icon {
+    background: url("../images/boful_course_jion_icon.png") no-repeat;
+    width: 18px;
+    height: 18px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    margin: 5px 0 11px 12px;
+}
+
+.boful_course_jion a {
+    width: 120px;
+    height: 30px;
+    background: #EA8717;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 30px;
+    float: right;
+    margin-top: 5px;
+    display: block;
+    overflow: hidden;
+}
+
+.detail_start_place {
+    width: 100px;
+    float: left;
+}
+
+.boful_course_jion a:hover {
+    background: #F59925;
+}
+
+.boful_course_detail_content {
+    width: 1024px;
+    height: auto;
+    padding-bottom: 10px;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_course_detail_content_left {
+    height: auto;
+    width: 707px;
+    float: left;
+    padding: 0 7px;
+    display: block;
+    overflow: hidden;
+
+}
+
+.boful_course_content_describe {
+    width: 707px;
+    height: auto;
+    margin-top: 15px;
+    background: #FFFFFF;
+    padding-top: 5px;
+}
+
+.boful_course_content_directory {
+    background: #FFFFFF;
+    width: 707px;
+    height: auto;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_course_content_directory_play {
+    background: #FFFFFF;
+    width: 720px;
+    height: auto;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_course_content_describe h1,
+.boful_course_content_directory_play h1,
+.boful_course_detail_content_right h1,
+.boful_course_detail_content_about h1 {
+    color: #333333;
+    font-size: 18px;
+    background: #FFFFFF;
+    text-align: left;
+    line-height: 30px;
+    height: 30px;
+    margin: 10px 0;
+    padding-left: 10px;
+    font-weight: normal;
+}
+
+.boful_course_content_directory h1,
+.boful_course_content_directory_play h1 {
+    color: #333333;
+    font-size: 18px;
+    background: #FFFFFF;
+    text-align: left;
+    height: 40px;
+    line-height: 40px;
+    margin: 10px 0 0 0;
+    padding-left: 10px;
+    font-weight: normal;
+}
+
+.boful_course_content_directory h1 a,
+.boful_course_content_directory_play h1 a {
+    color: #333333;
+    width: 110px;
+    height: 30px;
+    padding-bottom: 9px;
+    line-height: 30px;
+    text-align: center;
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_course_content_directory h1 a:hover,
+.boful_course_content_directory_play h1 a:hover {
+    border-bottom: 2px solid rgb(83, 169, 63);
+    color: rgb(83, 169, 63);;
+}
+
+.boful_course_content_describe_words {
+    font-size: 14px;
+    text-indent: 2em;
+    line-height: 30px;
+    /* border-top: #D2D3D3 1px solid;*/
+    padding: 5px 10px;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_course_content_class {
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    color: #2A2A2A;
+    overflow: hidden;
+}
+
+.boful_course_content_class:hover {
+    background: #3A3E4A;
+    color: #FFFFFF;
+}
+
+/*.boful_course_content_class span {
+     font-size: 14px;
+ }*/
+
+.boful_course_content_number {
+    color: #999999;
+    padding-left: 10px;
+    float: left;
+    line-height: 50px;
+    width: 93px;
+    font-size: 16px;
+}
+
+.boful_course_content_title {
+    margin-left: 20px;
+    float: left;
+}
+
+.boful_course_content_time {
+    background: url("../images/boful_course_content_time_icon1.png") right no-repeat;
+    color: #999999;
+    line-height: 50px;
+    float: right;
+    padding-left: 10px;
+    margin-right: 10px;
+    padding-right: 25px;
+}
+
+.boful_course_detail_content_right {
+    width: 289px;
+    background: #FFFFFF;
+    height: auto;
+    padding: 0 0 0 7px;
+    border-left: 1px solid #D2D3D3;
+    float: left;
+}
+
+.course_mar {
+    margin: 29px 0 0 0;
+}
+
+.c_detail_author {
+    font-size: 18px;
+    text-align: left;
+}
+
+.boful_course_detail_content_about {
+    width: 289px;
+    height: 215px;
+    padding-top: 5px;
+    float: left;
+    background: #FFFFFF;
+}
+
+.boful_course_detail_content_about p {
+    margin: 0;
+    padding: 0 10px;
+    border-top: #D2D3D3 1px solid;
+}
+
+.detail_content-title h1 a{
+    color: #39a53e;
+    float: right;
+    font-size: 12px;
+}
+
+
+.detail_content-title h1 a:hover{
+    color: #39a53e;
+    text-decoration: underline;
+}
+
+.detail_content-item a {
+    height: 30px;
+    line-height: 30px;
+    padding-left: 20px;
+    width: 240px;
+    color: #5C5C5C;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.detail_content-item a:hover {
+    color: #319B98;
+}
+
+.boful_course_detail_attachment_swf {
+    background: url("../images/boful_course_detail_attachment_swf.png") left no-repeat;
+}
+
+.boful_course_detail_attachment_word {
+    background: url("../images/boful_course_detail_attachment_word.png") left no-repeat;
+}
+
+.boful_course_detail_attachment_voice {
+    background: url("../images/boful_course_detail_attachment_voice.png") left no-repeat;
+}
+
+.boful_course_detail_attachment_images {
+    background: url("../images/boful_course_detail_attachment_images.png") left no-repeat;
+}
+
+/*--------评价-----------*/
+.boful_course_detail_content_evaluation {
+    width: 289px;
+    height: auto;
+    padding-top: 5px;
+    margin-top: 15px;
+    float: left;
+    background: #FFFFFF;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_course_detail_content_talk {
+    padding: 0 10px;
+    margin: 5px 0;
+    border-bottom: #F4F4F4 1px dashed;
+}
+
+.boful_course_detail_content_taik_infor {
+    font-size: 12px;
+    height: 35px;
+    padding: 3px;
+    line-height: 14px;
+    overflow: hidden;
+}
+
+.boful_course_detail_content_taik_title {
+    font-size: 12px;
+    height: 20px;
+    text-align: left;
+    margin: 5px 0 0 0;
+    line-height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.boful_course_detail_content_username {
+    color: #319B98;
+    float: left;
+    line-height: 30px;
+    width: 120px;
+    font-size: 12px;
+}
+
+.boful_course_detail_content_time {
+    color: #999999;
+    float: right;
+    width: 90px;
+    text-align: right;
+    line-height: 30px;
+    font-size: 12px;
+}
+
+.boful_course_detail_content_userinfor {
+    height: 30px;
+    width: 279px;
+}
+
+.boful_course_detail_content_userinfor img {
+    width: 28px;
+    height: 28px;
+    float: left;
+}
+
+.boful_course_detail_content_userinfor p {
+    float: left;
+    height: 30px;
+    width: 225px;
+    margin-left: 10px;
+}
+
+.boful_course_detail_content_evaluation_line {
+    border-top: #D2D3D3 1px solid;
+    height: 305px;
+    overflow: hidden;
+}
+
+.boful_course_detail_content_evaluation_line_1 {
+    border-top: #D2D3D3 1px solid;
+    height: 305px;
+    overflow: scroll;
+}
+
+.boful_course_detail_content_more {
+    height: 40px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 40px;
+    color: #999999;
+    cursor: pointer;
+}
+
+.boful_course_detail_content_more:hover {
+    /* background: #E6F5F5;*/
+    color: #319B98;
+}
+
+.boful_course_detail_content_users {
+    float: left;
+    width: 289px;
+    height: 300px;
+    background: #FFFFFF;
+    margin-top: 15px;
+}
+
+.boful_course_detail_content_user {
+    padding: 10px;
+    border-top: #DDDDDD 1px solid;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_course_detail_content_user p {
+    width: 49px;
+    height: 69px;
+    margin: 5px 8px;
+    float: left;
+}
+
+.boful_course_detail_content_user p span {
+    font-size: 12px;
+    color: #5C5C5C;
+    width: 49px;
+    height: 20px;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_course_detail_content_user a,
+.boful_course_detail_content_username a {
+    color: #5C5C5C;
+}
+
+.course_author_name a {
+    color: #65A40E;
+}
+
+.course_author_name a:hover {
+    text-decoration: underline;
+}
+
+/*-----------*/
+.boful_course_detail_content_author {
+    width: 289px;
+    border-top: #DDDDDD 1px solid;
+    background: #FFFFFF;
+    margin-bottom: 15px;
+    max-height: 220px;
+}
+
+.boful_course_detail_content_right_user_point {
+    width: 75px;
+    height: 75px;
+    float: left;
+    padding-top: 10px;
+}
+
+.boful_course_detail_content_right_user_point img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+.course_author_name {
+    font-size: 14px;
+    width: 200px;
+    height: 75px;
+    line-height: 15px;
+    color: #78644D;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+
+}
+
+.course_author_infor {
+    font-size: 12px;
+    color: #5C5C5C;
+    padding: 10px 15px;
+    display: block;
+    overflow: hidden;
+}
+
+.directory_tt {
+    color: #333333;
+    font-size: 18px;
+    background: #FFFFFF;
+    text-align: left;
+    line-height: 30px;
+    height: 30px;
+    margin: 10px 0;
+    padding-left: 10px;
+    font-weight: normal;
+}
+
+/*------------2014-04-03----------------*/
+.boful_course_detail_t h1 {
+    font-size: 18px;
+    line-height: 60px;
+    padding: 0 0 0 15px;
+    height: 60px;
+    text-align: left;
+    font-weight: normal;
+}
+
+.boful_course_detail_t h1 a {
+    padding: 0 10px;
+    line-height: 30px;
+    font-size: 14px;
+    float: left;
+    text-align: center;
+    padding-left: 20px;
+    height: 30px;
+    margin-top: 15px;
+    margin-right: 20px;
+    background: url("../images/course_dd.png") left #B4BBBF no-repeat;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+    overflow: hidden;
+}
+
+.boful_course_detail_t h1 a:hover {
+    background: url("../images/course_dd.png") left #CAD1D5 no-repeat;
+}
+
+.boful_course_detail_t h1 span {
+    font-size: 24px;
+}
+
+.boful_course_detail_infor_left {
+    width: 121px;
+    float: left;
+    height: auto;
+}
+
+.boful_course_detail_infor_left p {
+    width: 101px;
+    height: 74px;
+    background: #B4BBBF;
+}
+
+.boful_course_detail_infor_right {
+    background: #373E41;
+    float: left;
+    width: 303px;
+    height: 345px;
+}
+
+.detail_infor_join {
+    text-align: center;
+    width: 303px;
+    height: 80px;
+    background: rgb(83, 169, 63);
+}
+
+.detail_infor_join:hover {
+    color: #5BC443
+}
+
+.detail_infor_join a {
+    height: 80px;
+    line-height: 80px;
+    width: 303px;
+    color: #FFFFFF;
+    font-size: 24px;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.detail_infor_des {
+    width: 273px;
+    height: 245px;
+    padding: 10px 15px;
+}
+
+.course_detail_number, .course_detail_answer, .course_detail_note {
+    padding: 20px 10px;
+}
+
+.course_detail_number, .course_detail_answer {
+    border-bottom: 1px solid #98A1A6;
+}
+
+.course_detail_note {
+    border-bottom: 1px solid #B4BBBF;
+}
+
+.course_detail_number .number_title, .course_detail_answer .number_title, .course_detail_note .number_title {
+    color: #30343E;
+    font-size: 16px;
+    text-align: center;
+    width: 101px;
+    margin-bottom: 10px;
+    height: 20px;
+    line-height: 20px;
+    display: block;
+    overflow: hidden;
+}
+
+.number_leng {
+    color: #30343E;
+    height: 65px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 24px;
+    width: 101px;
+    display: block;
+    overflow: hidden;
+}
+
+.detail_infor_des p {
+    color: #AEB1B8;
+}
+
+.course_author_name {
+    width: 200px;
+    height: 75px;
+    margin-left: 13px;
+    margin-top: 10px;
+    line-height: 75px;
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+
+.content_left_tab {
+    width: 707px;
+    height: 64px;
+    border-bottom: #D2D3D3 1px solid;
+    margin-top: 15px;
+}
+
+.content_left_tab span {
+    width: 150px;
+    height: 60px;
+    float: left;
+    color: #333333;
+    text-align: center;
+    font-size: 18px;
+    line-height: 60px;
+    cursor: pointer;
+    display: block;
+    overflow: hidden;
+}
+
+.content_left_tab span:hover {
+    color: #53A93F;
+    border-bottom: 5px solid #53A93F;
+}
+
+.content_left_tab em {
+    height: 60px;
+    width: 10px;
+    text-align: center;
+    font-style: normal;
+    line-height: 60px;
+    float: left;
+    font-family: "sans-serif", serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: #D1D1D1;
+}
+
+.content_directory_line {
+    position: absolute;
+    z-index: 1;
+    width: 707px;
+    height: 1000px;
+}
+
+.content_directory_line div {
+    width: 590px;
+    height: 100%;
+    margin-left: 116px;
+}
+
+.boful_course_content_number_mark {
+    height: 17px;
+    width: 17px;
+    float: left;
+    background: url("../images/boful_course_content_number_mark_m.png") center no-repeat;
+    position: relative;
+    z-index: 3;
+    margin: 19px 5px;
+    border-radius: 50%;
+    behavior: url(../images/ie-css3.htc);
+}
+
+/*------------分享--------------*/
+.course_describe_sharing {
+    width: 507px;
+    padding: 50px 100px;
+    height: auto;
+}
+
+.describe_sharing_addres {
+    font-size: 14px;
+    text-align: left;
+    height: 40px;
+    line-height: 40px;
+    color: #5C5C5C;
+}
+
+.describe_sharing_addres span {
+    font-size: 12px;
+    text-align: left;
+    height: 20px;
+    color: #999999;
+    margin-left: 15px;
+    line-height: 20px;
+    margin-top: 5px;
+}
+
+.de_shar_input {
+    width: 420px;
+    height: 36px;
+    line-height: 36px;
+    border: 1px solid #ABADB3;
+    font-size: 14px;
+    padding: 0 5px;
+}
+
+.de_shar_input:hover {
+    border: 1px solid #59C044;
+}
+
+.de_shar_copy {
+    background: #53A93F;
+    height: 37px;
+    width: 60px;
+    line-height: 37px;
+    font-size: 14px;
+    margin-left: 10px;
+    border: 0;
+    cursor: pointer;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.de_shar_copy:hover {
+    background: #54C13B;
+}
+
+.course_content_list_item {
+    max-height: 1005px;
+}
+
+.course_content_list_page {
+    height: 25px;
+    margin-top: 10px;
+    bottom: 0;
+    padding-left: 200px;
+}
+
+/*---------分页---------------*/
+/*
+.course_content_list_page {
+    padding: 5px 0;
+    line-height: 18px;
+    text-align: right;
+    float: right;
+    display: block;
+    overflow: hidden;
+}
+
+.course_content_list_page .currentStep {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    background: #3C9F41;
+    border: #3C9F41 1px solid;
+    margin-left: 8px;
+    display: inline-block;
+    color: #FFFFFF;
+}
+
+.course_content_list_page .num {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    margin-left: 8px;
+    background: #FFFFFF;
+    border: #D2D2D2 1px solid;
+    display: inline-block;
+    color: #333333;
+}
+
+.course_content_list_page .num:hover, #turnPageBtn:hover {
+    border: #3C9F41 1px solid;
+}
+
+.course_content_list_page .prevLink, .course_content_list_page .nextLink, #turnPageBtn {
+    display: inline-block;
+    width: 65px;
+    height: 25px;
+    text-align: center;
+    border: #D2D2D2 1px solid;
+    margin-left: 8px;
+    color: #333333;
+    background: #FFFFFF;
+    cursor: pointer;
+}
+
+.course_content_list_page input {
+    width: 23px;
+    height: 23px;
+    text-align: center;
+    border: 1px solid #E0DFDF;
+}
+
+.course_content_list_page .guipa {
+    color: #5C5C5C;
+}
+
+.course_content_list_page .guipa:hover {
+    color: #3C9F41;
+    text-decoration: underline;
+}*/
